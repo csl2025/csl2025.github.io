@@ -7,8 +7,8 @@ description: 33rd EACSL Annual Conference on Computer Science Logic 2025 (CSL 20
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cls2025.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-# twitter_username: cls2025
-github_username:  cls2025
+# twitter_username: csl2025
+github_username:  csl2025
 
 #theme: minima
 remote_theme: daattali/beautiful-jekyll@6.0.1
@@ -19,7 +19,7 @@ remote_theme: daattali/beautiful-jekyll@6.0.1
 ###############################################
 
 navbar-links:
-  Home: "home"
+  Home: "index"
   Important Dates: "important_dates"
   Invited Speakers: "invited_speakers"
   #Accepted Papers: "accepted_papers"
