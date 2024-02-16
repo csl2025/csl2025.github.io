@@ -11,7 +11,8 @@ url: "https://cls2025.github.io" # the base hostname & protocol for your site, e
 github_username:  cls2025
 
 #theme: minima
-remote_theme: csl2025/beautiful-jekyll@6.0.1
+remote_theme: daattali/beautiful-jekyll@6.0.1
+#remote_theme: csl2025/beautiful-jekyll@6.0.1
 
 ###############################################
 # --- List of links in the navigation bar --- #
