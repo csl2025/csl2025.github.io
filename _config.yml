@@ -18,11 +18,20 @@ remote_theme: daattali/beautiful-jekyll@6.0.1
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Home: "home"
+  Important Dates: "important_dates"
+  Invited Speakers: "invited_speakers"
+  #Accepted Papers: "accepted_papers"
+  Committees: "committees"
+  Venue: "venue"
+  #Registration: "registration"
+  #Program: "program"
+  #Social Event: "social_event"
+  Sponsors: "sponsors"
+  #Resources:
+  #  - Beautiful Jekyll: "https://beautifuljekyll.com"
+  #  - Learn markdown: "https://www.markdowntutorial.com/"
+  Contacts: "contacts"
 
 ################
 # --- Logo --- #
