@@ -20,10 +20,10 @@ remote_theme: daattali/beautiful-jekyll@6.0.1
 
 navbar-links:
   Home: "index"
-  Important Dates: "index#anchor"
-  Invited Speakers: "invited_speakers"
+  Important Dates: "index#important-dates"
+  Invited Speakers: "index#invited-speakers"
   #Accepted Papers: "accepted_papers"
-  Committees: "committees"
+  Committees: "index#committees"
   Venue: "venue"
   #Registration: "registration"
   #Program: "program"
