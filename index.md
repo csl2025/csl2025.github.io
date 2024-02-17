@@ -22,6 +22,15 @@ It is an interdisciplinary conference, spanning across both basic and applicatio
 
 CSL 2025 will be held on the 10th-14th February 2025 and is hosted by the Vrije Universiteit Amsterdam.
 
+#### Important dates
+
+| Abstract submission: | July 18th, 2024 AoE |
+| Paper submission: | July 23rd, 2024 AoE |
+| Notification: | October 27th, 2024 AoE |
+| Final Version Due: | November 24th, 2024 AoE |
+| Conference: | February 10th-14th, 2025 |
+
+
 #### Submission guidelines
 
 Submitted papers must be in English and must provide sufficient detail to allow the Program Committee to assess the merits of the paper.
@@ -73,7 +82,7 @@ A student in this context is any person who is currently studying for a degree o
 
 Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wiki/Helena_Rasiowa) to logic and computer science, and their interplay, [here](https://www.eacsl.org/?page_id=1104).
 
-#### Invited Speakers
+#### Invited speakers
 
 To be announced.
 
