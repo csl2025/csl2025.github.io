@@ -141,13 +141,17 @@ To be announced.
 ![My Image](/assets/images/campus.jpg)
 {: refdef}
 
+#### Program
+
+Information can be found here at a later stage.
+
 #### Registration
 
-To be announced.
+Information can be found here at a later stage.
 
 #### Sponsors
 
-To be announced.
+Information can be found here at a later stage.
 
 #### Contacts
 

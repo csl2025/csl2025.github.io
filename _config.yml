@@ -25,15 +25,14 @@ navbar-links:
   #Accepted Papers: "accepted_papers"
   Committee: "index#committee"
   Venue: "index#venue"
-  #Registration: "registration"
-  #Program: "program"
+  Program: "index#program"
   #Social Event: "social_event"
   Registration: "index#registration"
   Sponsors: "index#sponsors"
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
   #  - Learn markdown: "https://www.markdowntutorial.com/"
-  Contacts: "contacts"
+  Contacts: "index#contacts"
 
 ################
 # --- Logo --- #
