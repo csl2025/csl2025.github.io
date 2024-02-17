@@ -8,7 +8,6 @@ title: CSL 2025
 
 ## Computer Science Logic 2025
 
-
 {:refdef: style="text-align: center;"}
 ![My Image](/assets/images/amsterdam12.jpg)
 {: refdef}
@@ -97,7 +96,7 @@ To be announced.
 
 #### Committee
 
-##### Committee Chairs
+##### Chairs
 
 - Jörg Endrullis (Vrije Universiteit Amsterdam, Netherlands)
 - Sylvain Schmitz (Université Paris Cité, France)
@@ -136,3 +135,22 @@ To be announced.
 
 - Wan Fokkink (Vrije Universiteit Amsterdam, Netherlands)
 
+#### Venu
+
+{:refdef: style="text-align: center;"}
+![My Image](/assets/images/campus.jpg)
+{: refdef}
+
+#### Registration
+
+To be announced.
+
+#### Sponsors
+
+To be announced.
+
+#### Contacts
+
+- Jörg Endrullis [j.endrullis@vu.nl](mailto:j.endrullis@vu.nl)
+- Wan Fokkink [w.j.fokkink@vu.nl](mailto:w.j.fokkink@vu.nl)
+- Sylvain Schmitz [schmitz@irif.fr](mailto:schmitz@irif.fr)
