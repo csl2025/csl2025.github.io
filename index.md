@@ -138,7 +138,7 @@ To be announced.
 
 - Wan Fokkink (Vrije Universiteit Amsterdam, Netherlands)
 
-#### Venu
+#### Venue
 
 {:refdef: style="text-align: center;"}
 ![My Image](/assets/images/campus.jpg)
