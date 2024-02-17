@@ -50,7 +50,12 @@ Papers may not be submitted concurrently to another conference with refereed pro
 
 Papers authored or co-authored by members of the PC (but not PC chairs) are allowed.
 
-We use a `relaxed' form of double-blind submission, where authors are not allowed to put their name in the paper but they are not forbidden to disseminate the work on public repositories (e.g. on arXiv or their websites). We ask authors to declare conflicts with PC members when they submit their paper in Easychair.
+The submissions are **double-blind**:
+
+- authors are not allowed to put their name on the paper
+- authors are allowed to disseminate the work on public repositories (e.g. on arXiv or their websites)
+
+We ask authors to declare conflicts with PC members when they submit their paper in Easychair.
 
 At least one of the authors of each accepted paper is expected to register for the conference and attend it in person or online, in order to present their papers.
 
