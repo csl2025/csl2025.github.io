@@ -54,28 +54,34 @@ At least one of the authors of each accepted paper is expected to register for t
 
 #### Topics
 
-* automated deduction and interactive theorem proving
-* constructive mathematics and type theory
-* equational logic and term rewriting
-* automata and games, game semantics
-* modal and temporal logic
-* model checking
-* decision procedures
-* logical aspects of computational complexity
-* finite model theory
-* computational proof theory
-* logic programming and constraints
-* lambda calculus and combinatory logic
-* domain theory
-* categorical logic and topological semantics
-* database theory
-* specification, extraction and transformation of programs
-* logical aspects of quantum computing
-* logical foundations of programming paradigms
-* verification and program analysis
-* linear logic
-* higher-order logic
-* nonmonotonic reasoning
+- automated deduction and interactive theorem proving
+- concurrency and distributed computation
+- constructive mathematics and type theory
+- equational logic and term rewriting
+- automata and games, game semantics
+- formal methods
+- model checking
+- decision procedures
+- modal and temporal logic
+- description logics
+- logical aspects of computational complexity
+- logical aspects of AI
+- finite model theory
+- computability
+- computational proof theory
+- logic programming and constraints
+- lambda calculus and combinatory logic
+- domain theory
+- categorical logic and topological semantics
+- database theory
+- specification, extraction and transformation of programs
+- logical aspects of quantum computing
+- logical foundations of programming paradigms
+- verification and program analysis
+- linear logic
+- higher-order logic
+- knowledge representation and reasoning
+- nonmonotonic reasoning
 
 #### Helena Rasiowa award
 
@@ -90,4 +96,43 @@ Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wi
 To be announced.
 
 #### Committee
+
+##### Committee Chairs
+
+- Jörg Endrullis (Vrije Universiteit Amsterdam, Netherlands)
+- Sylvain Schmitz (Université Paris Cité, France)
+
+##### Program Committee
+
+- Bahareh Afshari (ILLC Amsterdam, Netherlands)
+- Sandra Alves (University of Porto, Portugal)
+- Camille Bourgaux (CNRS, ENS Paris, France)
+- Laura Bozzelli (Napoli, Italy)
+- Paul Brunet (Université Paris-Est Créteil, France)
+- Corina Cîrstea (University of Southampton, UK)
+- Laure Daviaud (City University London, UK)
+- Anuj Dawar (University of Cambridge, UK)
+- Natasha Fernandes (Macquarie University, Sydney, Australia)
+- Dana Fisman (Ben-Gurion U., Israel)
+- Moses Ganardi (MPI-SWS Kaiserslautern, Germany)
+- Rob J. van Glabbeek (UNSW, Sydney, Australia)
+- Julien Grange (Université Paris-Est Créteil, France)
+- Robert Harper (Carnegie Mellon University, USA)
+- Antti Kuusisto (Tampere University, Finland)
+- Ugo Dal Lago (University of Bologna, Italy)
+- Assia Mahboubi (Inria Nantes, France)
+- Alessio Mansutti (IMDEA Software Institute, Spain)
+- Dale Miller (Inria Saclay, France)
+- Shankara Narayanan Krishna (IIT Bombay, India)
+- Davide Sangiorgi (University of Bologna, Italy)
+- Mahsa Shirmohammadi (CNRS, IRIF, France)
+- Alwen Tiu (Australian National University, Australia)
+- Takeshi Tsukada (University of Tokyo, Japan)
+- Benoît Valiron (CentraleSupélec, France)
+- Thomas Zeume (Ruhr University Bochum, Germany)
+- Standa Živný (University of Oxford, UK)
+
+##### Organisation committee:
+
+- Wan Fokkink (Vrije Universiteit Amsterdam, Netherlands)
 
