@@ -77,4 +77,5 @@ Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wi
 
 To be announced.
 
+#### Committee
 
