@@ -25,13 +25,13 @@ CSL 2025 will be held on the 10th-14th February 2025 and is hosted by the Vrije 
 #### Submission guidelines
 
 Submitted papers must be in English and must provide sufficient detail to allow the Program Committee to assess the merits of the paper.
-Authors must submit their papers through the CSL 2025 Easychair submission site at https://easychair.org/my/conference?conf=csl2025 as a single PDF file.
+Authors must submit their papers through the CSL 2025 Easychair submission site at [https://easychair.org/my/conference?conf=csl2025](https://easychair.org/my/conference?conf=csl2025) as a single PDF file.
 Full proofs may appear in a clearly marked technical appendix which will be read at the reviewers’ discretion.
 Authors are strongly encouraged to include a well written introduction which is directed at all members of the PC.
 
 The papers should be submitted via easychair (the link will be opened in early June).
 
-The conference proceedings will be published in Leibniz International Proceedings in Informatics (LIPIcs).
+The conference proceedings will be published in [Leibniz International Proceedings in Informatics (LIPIcs)](https://submission.dagstuhl.de/documentation/authors).
 
 Authors are invited to submit contributed papers of no more than 15 pages in LIPIcs style (not including references), presenting unpublished work fitting the scope of the conference.
 Papers may not be submitted concurrently to another conference with refereed proceedings. The PC chairs should be informed of closely related work submitted to a conference or a journal.
@@ -64,4 +64,17 @@ At least one of the authors of each accepted paper is expected to register for t
 * linear logic
 * higher-order logic
 * nonmonotonic reasoning
+
+#### Helena Rasiowa award
+
+The [Helena Rasiowa Award](https://www.eacsl.org/?page_id=1111) is the best student paper award for the CSL conference series, starting from CSL 2022.
+The award will be given to the best paper (as decided by the PC) written solely by students or for which students were the main contributors.
+A student in this context is any person who is currently studying for a degree or whose PhD award date is less than one year prior to the first day of the conference.
+
+Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wiki/Helena_Rasiowa) to logic and computer science, and their interplay, [here](https://www.eacsl.org/?page_id=1104).
+
+#### Invited Speakers
+
+To be announced.
+
 
