@@ -37,7 +37,7 @@ CSL 2025 will be held on the 10th-14th February 2025 and is hosted by the Vrije 
 #### Submission guidelines
 
 Submitted papers must be in English and must provide sufficient detail to allow the Program Committee to assess the merits of the paper.
-Authors must submit their papers through the CSL 2025 Easychair submission site at [easychair](https://easychair.org/my/conference?conf=csl2025) as a single PDF file.
+Authors must submit their papers through the CSL 2025 Easychair submission site at [Easychair](https://easychair.org/my/conference?conf=csl2025) as a single PDF file.
 Full proofs may appear in a clearly marked technical appendix which will be read at the reviewers’ discretion.
 Authors are strongly encouraged to include a well written introduction which is directed at all members of the PC.
 
@@ -48,7 +48,9 @@ The conference proceedings will be published in [Leibniz International Proceedin
 Authors are invited to submit contributed papers of no more than 15 pages in LIPIcs style (not including references), presenting unpublished work fitting the scope of the conference.
 Papers may not be submitted concurrently to another conference with refereed proceedings. The PC chairs should be informed of closely related work submitted to a conference or a journal.
 
-*Papers authored or co-authored by members of the PC are not allowed.*{: style="color: red"}
+Papers authored or co-authored by members of the PC (but not PC chairs) are allowed.
+
+CSL 2025 uses a `relaxed' form of double-blind submission, where authors are not allowed to put their name in the paper but they are not forbidden to disseminate the work on public repositories (e.g. on arXiv or their websites). We ask authors to declare conflicts with PC members when they submit their paper in Easychair.
 
 At least one of the authors of each accepted paper is expected to register for the conference and attend it in person or online, in order to present their papers.
 
