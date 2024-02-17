@@ -52,8 +52,8 @@ Papers authored or co-authored by members of the PC (but not PC chairs) are allo
 
 The submissions are **double-blind**:
 
-- authors are not allowed to put their name on the paper
-- authors are allowed to disseminate the work on public repositories (e.g. on arXiv or their websites)
+- Authors are not allowed to put their name on the paper.
+- Authors are allowed to disseminate the work on public repositories (e.g. on arXiv or their websites).
 
 We ask authors to declare conflicts with PC members when they submit their paper in Easychair.
 
