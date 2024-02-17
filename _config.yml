@@ -19,9 +19,8 @@ remote_theme: daattali/beautiful-jekyll@6.0.1
 ###############################################
 
 navbar-links:
-  - title: Home
-    url: /index.html
-  Important Dates: "important_dates"
+  Home: "index"
+  Important Dates: "index#anchor"
   Invited Speakers: "invited_speakers"
   #Accepted Papers: "accepted_papers"
   Committees: "committees"

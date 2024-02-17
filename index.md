@@ -1,6 +1,7 @@
 ---
 layout: home
 title: CSL 2025
+#![gras](img/image.jpg)
 ---
 
 #### 33rd EACSL Annual Conference on Computer Science Logic 2025
