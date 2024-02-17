@@ -24,17 +24,18 @@ CSL 2025 will be held on the 10th-14th February 2025 and is hosted by the Vrije 
 
 #### Important dates
 
+{:refdef: style="text-align: center;"}
 | Abstract submission: | July 18th, 2024 AoE |
 | Paper submission: | July 23rd, 2024 AoE |
 | Notification: | October 27th, 2024 AoE |
 | Final Version Due: | November 24th, 2024 AoE |
 | Conference: | February 10th-14th, 2025 |
-
+{: refdef}
 
 #### Submission guidelines
 
 Submitted papers must be in English and must provide sufficient detail to allow the Program Committee to assess the merits of the paper.
-Authors must submit their papers through the CSL 2025 Easychair submission site at [https://easychair.org/my/conference?conf=csl2025](https://easychair.org/my/conference?conf=csl2025) as a single PDF file.
+Authors must submit their papers through the CSL 2025 Easychair submission site at [easychair](https://easychair.org/my/conference?conf=csl2025) as a single PDF file.
 Full proofs may appear in a clearly marked technical appendix which will be read at the reviewers’ discretion.
 Authors are strongly encouraged to include a well written introduction which is directed at all members of the PC.
 
