@@ -23,6 +23,7 @@ CSL 2025 will be held on the 10th-14th February 2025 and is hosted by the Vrije 
 
 #### Important dates
 
+{::options parse_block_html="true" /}
 <div align="center">
 
 | Abstract submission: | July 18th, 2024 AoE |
