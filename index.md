@@ -52,7 +52,7 @@ Papers authored or co-authored by members of the PC (but not PC chairs) are allo
 
 The submissions are **double-blind**:
 
-- Authors are not allowed to put their name on the paper.
+- Authors are not allowed to put their name on the paper, and they should avoid revealing their identities in text (references to previous or related work should be in third-person).
 - Authors are allowed to disseminate the work on public repositories (e.g. on arXiv or their websites).
 
 We ask authors to declare conflicts with PC members when they submit their paper in Easychair.
@@ -163,6 +163,4 @@ Information can be found here at a later stage.
 
 #### Contacts
 
-- Jörg Endrullis [j.endrullis@vu.nl](mailto:j.endrullis@vu.nl)
-- Wan Fokkink [w.j.fokkink@vu.nl](mailto:w.j.fokkink@vu.nl)
-- Sylvain Schmitz [schmitz@irif.fr](mailto:schmitz@irif.fr)
+- Jörg Endrullis and Sylvain Schmitz [csl2025@easychair.org](mailto:csl2025@easychair.org)
