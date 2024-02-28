@@ -142,6 +142,8 @@ To be announced.
 ##### Organisation committee:
 
 - Wan Fokkink (Vrije Universiteit Amsterdam, Netherlands)
+- Cynthia Bijl de Vroe (Vrije Universiteit Amsterdam, Netherlands)
+- Emma Triesman (Vrije Universiteit Amsterdam, Netherlands)
 
 #### Venue
 
