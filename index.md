@@ -111,7 +111,7 @@ To be announced.
 
 ##### Program Committee
 
-- Bahareh Afshari (ILLC Amsterdam, Netherlands)
+- Bahareh Afshari (University of Gothenburg, Sweden)
 - Sandra Alves (University of Porto, Portugal)
 - Camille Bourgaux (CNRS, ENS Paris, France)
 - Laura Bozzelli (Napoli, Italy)
@@ -134,7 +134,7 @@ To be announced.
 - Davide Sangiorgi (University of Bologna, Italy)
 - Mahsa Shirmohammadi (CNRS, IRIF, France)
 - Alwen Tiu (Australian National University, Australia)
-- Takeshi Tsukada (University of Tokyo, Japan)
+- Takeshi Tsukada (Chiba University, Japan)
 - Benoît Valiron (CentraleSupélec, France)
 - Thomas Zeume (Ruhr University Bochum, Germany)
 - Standa Živný (University of Oxford, UK)
