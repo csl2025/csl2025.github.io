@@ -100,7 +100,10 @@ Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wi
 
 #### Invited speakers
 
-To be announced.
+- Patricia Bouyer-Decitre (CNRS, ENS Paris-Saclay, France)
+- Yannick Forster (Inria Paris, France)
+- Elaine Pimentel (University College London, UK)
+- Yde Venema (Universiteit van Amsterdam, Netherlands)
 
 #### Committee
 
