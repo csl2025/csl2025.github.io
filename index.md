@@ -16,10 +16,10 @@ title: CSL 2025
 
 #### About
 
-CSL is the annual conference of the European Association for Computer Science Logic (EACSL).
+[CSL](https://www.eacsl.org/csl-conferences/) is the annual conference of the European Association for Computer Science Logic ([EACSL](https://www.eacsl.org/)).
 It is an interdisciplinary conference, spanning across both basic and application oriented research in mathematical logic and computer science.
 
-CSL 2025 will be held on the 10th-14th February 2025 and is hosted by the Vrije Universiteit Amsterdam.
+CSL 2025 will be held on the 10th–14th February 2025 and is hosted by the [Vrije Universiteit Amsterdam](https://vu.nl/en).
 
 #### Important dates
 
