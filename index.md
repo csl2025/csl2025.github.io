@@ -19,7 +19,7 @@ title: CSL 2025
 [CSL](https://www.eacsl.org/csl-conferences/) is the annual conference of the European Association for Computer Science Logic ([EACSL](https://www.eacsl.org/)).
 It is an interdisciplinary conference, spanning across both basic and application oriented research in mathematical logic and computer science.
 
-CSL 2025 will be held on the 10th–14th February 2025 and is hosted by the [Vrije Universiteit Amsterdam](https://vu.nl/en).
+CSL 2025 will be held on the 10th–14th of February 2025 and is hosted by the [Vrije Universiteit Amsterdam](https://vu.nl/en).
 
 #### Important dates
 
@@ -92,11 +92,11 @@ At least one of the authors of each accepted paper is expected to register for t
 
 #### Helena Rasiowa award
 
-The [Helena Rasiowa Award](https://www.eacsl.org/?page_id=1111) is the best student paper award for the CSL conference series, starting from CSL 2022.
+The [Helena Rasiowa Award](https://www.eacsl.org/helena-rasiowa-award-2/) is the best student paper award for the CSL conference series, starting from CSL 2022.
 The award will be given to the best paper (as decided by the PC) written solely by students or for which students were the main contributors.
 A student in this context is any person who is currently studying for a degree or whose PhD award date is less than one year prior to the first day of the conference.
 
-Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wiki/Helena_Rasiowa) to logic and computer science, and their interplay, [here](https://www.eacsl.org/?page_id=1104).
+Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wiki/Helena_Rasiowa) to logic and computer science, and their interplay, [here](https://www.eacsl.org/helena-rasiowa-award-2/helena-rasiowa-award/).
 
 #### Invited speakers
 
