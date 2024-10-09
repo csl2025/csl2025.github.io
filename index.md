@@ -150,7 +150,7 @@ Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wi
 #### Venue
 
 {:refdef: style="text-align: center;"}
-![My Image](/assets/images/campus.jpg)
+![My Image](/assets/images/cwi.jpg)
 {: refdef}
 
 #### Program
