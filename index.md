@@ -149,6 +149,8 @@ Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wi
 
 #### Venue
 
+CSL 2025 will take place at [CWI](https://www.cwi.nl/en/), the Center of Mathematics and Computer Science.
+
 {:refdef: style="text-align: center;"}
 ![My Image](/assets/images/cwi.jpg)
 {: refdef}
