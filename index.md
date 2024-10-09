@@ -163,9 +163,9 @@ Information can be found here at a later stage.
 
 Information can be found here at a later stage.
 
-#### Sponsors
+#### Co-located Workshops
 
-Information can be found here at a later stage.
+The [12th Logic Mentoring Workshop (LMW@CSL 2025)](https://logic-mentoring-workshop.github.io/csl25/)
 
 #### Contacts
 
