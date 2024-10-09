@@ -169,4 +169,5 @@ The [12th Logic Mentoring Workshop (LMW@CSL 2025)](https://logic-mentoring-works
 
 #### Contacts
 
-- Jörg Endrullis and Sylvain Schmitz [csl2025@easychair.org](mailto:csl2025@easychair.org)
+- For scientific matters: Jörg Endrullis and Sylvain Schmitz [csl2025@easychair.org](mailto:csl2025@easychair.org)
+- For organizational matters: Emma Triesman [e.w.triesman@vu.nl](mailto:e.w.triesman@vu.nl)
