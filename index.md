@@ -145,7 +145,6 @@ Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wi
 ##### Organisation committee:
 
 - Wan Fokkink (Vrije Universiteit Amsterdam, Netherlands)
-- Cynthia Bijl de Vroe (Vrije Universiteit Amsterdam, Netherlands)
 - Emma Triesman (Vrije Universiteit Amsterdam, Netherlands)
 
 #### Venue
