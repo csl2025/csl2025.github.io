@@ -163,6 +163,12 @@ Information can be found here at a later stage.
 
 Information can be found here at a later stage.
 
+#### Hotels
+
+Information can be found here at a later stage.
+
+Please beware that hotel rooms in Amsterdam are scarce, due to the CISCO Live 2025 event, that takes place in Amsterdam in the same week.
+
 #### Co-located Workshops
 
 The [12th Logic Mentoring Workshop (LMW@CSL 2025)](https://logic-mentoring-workshop.github.io/csl25/)
