@@ -28,7 +28,7 @@ CSL 2025 will be held on the 10th–14th of February 2025 and is hosted by the [
 
 | Abstract submission: | July 18th, 2024 AoE |
 | Paper submission: | July 23rd, 2024 AoE |
-| Notification: | October 27th, 2024 AoE |
+| Notification: | October 27th, 2024 AoE ([accepted papers](accepted.html))|
 | Final Version Due: | November 24th, 2024 AoE |
 | Conference: | February 10th-14th, 2025 |
 
@@ -157,7 +157,7 @@ CSL 2025 will take place at [CWI](https://www.cwi.nl/en/), the research institut
 
 #### Program
 
-Information can be found here at a later stage.
+Information can be found here at a later stage.  The list of [accepted papers](accepted.html) is now available.
 
 #### Registration
 
