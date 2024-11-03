@@ -25,7 +25,7 @@
       #glance td dd {text-indent: .5em}
       dt.break {font-weight: normal}
       dt.break + dd {font-style: italic}
-      #glance dt.session + dd a {color: #404040}
+      #glance dt.session + dd a, #glance dt.social + dd a {color: #404040}
       #detailed-div h5 {border-bottom: solid 1px black; margin-top:2em;
                         margin-bottom:1em}
       #detailed-div dt.session + dd {border-bottom: solid 1px #ccc;
@@ -208,17 +208,17 @@
                     <dt class="session">14:15–15:00</dt>
                     <dd><a href="program.html#ackermann">Ackermann Award</a></dd>
                     <dt class="social">15:00–18:00</dt>
-                    <dd>Excursion</dd>
+                    <dd><a href="program.html#excursion">Excursion</a></dd>
                   </dl>
                 </td>
                 <td>
                   <dl><!-- Thursday afternoon -->
                     <dt class="session">14:00–15:40</dt>
-                    <dd><a href="program.html#ses5">Session 5</a></dd>
+                    <dd><a href="program.html#ses6">Session 6</a></dd>
                     <dt class="break">15:40–16:10</dt>
                     <dd>Coffee break</dd>
                     <dt class="session">16:10–17:50</dt>
-                    <dd><a href="program.html#ses6">Session 6</a></dd>
+                    <dd><a href="program.html#ses7">Session 7</a></dd>
                   </dl>
                 </td>
                 <td>
@@ -236,7 +236,7 @@
                 <td>
                   <dl><!-- Monday evening -->
                     <dt class="social">18:00–20:00</dt>
-                    <dd>LWM + CSL Reception</dd>
+                    <dd><a href="program.html#reception">LWM + CSL Reception</a></dd>
                   </dl>
                 </td>
                 <td><!--Tuesday evening -->
@@ -244,7 +244,7 @@
                 <td><!-- Wednesday evening -->
                   <dl>
                     <dt class="social">19:00–22:00</dt>
-                    <dd>Conference dinner</dd>
+                    <dd><a href="program.html#dinner">Conference dinner</a></dd>
                   </dl>
                 </td>
                 <td><!-- Thursday evening -->
@@ -266,7 +266,7 @@
           <h5 id="mon">Monday, February 10</h5>
           <dl>
             <dt class="social">18:00–20:00</dt>
-            <dd>LWM + CSL Reception</dd>
+            <dd id="reception">LWM + CSL Reception</dd>
           </dl>
           <!-- Tuesday ------------------------------------>
           <h5 id="tue">Tuesday, February 11</h5>
@@ -306,9 +306,9 @@
             <dt class="session">14:15–15:00</dt>
             <dd id="ackermann"><a href="https://www.eacsl.org/ackermann-award/">Ackermann Award</a></dd>
             <dt class="social">15:00–18:00</dt>
-            <dd>Excursion</dd>
+            <dd id="excursion">Excursion</dd>
             <dt class="social">19:00–22:00</dt>
-            <dd>Conference dinner</dd>
+            <dd id="dinner">Conference dinner</dd>
           </dl>
           <!-- Thursday ------------------------------------>
           <h5 id="thu">Thursday, February 13</h5>
@@ -322,11 +322,11 @@
             <dt class="break">12:35–14:00</dt>
             <dd>Lunch</dd>
             <dt class="session">14:00–15:40</dt>
-            <dd id="ses5">Session 5</dd>
+            <dd id="ses6">Session 6</dd>
             <dt class="break">15:40–16:10</dt>
             <dd>Coffee break</dd>
             <dt class="session">16:10–17:50</dt>
-            <dd id="ses6">Session 6</dd>
+            <dd id="ses7">Session 7</dd>
             <dt class="organisation">18:00–18:45</dt>
             <dd>Business meeting</dd>
           </dl>          
