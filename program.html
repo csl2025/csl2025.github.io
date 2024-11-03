@@ -7,6 +7,7 @@
    <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
    <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
    <style>
+     table tr:nth-child(2n) {background-color: #f8f8f8}
      #glance {width:140%;
               border-collapse: collapse;
               border-top: solid 2px #ccc;
@@ -14,16 +15,18 @@
               margin-bottom: 4em;
               position:relative;
               left:-20%}
-     thead {border-bottom: solid 2px black; color:black;
+     #glance thead {border-bottom: solid 2px black; color:black;
            background-color: #f8f8f8;}
-     tr {border-bottom: solid 1px #ccc}
-     th {text-align: center}
-     th a {color:black}
-     td dd {text-indent: .5em}
+     #glance tr {border-bottom: solid 1px #ccc}
+     #glance th {text-align: center}
+     #glance th a {color:black}
+     #glance td dd {text-indent: .5em}
      dt.break {font-weight: normal}
      dt.break + dd {font-style: italic}
-     dt.session + dd a {color: #404040}
-     h5 {border-bottom: solid 1px #ccc; margin-top:2em; margin-bottom:1em}
+     #glance dt.session + dd a {color: #404040}
+     #detailed-div h5 {border-bottom: solid 1px black; margin-top:2em;
+         margin-bottom:1em}
+     #detailed-div dt.session + dd {border-bottom: solid 1px #ccc; background-color: #f8f8f8}
    </style>
   </head>
   <body>
@@ -88,16 +91,16 @@
           <table id="glance">
             <thead>
               <tr>
-                <th><a href="program#mon">Monday 10</th>
-                <th><a href="program#tue">Tuesday 11</th>
-                <th><a href="program#wed">Wednesday 12</th>
-                <th><a href="program#thu">Thursday 13</th>
-                <th><a href="program#fri">Friday 14</th>
+                <th><a href="program.html#mon">Monday 10</th>
+                <th><a href="program.html#tue">Tuesday 11</th>
+                <th><a href="program.html#wed">Wednesday 12</th>
+                <th><a href="program.html#thu">Thursday 13</th>
+                <th><a href="program.html#fri">Friday 14</th>
               </tr>
               <tr>
                 <th><a href="https://logic-mentoring-workshop.github.io/csl25/program.html">
                     LMW</a></th>
-                <th colspan="5"><a href="/program#detailed" style="text-align:center!important">CSL</a></th>
+                <th colspan="5"><a href="program.html#detailed" style="text-align:center!important">CSL</a></th>
               </tr>
             </thead>
             <tbody>
@@ -120,41 +123,41 @@
                     <dt class="organisation">09:00–09:20</dt>
                     <dd>Opening</dd>
                     <dt class="session">09:25–10:25</dt>
-                    <dd><a href="/program#inv1">Invited talk</a></dd>
+                    <dd><a href="program.html#inv1">Invited talk</a></dd>
                     <dt class="break">10:25–10:55</dt>
                     <dd>Coffee break</dd>
                     <dt class="session">10:55–12:35</dt>
-                    <dd><a href="/program#ses1">Session 1</a></dd>
+                    <dd><a href="program.html#ses1">Session 1</a></dd>
                   </dl>
                 </td>
                 <td>
                   <dl><!-- Wednesday morning -->
                     <dt class="session">09:00–10:00</dt>
-                    <dd><a href="/program#inv2">Invited talk</a></dd>
+                    <dd><a href="program.html#inv2">Invited talk</a></dd>
                     <dt class="break">10:00–10:30</dt>
                     <dd>Coffee break</dd>
                     <dt class="session">10:30–12:35</dt>
-                    <dd><a href="/program#ses4">Session 4</a></dd>                
+                    <dd><a href="program.html#ses4">Session 4</a></dd>                
                   </dl>
                 </td>
                 <td>
                   <dl><!-- Thursday morning -->
                     <dt class="session">09:00–10:00</dt>
-                    <dd><a href="/program#inv3">Invited talk</a></dd>
+                    <dd><a href="program.html#inv3">Invited talk</a></dd>
                     <dt class="break">10:00–10:30</dt>
                     <dd>Coffee break</dd>
                     <dt class="session">10:30–12:35</dt>
-                    <dd><a href="/program#ses5">Session 5</a></dd>                
+                    <dd><a href="program.html#ses5">Session 5</a></dd>                
                   </dl>
                 </td>
                 <td>
                   <dl><!-- Friday morning -->
                     <dt class="session">09:00–10:00</dt>
-                    <dd><a href="/program#inv4">Invited talk</a></dd>
+                    <dd><a href="program.html#inv4">Invited talk</a></dd>
                     <dt class="break">10:00–10:30</dt>
                     <dd>Coffee break</dd>
                     <dt class="session">10:30–12:35</dt>
-                    <dd><a href="/program#ses8">Session 8</a></dd>   
+                    <dd><a href="program.html#ses8">Session 8</a></dd>   
                   </dl>
                 </td>
               </tr>
@@ -188,19 +191,19 @@
                 <td>
                   <dl><!-- Tuesday afternoon -->
                     <dt class="session">14:00–15:40</dt>
-                    <dd><a href="/program#ses2">Session 2</a></dd>
+                    <dd><a href="program.html#ses2">Session 2</a></dd>
                     <dt class="break">15:40–16:10</dt>
                     <dd>Coffee break</dd>
                     <dt class="session">16:10–17:50</dt>
-                    <dd><a href="/program#ses3">Session 3</a></dd>
+                    <dd><a href="program.html#ses3">Session 3</a></dd>
                   </dl>
                 </td>
                 <td>
                   <dl><!-- Wednesday afternoon -->
                     <dt class="session">13:45–14:15</dt>
-                    <dd><a href="/program#rasiowa">Helena Rasiowa Award</a></dd>
+                    <dd><a href="program.html#rasiowa">Helena Rasiowa Award</a></dd>
                     <dt class="session">14:15–15:00</dt>
-                    <dd><a href="/program#ackermann">Ackermann Award</a></dd>
+                    <dd><a href="program.html#ackermann">Ackermann Award</a></dd>
                     <dt class="social">15:00–18:00</dt>
                     <dd>Excursion</dd>
                   </dl>
@@ -208,21 +211,21 @@
                 <td>
                   <dl><!-- Thursday afternoon -->
                     <dt class="session">14:00–15:40</dt>
-                    <dd><a href="/program#ses5">Session 5</a></dd>
+                    <dd><a href="program.html#ses5">Session 5</a></dd>
                     <dt class="break">15:40–16:10</dt>
                     <dd>Coffee break</dd>
                     <dt class="session">16:10–17:50</dt>
-                    <dd><a href="/program#ses6">Session 6</a></dd>
+                    <dd><a href="program.html#ses6">Session 6</a></dd>
                   </dl>
                 </td>
                 <td>
                   <dl><!-- Friday afternoon -->
                     <dt class="session">14:00–15:40</dt>
-                    <dd><a href="/program#ses9">Session 9</a></dd>
+                    <dd><a href="program.html#ses9">Session 9</a></dd>
                     <dt class="break">15:40–16:10</dt>
                     <dd>Coffee break</dd>
                     <dt class="session">16:10–17:50</dt>
-                    <dd><a href="/program#ses10">Session 10</a></dd>
+                    <dd><a href="program.html#ses10">Session 10</a></dd>
                   </dl>
                 </td>
               </tr>
@@ -243,7 +246,7 @@
                 </td>
                 <td><!-- Thursday evening -->
                   <dl>
-                    <dt class="organisation">17:50–18:40</dt>
+                    <dt class="organisation">18:00–18:45</dt>
                     <dd>Business meeting</dd>
                   </dl>
                 </td>
@@ -253,7 +256,7 @@
             </tbody>
           </table>
           </div>
-          
+          <div id="detailed-div">
           <h4 id="detailed">Detailed program</h4>
           <p>All the talks take place in… at CWI…</p>
           <!-- Monday ------------------------------------>
@@ -321,7 +324,7 @@
             <dd>Coffee break</dd>
             <dt class="session">16:10–17:50</dt>
             <dd id="ses6">Session 6</dd>
-            <dt class="organisation">17:50–18:40</dt>
+            <dt class="organisation">18:00–18:45</dt>
             <dd>Business meeting</dd>
           </dl>          
           <!-- Friday ------------------------------------>
@@ -342,7 +345,8 @@
             <dt class="session">16:10–17:50</dt>
             <dd id="ses10">Session 10</dd>
           </dl>
-        </div>
+          </div>
+          </div>
       </div>
     </div>
   </body>
