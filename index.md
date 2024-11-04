@@ -100,10 +100,10 @@ Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wi
 
 #### Invited speakers
 
-- Patricia Bouyer-Decitre (CNRS, ENS Paris-Saclay, France)
-- Yannick Forster (Inria Paris, France)
-- Elaine Pimentel (University College London, UK)
-- Yde Venema (Universiteit van Amsterdam, Netherlands)
+- <img src="assets/images/patricia_bouyer.jpeg" style="width:70px; height:70px; border-radius:50%;margin-right:1em" alt="Patricia Bouyer-Decitre"/> Patricia Bouyer-Decitre (CNRS, ENS Paris-Saclay, France)
+- <img src="assets/images/yannick_forster.png" style="width:70px; height:70px; border-radius:50%;margin-right:1em" alt="Yannick Forster"/> Yannick Forster (Inria Paris, France)
+- <img src="assets/images/elaine_pimentel.jpg" style="width:70px; height:70px; border-radius:50%;margin-right:1em" alt="Elaine Pimentel"/> Elaine Pimentel (University College London, UK)
+- <img src="assets/images/yde_venema.jpg" style="width:70px; height:70px; border-radius:50%;margin-right:1em" alt="Yde Venema"/> Yde Venema (Universiteit van Amsterdam, Netherlands)
 
 #### Committee
 
