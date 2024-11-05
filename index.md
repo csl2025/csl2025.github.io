@@ -100,10 +100,12 @@ Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wi
 
 #### Invited speakers
 
-- <img src="assets/images/patricia_bouyer.jpeg" style="width:70px; height:70px; border-radius:50%;margin-right:1em" alt="Patricia Bouyer-Decitre"/> Patricia Bouyer-Decitre (CNRS, ENS Paris-Saclay, France)
-- <img src="assets/images/yannick_forster.png" style="width:70px; height:70px; border-radius:50%;margin-right:1em" alt="Yannick Forster"/> Yannick Forster (Inria Paris, France)
-- <img src="assets/images/elaine_pimentel.jpg" style="width:70px; height:70px; border-radius:50%;margin-right:1em" alt="Elaine Pimentel"/> Elaine Pimentel (University College London, UK)
-- <img src="assets/images/yde_venema.jpg" style="width:70px; height:70px; border-radius:50%;margin-right:1em" alt="Yde Venema"/> Yde Venema (Universiteit van Amsterdam, Netherlands)
+<ul style="list-style-type:none;padding-left:20px">
+  <li><img src="assets/images/patricia_bouyer.jpeg" style="width:70px; height:70px; border-radius:50%;padding:1pt;margin-right:.4em" alt="Patricia Bouyer-Decitre"/> Patricia Bouyer-Decitre (CNRS, ENS Paris-Saclay, France)</li>
+  <li><img src="assets/images/yannick_forster.png" style="width:70px; height:70px; border-radius:50%;padding:1pt;margin-right:.4em" alt="Yannick Forster"/> Yannick Forster (Inria Paris, France)</li>
+  <li><img src="assets/images/elaine_pimentel.jpg" style="width:70px; height:70px; border-radius:50%;padding:1pt;margin-right:.4em" alt="Elaine Pimentel"/> Elaine Pimentel (University College London, UK)</li>
+  <li><img src="assets/images/yde_venema.jpg" style="width:70px; height:70px; border-radius:50%;padding:1pt;margin-right:.4em" alt="Yde Venema"/> Yde Venema (Universiteit van Amsterdam, Netherlands)</li>
+</ul>
 
 #### Committee
 
