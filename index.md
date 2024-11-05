@@ -169,12 +169,12 @@ Registration will open on November 14.
 
 Please beware that hotel rooms in Amsterdam are scarce, due to the CISCO Live 2025 event, that takes place in Amsterdam in the same week as CSL 2025.
 
-There are no hotels in the close vicinity of the conference site. Information on reaching CWI can be found [here](https://www.cwi.nl/en/about/contact/).
+There are no hotels in the close vicinity of the conference site.  Information on reaching CWI can be found [here](https://www.cwi.nl/en/about/contact/).
 
 Three possible suggestions for booking a hotel:
 
-- Take a hotel in the city center, close to the central railway station. From there you can take a train to Amsterdam Science Park railway station (4 times per hour, takes 9 minutes), which is at walking distance of the conference site.
-- Take a hotel close to Amstel railway station or Muiderpoort railway station, and use bus 40, which stops right in front of the conference site.
+- Take a hotel in the city center, close to the central railway station.  From there you can take [a train to Amsterdam Science Park railway station](https://www.ns.nl/en/journeyplanner/#/?vertrek=Amsterdam%20Centraal&vertrektype=treinstation&aankomst=Amsterdam%20Science%20Park&aankomsttype=treinstation) (4 times per hour, takes 9 minutes), which is within close walking distance of the conference site.
+- Take a hotel close to [Amstel railway station](https://www.openstreetmap.org/node/4040491812) or [Muiderpoort railway station](https://www.openstreetmap.org/node/4487548898), and use [bus 40](https://reisinfo.gvb.nl/en/travel-information/line/GVB/40), which stops right in front of the conference site.
 - Act like the Dutch, and rent a bike.
 
 #### Co-located Workshops
