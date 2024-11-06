@@ -161,10 +161,10 @@ CSL 2025 will take place at [CWI](https://www.cwi.nl/en/), the research institut
 
 Here is a tentative program.  The detailed program of each session
 will be provided soon (see also the list of [accepted
-papers](accepted.html).
+papers](accepted.html)).
 
 <div align="center">
-  <style>
+  <!--<style>
       #glance {width:110%;
                border-collapse: collapse;
                border-top: solid 2px #ccc;
@@ -182,7 +182,7 @@ papers](accepted.html).
       dt.break {font-weight: normal}
       dt.break + dd {font-style: italic}
       #glance dt.session + dd a, #glance dt.social + dd a {color:#404040}
-  </style>
+  </style>-->
             <table id="glance">
             <thead>
               <tr>
