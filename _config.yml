@@ -25,7 +25,7 @@ navbar-links:
   Accepted Papers: "accepted"
   Committee: "index#committee"
   Venue: "index#venue"
-  Program: "index#program"
+  Program: "program.html"
   #Social Event: "social_event"
   Registration: "index#registration"
   Workshops: "index#co-located-workshops"
