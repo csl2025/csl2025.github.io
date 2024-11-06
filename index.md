@@ -177,6 +177,8 @@ Three possible suggestions for booking a hotel:
 - Take a hotel close to [Amstel railway station](https://www.openstreetmap.org/node/4040491812) or [Muiderpoort railway station](https://www.openstreetmap.org/node/4487548898), and use [bus 40](https://reisinfo.gvb.nl/en/travel-information/line/GVB/40), which stops right in front of the conference site.
 - Act like the Dutch, and rent a bike.
 
+A good website for public transport information is [ov9292](https://9292.nl/en).
+
 #### Co-located Workshops
 
 The [12th Logic Mentoring Workshop (LMW@CSL 2025)](https://logic-mentoring-workshop.github.io/csl25/)
