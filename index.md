@@ -185,18 +185,15 @@ papers](accepted.html)).
 <table id="glance">
 <thead>
 <tr>
-  <th><a href="program.html#mon">Monday 10</th>
-  <th><a href="program.html#tue">Tuesday 11</th>
-  <th><a href="program.html#wed">Wednesday 12</th>
-  <th><a href="program.html#thu">Thursday 13</th>
-  <th><a href="program.html#fri">Friday 14</th>
-</tr>
+  <th><a href="program.html#mon">Monday 10
+  <th><a href="program.html#tue">Tuesday 11
+  <th><a href="program.html#wed">Wednesday 12
+  <th><a href="program.html#thu">Thursday 13
+  <th><a href="program.html#fri">Friday 14
 <tr>
   <th><a href="https://logic-mentoring-workshop.github.io/csl25/program.html">
-    LMW</a></th>
-  <th colspan="5"><a href="program.html#detailed" style="text-align:center!important">CSL</a></th>
-</tr>
-</thead>
+    LMW</a>
+  <th colspan="5"><a href="program.html#detailed" style="text-align:center!important">CSL</a>
 <tbody>
 <tr>
   <td style="position:relative;border-bottom:none!important;background-color:white!important">
