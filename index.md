@@ -164,7 +164,7 @@ will be provided soon (see also the list of [accepted
 papers](accepted.html)).
 
 <div align="center">
-  <!--<style>
+  <style>
       #glance {width:110%;
                border-collapse: collapse;
                border-top: solid 2px #ccc;
@@ -182,188 +182,188 @@ papers](accepted.html)).
       dt.break {font-weight: normal}
       dt.break + dd {font-style: italic}
       #glance dt.session + dd a, #glance dt.social + dd a {color:#404040}
-  </style>-->
-            <table id="glance">
-            <thead>
-              <tr>
-                <th><a href="program.html#mon">Monday 10</th>
-                <th><a href="program.html#tue">Tuesday 11</th>
-                <th><a href="program.html#wed">Wednesday 12</th>
-                <th><a href="program.html#thu">Thursday 13</th>
-                <th><a href="program.html#fri">Friday 14</th>
-              </tr>
-              <tr>
-                <th><a href="https://logic-mentoring-workshop.github.io/csl25/program.html">
-                    LMW</a></th>
-                <th colspan="5"><a href="program.html#detailed" style="text-align:center!important">CSL</a></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td style="position:relative;border-bottom:none!important;background-color:white!important">
-                  <dl style="position:absolute;top:6px">
-                    <dt class="organisation">08:30–09:00</dt>
-                    <dd>LMW + CSL registration</dd>
-                  </dl>
-                </td>
-                <td>
-                  <dl>
-                    <dt class="organisation">08:30–09:00</dt>
-                    <dd>CSL registration</dd>
-                    <dt class="organisation">08:50–09:00</dt>
-                    <dd>Opening</dd>
-                  </dl>
-                </td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td rowspan="2" style="position:relative;border-bottom:none!important;border-top:none!important;background-color:white!important">
-                  <p style="position:absolute;bottom:0;text-align:center;margin-bottom:5em;left:0">
-                    <a href="https://logic-mentoring-workshop.github.io/csl25/program.html">Logic
-                      Mentoring Workshop</a>
-                    </p>
-                </td>
-                <td>
-                  <dl><!-- Tuesday morning -->
-                    <dt class="session">09:00–10:00</dt>
-                    <dd><a href="program.html#inv1" title="TBA">Invited talk</a></dd>
-                    <dt class="break">10:00–10:30</dt>
-                    <dd>Coffee break</dd>
-                    <dt class="session">10:30–12:35</dt>
-                    <dd><a href="program.html#ses1" title="TBA">Session 1</a></dd>
-                  </dl>
-                </td>
-                <td>
-                  <dl><!-- Wednesday morning -->
-                    <dt class="session">09:00–10:00</dt>
-                    <dd><a href="program.html#inv2" title="TBA">Invited talk</a></dd>
-                    <dt class="break">10:00–10:30</dt>
-                    <dd>Coffee break</dd>
-                    <dt class="session">10:30–12:10</dt>
-                    <dd><a href="program.html#ses4" title="TBA">Session 4</a></dd>                
-                  </dl>
-                </td>
-                <td>
-                  <dl><!-- Thursday morning -->
-                    <dt class="session">09:00–10:00</dt>
-                    <dd><a href="program.html#inv3" title="TBA">Invited talk</a></dd>
-                    <dt class="break">10:00–10:30</dt>
-                    <dd>Coffee break</dd>
-                    <dt class="session">10:30–12:35</dt>
-                    <dd><a href="program.html#ses5" title="TBA">Session 5</a></dd>                
-                  </dl>
-                </td>
-                <td>
-                  <dl><!-- Friday morning -->
-                    <dt class="session">09:00–10:00</dt>
-                    <dd><a href="program.html#inv4" title="TBA">Invited talk</a></dd>
-                    <dt class="break">10:00–10:30</dt>
-                    <dd>Coffee break</dd>
-                    <dt class="session">10:30–12:35</dt>
-                    <dd><a href="program.html#ses8" title="TBA">Session 8</a></dd>   
-                  </dl>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <dl>
-                    <dt class="break">12:35–14:00</dt>
-                    <dd>Lunch</dd>
-                  </dl>
-                </td>
-                <td>
-                  <dl>
-                    <dt class="break">12:10–13:30</dt>
-                    <dd>Lunch</dd>
-                  </dl>
-                </td>
-                <td>
-                  <dl>
-                    <dt class="break">12:35–14:00</dt>
-                    <dd>Lunch</dd>
-                  </dl>
-                </td>
-                <td>
-                  <dl>
-                    <dt class="break">12:35–14:00</dt>
-                    <dd>Lunch</dd>
-                  </dl>
-                </td>
-              </tr>
-              <tr>
-                <td style="position:relative;border-top:none!important;background-color:white!important">
-                  <dl style="position:absolute;bottom:6px">
-                    <dt class="organisation">17:30–18:00</dt>
-                    <dd>CSL registration</dd>
-                  </dl>
-                </td>
-                <td>
-                  <dl><!-- Tuesday afternoon -->
-                    <dt class="session">14:00–15:40</dt>
-                    <dd><a href="program.html#ses2" title="TBA">Session 2</a></dd>
-                    <dt class="break">15:40–16:10</dt>
-                    <dd>Coffee break</dd>
-                    <dt class="session">16:10–17:50</dt>
-                    <dd><a href="program.html#ses3" title="TBA">Session 3</a></dd>
-                  </dl>
-                </td>
-                <td>
-                  <dl><!-- Wednesday afternoon -->
-                    <dt class="session">13:30–14:00</dt>
-                    <dd><a href="program.html#rasiowa">Helena Rasiowa Award</a></dd>
-                    <dt class="session">14:00–14:45</dt>
-                    <dd><a href="program.html#ackermann">Ackermann Award</a></dd>
-                    <dt class="organisation">14:45–15:30</dt>
-                    <dd>Business meeting</dd>
-                    <dt class="social">15:30–17:30</dt>
-                    <dd><a href="program.html#excursion">Excursion</a></dd>
-                  </dl>
-                </td>
-                <td>
-                  <dl><!-- Thursday afternoon -->
-                    <dt class="session">14:00–15:40</dt>
-                    <dd><a href="program.html#ses6" title="TBA">Session 6</a></dd>
-                    <dt class="break">15:40–16:10</dt>
-                    <dd>Coffee break</dd>
-                    <dt class="session">16:10–17:50</dt>
-                    <dd><a href="program.html#ses7" title="TBA">Session 7</a></dd>
-                  </dl>
-                </td>
-                <td>
-                  <dl><!-- Friday afternoon -->
-                    <dt class="session">14:00–15:40</dt>
-                    <dd><a href="program.html#ses9" title="TBA">Session 9</a></dd>
-                    <dt class="break">15:40–16:10</dt>
-                    <dd>Coffee break</dd>
-                    <dt class="session">16:10–17:50</dt>
-                    <dd><a href="program.html#ses10" title="TBA">Session 10</a></dd>
-                  </dl>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <dl><!-- Monday evening -->
-                    <dt class="social">18:00–20:30</dt>
-                    <dd><a href="program.html#reception">Reception</a></dd>
-                  </dl>
-                </td>
-                <td><!--Tuesday evening -->
-                </td>
-                <td><!-- Wednesday evening -->
-                  <dl>
-                    <dt class="social">17:30–21:00</dt>
-                    <dd><a href="program.html#dinner">Conference dinner</a></dd>
-                  </dl>
-                </td>
-                <td><!-- Thursday evening -->
-                </td>
-                <td><!-- Friday evening -->
-                </td>
-              </tr>
-            </tbody>
-          </table>
+  </style>
+<table id="glance">
+<thead>
+<tr>
+  <th><a href="program.html#mon">Monday 10</th>
+  <th><a href="program.html#tue">Tuesday 11</th>
+  <th><a href="program.html#wed">Wednesday 12</th>
+  <th><a href="program.html#thu">Thursday 13</th>
+  <th><a href="program.html#fri">Friday 14</th>
+</tr>
+<tr>
+  <th><a href="https://logic-mentoring-workshop.github.io/csl25/program.html">
+    LMW</a></th>
+  <th colspan="5"><a href="program.html#detailed" style="text-align:center!important">CSL</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="position:relative;border-bottom:none!important;background-color:white!important">
+  <dl style="position:absolute;top:6px">
+  <dt class="organisation">08:30–09:00</dt>
+  <dd>LMW + CSL registration</dd>
+  </dl>
+  </td>
+  <td>
+  <dl>
+  <dt class="organisation">08:30–09:00</dt>
+  <dd>CSL registration</dd>
+  <dt class="organisation">08:50–09:00</dt>
+  <dd>Opening</dd>
+  </dl>
+  </td>
+  <td></td>
+  <td></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td rowspan="2" style="position:relative;border-bottom:none!important;border-top:none!important;background-color:white!important">
+  <p style="position:absolute;bottom:0;text-align:center;margin-bottom:5em;left:0">
+  <a href="https://logic-mentoring-workshop.github.io/csl25/program.html">Logic
+    Mentoring Workshop</a>
+  </p>
+  </td>
+  <td>
+  <dl><!-- Tuesday morning -->
+  <dt class="session">09:00–10:00</dt>
+  <dd><a href="program.html#inv1" title="TBA">Invited talk</a></dd>
+  <dt class="break">10:00–10:30</dt>
+  <dd>Coffee break</dd>
+  <dt class="session">10:30–12:35</dt>
+  <dd><a href="program.html#ses1" title="TBA">Session 1</a></dd>
+  </dl>
+  </td>
+  <td>
+  <dl><!-- Wednesday morning -->
+  <dt class="session">09:00–10:00</dt>
+  <dd><a href="program.html#inv2" title="TBA">Invited talk</a></dd>
+  <dt class="break">10:00–10:30</dt>
+  <dd>Coffee break</dd>
+  <dt class="session">10:30–12:10</dt>
+  <dd><a href="program.html#ses4" title="TBA">Session 4</a></dd>                
+  </dl>
+  </td>
+  <td>
+  <dl><!-- Thursday morning -->
+  <dt class="session">09:00–10:00</dt>
+  <dd><a href="program.html#inv3" title="TBA">Invited talk</a></dd>
+  <dt class="break">10:00–10:30</dt>
+  <dd>Coffee break</dd>
+  <dt class="session">10:30–12:35</dt>
+  <dd><a href="program.html#ses5" title="TBA">Session 5</a></dd>                
+  </dl>
+  </td>
+  <td>
+  <dl><!-- Friday morning -->
+  <dt class="session">09:00–10:00</dt>
+  <dd><a href="program.html#inv4" title="TBA">Invited talk</a></dd>
+  <dt class="break">10:00–10:30</dt>
+  <dd>Coffee break</dd>
+  <dt class="session">10:30–12:35</dt>
+  <dd><a href="program.html#ses8" title="TBA">Session 8</a></dd>   
+  </dl>
+  </td>
+</tr>
+<tr>
+  <td>
+  <dl>
+  <dt class="break">12:35–14:00</dt>
+  <dd>Lunch</dd>
+  </dl>
+  </td>
+  <td>
+    <dl>
+      <dt class="break">12:10–13:30</dt>
+      <dd>Lunch</dd>
+    </dl>
+  </td>
+  <td>
+    <dl>
+      <dt class="break">12:35–14:00</dt>
+      <dd>Lunch</dd>
+    </dl>
+  </td>
+  <td>
+    <dl>
+      <dt class="break">12:35–14:00</dt>
+      <dd>Lunch</dd>
+    </dl>
+  </td>
+</tr>
+<tr>
+  <td style="position:relative;border-top:none!important;background-color:white!important">
+    <dl style="position:absolute;bottom:6px">
+      <dt class="organisation">17:30–18:00</dt>
+      <dd>CSL registration</dd>
+    </dl>
+  </td>
+  <td>
+    <dl><!-- Tuesday afternoon -->
+      <dt class="session">14:00–15:40</dt>
+      <dd><a href="program.html#ses2" title="TBA">Session 2</a></dd>
+      <dt class="break">15:40–16:10</dt>
+      <dd>Coffee break</dd>
+      <dt class="session">16:10–17:50</dt>
+      <dd><a href="program.html#ses3" title="TBA">Session 3</a></dd>
+    </dl>
+  </td>
+  <td>
+    <dl><!-- Wednesday afternoon -->
+      <dt class="session">13:30–14:00</dt>
+      <dd><a href="program.html#rasiowa">Helena Rasiowa Award</a></dd>
+      <dt class="session">14:00–14:45</dt>
+      <dd><a href="program.html#ackermann">Ackermann Award</a></dd>
+      <dt class="organisation">14:45–15:30</dt>
+      <dd>Business meeting</dd>
+      <dt class="social">15:30–17:30</dt>
+      <dd><a href="program.html#excursion">Excursion</a></dd>
+    </dl>
+  </td>
+  <td>
+    <dl><!-- Thursday afternoon -->
+      <dt class="session">14:00–15:40</dt>
+      <dd><a href="program.html#ses6" title="TBA">Session 6</a></dd>
+      <dt class="break">15:40–16:10</dt>
+      <dd>Coffee break</dd>
+      <dt class="session">16:10–17:50</dt>
+      <dd><a href="program.html#ses7" title="TBA">Session 7</a></dd>
+    </dl>
+  </td>
+  <td>
+    <dl><!-- Friday afternoon -->
+      <dt class="session">14:00–15:40</dt>
+      <dd><a href="program.html#ses9" title="TBA">Session 9</a></dd>
+      <dt class="break">15:40–16:10</dt>
+      <dd>Coffee break</dd>
+      <dt class="session">16:10–17:50</dt>
+      <dd><a href="program.html#ses10" title="TBA">Session 10</a></dd>
+    </dl>
+  </td>
+</tr>
+<tr>
+  <td>
+    <dl><!-- Monday evening -->
+      <dt class="social">18:00–20:30</dt>
+      <dd><a href="program.html#reception">Reception</a></dd>
+    </dl>
+  </td>
+  <td><!--Tuesday evening -->
+  </td>
+  <td><!-- Wednesday evening -->
+    <dl>
+      <dt class="social">17:30–21:00</dt>
+      <dd><a href="program.html#dinner">Conference dinner</a></dd>
+    </dl>
+  </td>
+  <td><!-- Thursday evening -->
+  </td>
+  <td><!-- Friday evening -->
+  </td>
+</tr>
+</tbody>
+</table>
 </div>
 
 #### Registration
