@@ -359,8 +359,6 @@ papers](accepted.html)).
   </td>
 </tr>
 </tbody>
-</table>
-</div>
 
 #### Registration
 
