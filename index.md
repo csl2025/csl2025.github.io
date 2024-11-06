@@ -171,8 +171,7 @@ papers](accepted.html)).
                border-bottom: solid 2px #ccc;
                margin-top: 1em;
                margin-bottom: 4em;
-               position:relative;
-               left:-5%}
+               margin-left: -5%}
       #glance thead {border-bottom: solid 2px black; color:black;
                      background-color: #f8f8f8;}
       #glance tr {border-top: none}
