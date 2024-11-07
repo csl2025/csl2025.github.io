@@ -21,6 +21,10 @@ It is an interdisciplinary conference, spanning across both basic and applicatio
 
 CSL 2025 will be held on the 10th–14th of February 2025 and is hosted by the [Vrije Universiteit Amsterdam](https://vu.nl/en).
 
+#### Co-located Workshops
+
+The [12th Logic Mentoring Workshop (LMW@CSL 2025)](https://logic-mentoring-workshop.github.io/csl25/) is co-located with CSL and will take place on Monday, February 10.
+
 #### Important dates
 
 {::options parse_block_html="true" /}
@@ -109,7 +113,7 @@ Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wi
 
 ---
 
-#### Committee
+#### Committees
 
 ##### Chairs
 
@@ -179,11 +183,6 @@ Three possible suggestions for booking a hotel:
 - Act like the Dutch, and rent a bike.
 
 A good website for public transport information is [ov9292](https://9292.nl/en).
-
-
-#### Co-located Workshops
-
-The [12th Logic Mentoring Workshop (LMW@CSL 2025)](https://logic-mentoring-workshop.github.io/csl25/) is co-located with CSL and will take place on Monday, February 10.
 
 ---
 
