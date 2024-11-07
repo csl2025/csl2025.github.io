@@ -107,6 +107,8 @@ Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wi
   <li><img src="assets/images/yde_venema.jpg" style="width:70px; height:70px; border-radius:50%;padding:1pt;margin-right:.4em" alt="Yde Venema"/> Yde Venema (Universiteit van Amsterdam, Netherlands)</li>
 </ul>
 
+---
+
 #### Committee
 
 ##### Chairs
@@ -149,6 +151,7 @@ Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wi
 - Wan Fokkink (Vrije Universiteit Amsterdam, Netherlands)
 - Emma Triesman (Vrije Universiteit Amsterdam, Netherlands)
 
+---
 #### Venue and local information
 
 CSL 2025 will take place at [CWI](https://www.cwi.nl/en/), the research institute for mathematics & computer science in the Netherlands. The address is [Science Park 123, 1098 XG Amsterdam](https://www.openstreetmap.org/way/57861985).
@@ -182,12 +185,14 @@ A good website for public transport information is [ov9292](https://9292.nl/en).
 
 The [12th Logic Mentoring Workshop (LMW@CSL 2025)](https://logic-mentoring-workshop.github.io/csl25/) is co-located with CSL and will take place on Monday, February 10.
 
+---
 
 #### Registration
 
 Registration will open on November 14.
 
 
+---
 #### Contacts
 
 - For scientific matters: Jörg Endrullis and Sylvain Schmitz [csl2025@easychair.org](mailto:csl2025@easychair.org)

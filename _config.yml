@@ -24,7 +24,7 @@ navbar-links:
   Invited Speakers: "index#invited-speakers"
   Accepted Papers: "accepted"
   Committee: "index#committee"
-  Venue: "index#venue"
+  Venue: "index#venue-and-local-information"
   Program: "program.html"
   #Social Event: "social_event"
   Workshops: "index#co-located-workshops"
