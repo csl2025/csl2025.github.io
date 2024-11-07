@@ -171,7 +171,7 @@ There are no hotels in the close vicinity of the conference site.  Information o
 Three possible suggestions for booking a hotel:
 
 - Take a hotel in the city center, close to the central railway station.  From there you can take [a train to Amsterdam Science Park railway station](https://www.ns.nl/en/journeyplanner/#/?vertrek=Amsterdam%20Centraal&vertrektype=treinstation&aankomst=Amsterdam%20Science%20Park&aankomsttype=treinstation) (4 times per hour, takes 9 minutes), which is within close walking distance of the conference site.
-- Take a hotel close to [Amstel railway station](https://www.openstreetmap.org/node/4040491812) or [Muiderpoort railway station](https://www.openstreetmap.org/node/4487548898), and use [bus 40](https://reisinfo.gvb.nl/en/travel-information/line/GVB/40), which stops right in front of the conference site.
+- Take a hotel close to [Amstel railway station](https://9292.nl/en/amsterdam/bushalte-amstelstation) or [Muiderpoort railway station](https://9292.nl/en/amsterdam/bus-tramhalte-muiderpoortstation), and use [bus 40](https://reisinfo.gvb.nl/en/travel-information/line/GVB/40), which stops right in front of the conference site.
 - Act like the Dutch, and rent a bike.
 
 A good website for public transport information is [ov9292](https://9292.nl/en).
