@@ -27,8 +27,8 @@ navbar-links:
   Venue: "index#venue-and-local-information"
   Program: "program.html"
   #Social Event: "social_event"
-  Workshops: "index#co-located-workshops"
   Registration: "index#registration"
+  Workshops: "index#co-located-workshops"
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
   #  - Learn markdown: "https://www.markdowntutorial.com/"
