@@ -166,7 +166,7 @@ CSL 2025 will take place at [CWI](https://www.cwi.nl/en/), the research institut
 
 ##### Anti-harassment policy
 
-[EACSL](https://www.eacsl.org/) strives to provide a welcoming, safe and productive environment for all who attend our events, regardless of their personal characteristics. We do not tolerate any form of intimidation, harassment, or disrespectful conduct at our events.  Participants asked to stop any harassing behaviour are expected to comply immediately.  The event organisers may take further action, including warning the offender or expulsion from the event.  If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact an event organiser immediately.
+[EACSL](https://www.eacsl.org/) strives to provide a welcoming, safe and productive environment for all who attend our events, regardless of their personal characteristics. We do not tolerate any form of intimidation, harassment, or disrespectful conduct at our events.  Participants asked to stop any harassing behaviour are expected to comply immediately.  The event organisers may take further action, including warning the offender or expulsion from the event.  If you are being harassed, notice that someone else is being harassed, or have any other concerns, contact an event organiser immediately.
 
 ##### Accommodation
 
