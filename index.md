@@ -164,7 +164,9 @@ Registration will open on November 14.
 
 #### Hotels
 
-Please beware that hotel rooms in Amsterdam are scarce, due to the CISCO Live 2025 event, that takes place in Amsterdam in the same week as CSL 2025.
+It appears that CSL 2025 authors are receiving an email from `reservation@g-travelexperts.com` regarding traveling to Amsterdam for this conference. Please beware that this is spam, there is no arrangement at all with this organisation.
+
+Hotel rooms in Amsterdam unfortunately are scarce, due to the CISCO Live 2025 event, that takes place in Amsterdam in the same week as CSL 2025.
 
 There are no hotels in the close vicinity of the conference site.  Information on reaching CWI can be found [here](https://www.cwi.nl/en/about/contact/).
 
