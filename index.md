@@ -41,7 +41,7 @@ Authors must submit their papers through the CSL 2025 Easychair submission site 
 Full proofs may appear in a clearly marked technical appendix which will be read at the reviewers’ discretion.
 Authors are strongly encouraged to include a well written introduction which is directed at all members of the PC.
 
-The papers should be submitted via easychair (the link will be opened in early June).
+The papers should be submitted via [Easychair](https://easychair.org/my/conference?conf=csl2025).
 
 The conference proceedings will be published in [Leibniz International Proceedings in Informatics (LIPIcs)](https://submission.dagstuhl.de/documentation/authors).
 
@@ -144,12 +144,12 @@ Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wi
 - Thomas Zeume (Ruhr University Bochum, Germany)
 - Standa Živný (University of Oxford, UK)
 
-##### Organisation committee:
+##### Organisation committee
 
 - Wan Fokkink (Vrije Universiteit Amsterdam, Netherlands)
 - Emma Triesman (Vrije Universiteit Amsterdam, Netherlands)
 
-#### Venue
+#### Venue and local information
 
 CSL 2025 will take place at [CWI](https://www.cwi.nl/en/), the research institute for mathematics & computer science in the Netherlands. The address is [Science Park 123, 1098 XG Amsterdam](https://www.openstreetmap.org/way/57861985).
 
@@ -157,14 +157,13 @@ CSL 2025 will take place at [CWI](https://www.cwi.nl/en/), the research institut
 ![My Image](/assets/images/cwi.jpg)
 {: refdef}
 
+##### Anti-harassment policy
 
-#### Registration
+We follow the [ACM guidance](https://www.acm.org/about-acm/policy-against-harassment) in our policy against harassment and unacceptable behaviour.  If you witness or experience any such behaviour, please report it to the organisers. 
 
-Registration will open on November 14.
+##### Accommodation
 
-#### Hotels
-
-It appears that CSL 2025 authors are receiving an email from `reservation@g-travelexperts.com` regarding traveling to Amsterdam for this conference. Please beware that this is spam, there is no arrangement at all with this organisation.
+⚠️ It appears that CSL 2025 authors are receiving an email from `reservation@g-travelexperts.com` regarding traveling to Amsterdam for this conference.  Please beware that this is spam, there is no arrangement at all with this organisation.
 
 Hotel rooms in Amsterdam unfortunately are scarce, due to the CISCO Live 2025 event, that takes place in Amsterdam in the same week as CSL 2025.
 
@@ -178,11 +177,18 @@ Three possible suggestions for booking a hotel:
 
 A good website for public transport information is [ov9292](https://9292.nl/en).
 
+
 #### Co-located Workshops
 
-The [12th Logic Mentoring Workshop (LMW@CSL 2025)](https://logic-mentoring-workshop.github.io/csl25/)
+The [12th Logic Mentoring Workshop (LMW@CSL 2025)](https://logic-mentoring-workshop.github.io/csl25/) is co-located with CSL and will take place on Monday, February 10.
+
+
+#### Registration
+
+Registration will open on November 14.
+
 
 #### Contacts
 
 - For scientific matters: Jörg Endrullis and Sylvain Schmitz [csl2025@easychair.org](mailto:csl2025@easychair.org)
-- For organizational matters: Emma Triesman [e.w.triesman@vu.nl](mailto:e.w.triesman@vu.nl)
+- For organisational matters: Emma Triesman [e.w.triesman@vu.nl](mailto:e.w.triesman@vu.nl)
