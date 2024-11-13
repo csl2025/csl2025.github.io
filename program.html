@@ -29,8 +29,11 @@
       #detailed-div {margin-bottom:4em}
       #detailed-div h5 {border-bottom: solid 1px black; margin-top:2em;
                         margin-bottom:1em}
-      #detailed-div dt.session + dd {border-bottom: solid 1px #ccc;
-                                     background-color: #f8f8f8}
+      #detailed-div dt.session + dd {border: solid 1px #ccc;
+                                     background-color: #f8f8f8; padding:1em; border-radius: 5pt }
+      .session + dd dt {font-weight: normal; color: black; float:left; margin-right:1em; margin-left:.5em}
+      .session + dd dd {margin-left: 1.5em}
+      .session + dd dl { padding-top: 5pt; border-top: solid 1px #ccc}
     </style>
   </head>
   <body>
@@ -290,53 +293,61 @@
             <dt class="organisation">08:50–09:00</dt>
             <dd>Opening</dd>
             <dt class="session">09:00–10:00</dt>
-            <dd id="inv1">Invited talk: <a href="https://sites.google.com/site/elainepimentel/">Elaine Pimentel</a></dd>
+            <dd id="inv1"><strong>Invited talk</strong>  <a href="https://sites.google.com/site/elainepimentel/">Elaine Pimentel</a></dd>
             <dt class="break">10:00–10:30</dt>
             <dd>Coffee break</dd>
             <dt class="session">10:30–12:35</dt>
-            <dd id="ses1">Session 1</dd>
+            <dd id="ses1"><strong>Session 1</strong> <!-- <em>Proof Systems and Kleene Algebras</em> <span style="float:right">Chair: TBA</span>
+              <dl>
+                <dt>10:30–10:55</dt><dd class="paper"><span class="authors">Victoria Barrett, Alessio Guglielmi, and Benjamin Ralph</a></span>. <span class="title">A Strictly Linear Subatomic Proof System</span></dd>
+                <dt>10:55–11:20</dt><dd class="paper"><span class="authors">Tim Lyon</span>. <a class="title" href="https://arxiv.org/abs/2410.24053">Unifying Structural and Cyclic Sequent Systems for Gödel-Löb Logic via Syntactic Transformations</a></dd>
+                <dt>11:20–11:45</dt><dd class="paper"><span class="authors">Ian Shillito and Dominik Kirst</span>. <span class="title">Completeness of First-Order Bi-intuitionistic Logic</span></dd>
+                <dt>11:45–12:10</dt><dd class="paper"><span class="authors">Yoshiki Nakamura</span>.  <a class="title" href="https://hal.science/hal-04455882">Finite Relational Semantics for Language Kleene Algebra with Complement</a></dd>
+                <dt>12:10–12:35</dt><dd class="paper"><span class="authors"><span>Leandro Gomes, Patrick Baillot, and Marco Gaboardi</span>. <a class="title" href="https://hal.science/hal-04196675">A Kleene Algebra with Tests for Union Bound Reasoning about Probabilistic Programs</a></dd>
+              </dl>-->
+            </dd>
             <dt class="break">12:35–14:00</dt>
             <dd>Lunch</dd>
             <dt class="session">14:00–15:40</dt>
-            <dd id="ses2">Session 2</dd>
+            <dd id="ses2"><strong>Session 2</strong></dd>
             <dt class="break">15:40–16:10</dt>
             <dd>Coffee break</dd>
             <dt class="session">16:10–17:50</dt>
-            <dd id="ses3">Session 3</dd>
+            <dd id="ses3"><strong>Session 3</strong></dd>
           </dl>
           <!-- Wednesday ------------------------------------>
           <h5 id="wed">Wednesday, February 12</h5>
           <dl>
             <dt class="session">09:00–10:00</dt>
-            <dd id="inv2">Invited talk: <a href="https://staff.science.uva.nl/y.venema/">Yde Venema</a></dd>
+            <dd id="inv2"><strong>Invited talk</strong>  <a href="https://staff.science.uva.nl/y.venema/">Yde Venema</a></dd>
             <dt class="break">10:00–10:30</dt>
             <dd>Coffee break</dd>
             <dt class="session">10:30–12:35</dt>
-            <dd id="ses4">Session 4</dd>  
+            <dd id="ses4"><strong>Session 4</strong> </dd>  
             <dt class="break">12:35–14:00</dt>
             <dd>Lunch</dd>
             <dt class="session">14:00–15:40</dt>
-            <dd id="ses5">Session 5</dd>
+            <dd id="ses5"><strong>Session 5</strong> </dd>
             <dt class="break">15:40–16:10</dt>
             <dd>Coffee break</dd>
             <dt class="session">16:10–17:50</dt>
-            <dd id="ses6">Session 6</dd>
+            <dd id="ses6"><strong>Session 6</strong> </dd>
           </dl>
           <!-- Thursday ------------------------------------>
           <h5 id="thu">Thursday, February 13</h5>
           <dl>
             <dt class="session">09:00–10:00</dt>
-            <dd id="inv3">Invited talk: <a href="https://yforster.de/">Yannick Forster</a></dd>
+            <dd id="inv3"><strong>Invited talk</strong>  <a href="https://yforster.de/">Yannick Forster</a></dd>
             <dt class="break">10:00–10:30</dt>
             <dd>Coffee break</dd>
             <dt class="session">10:30–12:10</dt>
-            <dd id="ses7">Session 7</dd>
+            <dd id="ses7"><strong>Session 7</strong> </dd>
             <dt class="break">12:10–13:30</dt>
             <dd>Lunch</dd>
             <dt class="session">13:30–14:00</dt>
-            <dd id="rasiowa"><a href="https://www.eacsl.org/helena-rasiowa-award-2/">Helena Rasiowa Award</a></dd>
+            <dd id="rasiowa"><strong><a href="https://www.eacsl.org/helena-rasiowa-award-2/">Helena Rasiowa Award</a></strong> </dd>
             <dt class="session">14:00–15:00</dt>
-            <dd id="ackermann"><a href="https://www.eacsl.org/ackermann-award/">Ackermann Award</a></dd>
+            <dd id="ackermann"><strong><a href="https://www.eacsl.org/ackermann-award/">Ackermann Award</a></strong> </dd>
             <dt class="organisation">15:10–15:40</dt>
             <dd>Business meeting</dd>
             <dt class="social">15:45–18:00</dt>
@@ -348,20 +359,19 @@
           <h5 id="fri">Friday, February 14</h5>
           <dl>
             <dt class="session">09:00–10:00</dt>
-            <dd id="inv4">Invited
-            talk: <a href="https://lmf.cnrs.fr/PatriciaBouyer/">Patricia Bouyer-Decitre</a></dd>
+            <dd id="inv4"><strong>Invited talk</strong>  <a href="https://lmf.cnrs.fr/PatriciaBouyer/">Patricia Bouyer-Decitre</a></dd>
             <dt class="break">10:00–10:30</dt>
             <dd>Coffee break</dd>
             <dt class="session">10:30–12:35</dt>
-            <dd id="ses8">Session 8</dd> 
+            <dd id="ses8"><strong>Session 8</strong> </dd> 
             <dt class="break">12:35–14:00</dt>
             <dd>Lunch</dd>
             <dt class="session">14:00–15:40</dt>
-            <dd id="ses9">Session 9</dd>
+            <dd id="ses9"><strong>Session 9</strong> </dd>
             <dt class="break">15:40–16:10</dt>
             <dd>Coffee break</dd>
             <dt class="session">16:10–17:50</dt>
-            <dd id="ses10">Session 10</dd>
+            <dd id="ses10"><strong>Session 10</strong> </dd>
           </dl>
           </div>
           </div>
