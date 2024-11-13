@@ -188,7 +188,15 @@ A good website for public transport information is [ov9292](https://9292.nl/en).
 
 #### Registration
 
-Registration will open on November 14.
+The regular registration fee for CSL 2025, which by default also includes the LMW workshop on Monday, is 670 euro. This includes an annual 20 euro CSL membership fee.
+
+The student fee for CSL 2025, also including LMW, is 405 euro. This includes an annual 5 euro CSL membership fee.
+
+Late registration, from January 11 up to and including February 5 is: regular fee 820 euro, student fee 505 euro.
+
+After February 5, only onsite registration is possible: regular fee 970 euro, student fee 605 euro.
+
+[The registration form can be found here.](https://fd20.formdesk.com/vu-onlinepayment/Beta_Registration_form_CSL_2025)
 
 
 ---
