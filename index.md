@@ -21,6 +21,11 @@ It is an interdisciplinary conference, spanning across both basic and applicatio
 
 CSL 2025 will be held on the 10th–14th of February 2025 and is organised jointly by the [Theoretical Computer Science group](https://www.cs.vu.nl/~tcs/) at the Vrije Universiteit Amsterdam and [ILLC](https://www.illc.uva.nl/) at the University of Amsterdam.
 
+{:refdef: style="text-align: center;"}
+![My Image](/_includes/griffioen.png)
+![My Image](/_includes/uva.png)
+{: refdef}
+
 #### Co-located Workshops
 
 The [12th Logic Mentoring Workshop (LMW@CSL 2025)](https://logic-mentoring-workshop.github.io/csl25/) is co-located with CSL and will take place on Monday, February 10.
