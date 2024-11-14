@@ -20,8 +20,8 @@ title: CSL 2025
 It is an interdisciplinary conference, spanning across both basic and application oriented research in mathematical logic and computer science.
 
 {:refdef: style="text-align: center;"}
-![My Image](/assets/images/griffioen.png){: height="20hv" }
-![My Image](/assets/images/uva.jpg){: height="20hv" }
+![My Image](/assets/images/griffioen.png){: height="50hv" }
+![My Image](/assets/images/uva.png){: height="50hv" }
 {: refdef}
 
 CSL 2025 will be held on the 10th–14th of February 2025 and is organised jointly by the [Theoretical Computer Science group](https://www.cs.vu.nl/~tcs/) at the Vrije Universiteit Amsterdam and [ILLC](https://www.illc.uva.nl/) at the University of Amsterdam.
