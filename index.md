@@ -160,7 +160,7 @@ Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wi
 
 CSL 2025 will take place at [CWI](https://www.cwi.nl/en/), the research institute for mathematics & computer science in the Netherlands. The address is [Science Park 123, 1098 XG Amsterdam](https://www.openstreetmap.org/way/57861985).
 
-{:refdef: style="text-align: center;"}
+{:refdef: style="text-align: center; size: 50%;"}
 ![My Image](/assets/images/cwi.jpg)
 {: refdef}
 
