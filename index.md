@@ -19,6 +19,11 @@ title: CSL 2025
 [CSL](https://www.eacsl.org/csl-conferences/) is the annual conference of the European Association for Computer Science Logic ([EACSL](https://www.eacsl.org/)).
 It is an interdisciplinary conference, spanning across both basic and application oriented research in mathematical logic and computer science.
 
+{:refdef: style="text-align: center;"}
+![My Image](/assets/images/griffioen.png){: height="20hv" }
+![My Image](/assets/images/uva.jpg){: height="20hv" }
+{: refdef}
+
 CSL 2025 will be held on the 10th–14th of February 2025 and is organised jointly by the [Theoretical Computer Science group](https://www.cs.vu.nl/~tcs/) at the Vrije Universiteit Amsterdam and [ILLC](https://www.illc.uva.nl/) at the University of Amsterdam.
 
 #### Co-located Workshops
@@ -160,8 +165,8 @@ Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wi
 
 CSL 2025 will take place at [CWI](https://www.cwi.nl/en/), the research institute for mathematics & computer science in the Netherlands. The address is [Science Park 123, 1098 XG Amsterdam](https://www.openstreetmap.org/way/57861985).
 
-{:refdef: style="text-align: center; width: 60%;"}
-![My Image](/assets/images/cwi.jpg)
+{:refdef: style="text-align: center;"}
+![My Image](/assets/images/cwi.jpg){: width="60%" }
 {: refdef}
 
 ##### Anti-harassment policy
