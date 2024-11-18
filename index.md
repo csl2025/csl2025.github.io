@@ -30,7 +30,7 @@ CSL 2025 will be held on the 10th–14th of February 2025 and is organised joint
 
 Two workshops are co-located with CSL, and will take place on Monday, February 10:
 
-The [12th Logic Mentoring Workshop (LMW@CSL 2025)](https://logic-mentoring-workshop.github.io/csl25/)
+[12th Logic Mentoring Workshop (LMW@CSL 2025)](https://logic-mentoring-workshop.github.io/csl25/)
 
 [Workshop on Learning and Logic (LeaLog@CSL 2025)](https://sites.google.com/view/lealog25)
 
