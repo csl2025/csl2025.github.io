@@ -201,7 +201,7 @@ The regular registration fee for CSL 2025, which by default also includes the LM
 
 The student fee for CSL 2025, also including LMW or LeaLog, is 405 euro. This includes an annual 5 euro EACSL membership fee.
 
-If you want to register only for one of the two workshops, please select the LMW option of 50 euro, but indicate which of the two workshops you intend to take part in.
+If you want to register only for one of the two workshops, please select the LMW option of 50 euro.
 
 Late registration, from January 11 up to and including February 5 is: regular fee 820 euro, student fee 505 euro.
 
