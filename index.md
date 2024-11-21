@@ -187,7 +187,7 @@ There are no hotels in the close vicinity of the conference site.  Information o
 
 Three possible suggestions for booking a hotel:
 
-- Take a hotel in the city center, close to the central railway station.  From there you can take [a train to Amsterdam Science Park railway station](https://www.ns.nl/en/journeyplanner/#/?vertrek=Amsterdam%20Centraal&vertrektype=treinstation&aankomst=Amsterdam%20Science%20Park&aankomsttype=treinstation) (4 times per hour, takes 9 minutes), which is within close walking distance of the conference site.
+- Take a hotel in the city center, close to the central railway station.  From there you can take [a train to Amsterdam Science Park railway station](https://www.ns.nl/en/journeyplanner/#/?vertrek=Amsterdam%20Centraal&vertrektype=treinstation&aankomst=Amsterdam%20Science%20Park&aankomsttype=treinstation) (4 times per hour, takes 9 minutes), which is within walking distance of the conference site.
 - Take a hotel close to [Amstel railway station](https://9292.nl/en/amsterdam/bushalte-amstelstation) or [Muiderpoort railway station](https://9292.nl/en/amsterdam/bus-tramhalte-muiderpoortstation), and use [bus 40](https://reisinfo.gvb.nl/en/travel-information/line/GVB/40), which stops right in front of the conference site.
 - Act like the Dutch, and rent a bike.
 
@@ -205,9 +205,9 @@ Please indicate (in the allergies field) if you intend to attend a workshop, and
 
 If you want to register for one of the (or both) workshops, please select the LMW option of 50 euro, and indicate (in the allergies field) which workshop(s) you will attend.
 
-Late registration, from January 11 up to and including February 5 is: regular fee 820 euro, student fee 505 euro.
+Late registration, from January 11 up to and including February 5 is: regular fee 820 euro, student fee 505 euro, only workshop 75 euro.
 
-After February 5, only onsite registration is possible: regular fee 970 euro, student fee 605 euro.
+After February 5, only onsite registration is possible: regular fee 970 euro, student fee 605 euro, only workshop 75 euro.
 
 [The registration form can be found here.](https://fd20.formdesk.com/vu-onlinepayment/Beta_Registration_form_CSL_2025)
 
