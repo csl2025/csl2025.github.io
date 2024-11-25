@@ -203,7 +203,7 @@ The student fee for CSL 2025, also including LMW and LeaLog, is 405 euro. This i
 
 Please indicate (in the allergies field) if you intend to attend a workshop, and if so, which one (or both).
 
-If you want to register for one of the (or both) workshops, please select the LMW option of 50 euro, and indicate (in the allergies field) which workshop(s) you will attend.
+If you want to register for one of the (or both) workshops, please select the LMW option of 50 euro, and indicate (in the allergies field) which workshop(s) you will attend. This registration fee includes free attendance of the CSL 2025 welcome reception on Monday afternoon.
 
 Late registration, from January 11 up to and including February 5 is: regular fee 820 euro, student fee 505 euro, only workshop 75 euro.
 
