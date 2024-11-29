@@ -12,7 +12,7 @@ title: CSL 2025
 ![My Image](/assets/images/amsterdam12.jpg)
 {: refdef}
 
-### 10-14 February 2025, Amsterdam, Netherlands
+### 10-14 February 2025, Amsterdam, the Netherlands
 
 #### About
 
@@ -117,7 +117,7 @@ Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wi
   <li><img src="assets/images/patricia_bouyer.jpeg" style="width:70px; height:70px; border-radius:50%;padding:1pt;margin-right:.4em" alt="Patricia Bouyer-Decitre"/> Patricia Bouyer-Decitre (CNRS, ENS Paris-Saclay, France)</li>
   <li><img src="assets/images/yannick_forster.png" style="width:70px; height:70px; border-radius:50%;padding:1pt;margin-right:.4em" alt="Yannick Forster"/> Yannick Forster (Inria Paris, France)</li>
   <li><img src="assets/images/elaine_pimentel.jpg" style="width:70px; height:70px; border-radius:50%;padding:1pt;margin-right:.4em" alt="Elaine Pimentel"/> Elaine Pimentel (University College London, UK)</li>
-  <li><img src="assets/images/yde_venema.jpg" style="width:70px; height:70px; border-radius:50%;padding:1pt;margin-right:.4em" alt="Yde Venema"/> Yde Venema (Universiteit van Amsterdam, Netherlands)</li>
+  <li><img src="assets/images/yde_venema.jpg" style="width:70px; height:70px; border-radius:50%;padding:1pt;margin-right:.4em" alt="Yde Venema"/> Yde Venema (Universiteit van Amsterdam, the Netherlands)</li>
 </ul>
 
 ---
@@ -126,7 +126,7 @@ Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wi
 
 ##### Chairs
 
-- Jörg Endrullis (Vrije Universiteit Amsterdam, Netherlands)
+- Jörg Endrullis (Vrije Universiteit Amsterdam, the Netherlands)
 - Sylvain Schmitz (Université Paris Cité, France)
 
 ##### Program Committee
@@ -161,8 +161,8 @@ Read more about the contribution of [Helena Rasiowa](https://en.wikipedia.org/wi
 
 ##### Organisation committee
 
-- Wan Fokkink (Vrije Universiteit Amsterdam, Netherlands)
-- Emma Triesman (Vrije Universiteit Amsterdam, Netherlands)
+- Wan Fokkink (Vrije Universiteit Amsterdam, the Netherlands)
+- Emma Triesman (Vrije Universiteit Amsterdam, the Netherlands)
 
 ---
 #### Venue and local information
