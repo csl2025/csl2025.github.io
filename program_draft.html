@@ -622,7 +622,20 @@ theory.
           <h5 id="wed">Wednesday, February 12</h5>
           <dl>
             <dt class="session">09:00–10:00</dt>
-            <dd id="inv2"><strong>Invited talk</strong>  <a href="https://staff.science.uva.nl/y.venema/">Yde Venema</a></dd>
+            <dd id="inv2"><strong>Invited talk</strong>  <a href="https://staff.science.uva.nl/y.venema/">Yde Venema</a> <span style="float:right">Chair: TBA</span>
+              <dl><dt>09:00–10:00</dt>
+                <dd>
+              <span class="authors">Yde Venema</span>.<br/>
+              <span class="title">Modal Automata: Analysing Modal Fixpoint Logics, One Step at a Time</span>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper5" aria-controls="paper5" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
+              <div class="collapse abstract"
+                   id="paper5">
+                <p><span class="abstract-title">Abstract.</span> We present and investigate a general framework for studying modal fixpoint logics and some related
+versions of monadic second-order logic, by means of certain finite automata that operate on Kripke
+structures. Characteristic of these modal automata is that the co-domain of their transition function
+is a set of formulas of a so-called one-step logic. The motivation for taking this perspective is that if
+a logic is characterised by a class of modal automata, many of its properties are already determined
+at the level of the much simpler one-step logic.</p></div></dd></dl></dd>
             <dt class="break">10:00–10:30</dt>
             <dd>Coffee break</dd>
             <dt class="session">10:30–12:35</dt>
@@ -935,7 +948,55 @@ are presented in explicit form and via systems of equations.
           <h5 id="thu">Thursday, February 13</h5>
           <dl>
             <dt class="session">09:00–10:00</dt>
-            <dd id="inv3"><strong>Invited talk</strong>  <a href="https://yforster.de/">Yannick Forster</a></dd>
+            <dd id="inv3"><strong>Invited talk</strong>  <a href="https://yforster.de/">Yannick Forster</a> <span style="float:right">Chair: TBA</span>
+              <dl><dt>09:00–10:00</dt><dd>
+              <span class="authors">Yannick Forster</span>.<br/>
+              <span class="title">Synthetic mathematics for the mechanisation of computability theory and logic</span>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper3" aria-controls="paper3" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
+              <div class="collapse abstract" id="paper3">
+                <p><span class="abstract-title">Abstract.</span> Mathematical practice in most areas of mathematics is based on the assumption that proofs could
+be made fully formal in a chosen foundation in principle. This assumption is backed by partial
+attempts at formalisation and by full mechanisation of various areas of mathematics in various proof
+assistants and various foundations. Areas that have been largely neglected for computer-assisted
+and machine-checked proofs are computability theory and logic: Fundamental results like Gödel’s
+second incompleteness theorem in its stronger forms due to Kleene and Rosser, Löb’s theorem, Post’s
+theorem connecting the arithmetical hierarchy and Turing jumps, or the Friedberg-Muĉnik theorem
+solving Post’s problem have not or only very recently been re-produced in proof assistants. This is
+due to the fact that making these arguments formal is several orders of magnitude more involved
+than formalising other areas of mathematics, due to the amount of invisible mathematics (a term
+coined by Andrej Bauer) involved.</p><p>
+In computability theory, invisible arguments occur mainly behind proofs that a certain intuitively
+sketched procedure is computable in – citing Emil Post – “forbidding, diverse and alien formalisms in
+which this [...] work of Gödel, Church, Turing, Kleene, Rosser [...] is embodied.” For instance, there
+have been various approaches of formalising Turing machines, all to the ultimate dissatisfaction of
+the respective authors, and none going further than constructing a universal machine and proving
+the halting problem undecidable. Professional computability theorist and teachers of computability
+theory thus rely on the informal Church Turing thesis to carry out their work and only argue the
+computability of described algorithms informally.</p><p>
+For computability theory, a way out was proposed in the 1980s by Fred Richman and developed
+during the last decade by Andrej Bauer: Synthetic computability theory, where one assumes axioms
+in a constructive foundation which essentially identify all (constructively definable) functions with
+computable functions. A drawback of the approach is that assuming such an axiom on top of the
+axiom of countable choice — which is routinely assumed in this branch of constructive mathematics
+and computable analysis — is that the law of excluded middle, i.e. classical logic, becomes invalid.
+Computability theory is however, as all mainstream branches of mathematics, making routine use of
+the axiom of excluded middle.</p><p>
+In the case of logic, the invisible mathematics usually is either centered around encoding formulas
+and proofs as numbers using Gödel or similar encodings or about provability arguments that certain
+results can be proved in restricted proof systems such as Peano arithmetic. In several settings,
+synthetic computability arguments can be employed to mechanise these proofs.
+We observe that a slight foundational shift rectifies the situation: By basing synthetic computability theory in the Calculus of Inductive Constructions, the type theory underlying amongst others
+the Coq and Lean proof assistants, where countable choice is independent and thus not provable,
+axioms for synthetic computability are compatible with the law of excluded middle. This insight
+can be used to finally mechanise computability theory and logic, in an elegant, concise way where
+invisible arguments stay invisible: with Felix Jahn I have mechanised arguments related to many-one
+and truth-table reduction theory (published at CSL ’23), Dominik Kirst and Benjamin Peters have
+presented Gödel’s first incompleteness theorem in this style (at CSL ’23), and in collaboration with
+Dominik Kirst and Niklas Mück I have given a proof of Post’s hierarchy theorem (at CSL ’24).
+In this invited talk, I will give a broader overview of this line of research investigating a mechanised
+synthetic approach to logic and computability theory. In particular, I will discuss a Coq library of
+undecidability proofs, results in the theory of reducibility degrees, constructive reverse analysis of
+theorems, as well as generalised incompleteness results such as Löb’s theorem.</p></div></dd></dl></dd>
             <dt class="break">10:00–10:30</dt>
             <dd>Coffee break</dd>
             <dt class="session">10:30–11:30</dt>
@@ -1020,7 +1081,35 @@ expansion, by showing that the latter can be presented as an isometric transform
           <h5 id="fri">Friday, February 14</h5>
           <dl>
             <dt class="session">09:00–10:00</dt>
-            <dd id="inv4"><strong>Invited talk</strong>  <a href="https://lmf.cnrs.fr/PatriciaBouyer/">Patricia Bouyer-Decitre</a></dd>
+            <dd id="inv4"><strong>Invited talk</strong>  <a href="https://lmf.cnrs.fr/PatriciaBouyer/">Patricia Bouyer-Decitre</a> <span style="float:right">Chair: TBA</span>
+              <dl><dt>09:00–10:00</dt>
+                <dd>
+              <span class="authors">Patricia Bouyer-Decitre</span>.<br/>
+              <span class="title">On the Probabilistic and Statistical Verification of Infinite Markov Chains</span>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper2" aria-controls="paper2" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
+              <div class="collapse abstract"
+                   id="paper2">
+                <p><span class="abstract-title">Abstract.</span> The verification of infinite-state Markov chains is a challenging problem, even when those chains
+are described by structured high-level models. In 2007, Abdulla et al. introduced the concept of
+decisiveness (<i>Log. Meth. Comput. Sci.</i>), and showed that a natural approximation scheme could be applied to infinite Markov
+chains that are decisive. This was, up to our knowledge, the unique generic scheme that could be
+widely applied to (decisive) infinite Markov chains providing guarantees on the computed values
+(under some mild assumptions for effectiveness). On the other hand, statistical model-checking is
+a very efficient method that can be used for estimating probabilities in stochastic systems (Younes et al., SBMF’10, <i>Inf. Comput.</i> 2006).
+We explain in this talk that decisiveness is also a key concept that allows to apply such statistical
+methods to infinite Markov chains.</p><p>
+While decisiveness is a crucial property, not all Markov chains are decisive, and it is therefore
+desirable to propose methods to analyze non-decisive Markov chains. Importance sampling (Kahn and Harris, <i>Natl.
+Bureau Stands.</i> 1951) is a
+method which has been proposed to improve efficiency of statistical model-checking, in particular
+for estimating probabilities of rare events in stochastic systems. The idea is to biase the original
+chain, and to estimate the probabilities in the biased chain; guarantees can sometimes be given, as
+studied for instance in (Barbot, Haddad, and Picaronny, TACAS’12).</p><p>
+In this talk, we will explain how we use the importance sampling idea to turn a non-decisive
+Markov chain into a biased decisive Markov chain, in which we can estimate probabilities (with
+guarantees). We apply the general approach to a class of probabilistic pushdown automata. Our
+algorithms have been implemented in the tool Cosmos (Ballarini et al., <i>Perf. Eval.</i> 2015), and we discuss the methodology for
+experiments as well as our (partial) conclusions.</p></div></dd></dl></dd>
             <dt class="break">10:00–10:30</dt>
             <dd>Coffee break</dd>
             <dt class="session">10:30–12:35</dt>
@@ -1238,7 +1327,7 @@ also have some partial extensions of the second result to some uncountable cases
                   <span class="title">Undefinability of Approximation of 2-to-2 Games</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper16" aria-controls="paper16" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
                   <div class="collapse abstract" id="paper16">
-                    <p><span class="abstract-title">Abstract.</span> Recent work by Atserias and Dawar (arXiv, 2019) and Tucker-Foltz (Log. Meth. Comput. Sci., 2024) has established undefinability results
+                    <p><span class="abstract-title">Abstract.</span> Recent work by Atserias and Dawar (arXiv, 2019) and Tucker-Foltz (<i>Log. Meth. Comput. Sci.</i>, 2024) has established undefinability results
 in fixed-point logic with counting (FPC) corresponding to many classical complexity results from the
 hardness of approximation. In this line of work, NP-hardness results are turned into unconditional
 FPC undefinability results. We extend this work by showing the FPC undefinability of any constant
