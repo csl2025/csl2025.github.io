@@ -622,7 +622,20 @@ theory.
           <h5 id="wed">Wednesday, February 12</h5>
           <dl>
             <dt class="session">09:00–10:00</dt>
-            <dd id="inv2"><strong>Invited talk</strong>  <a href="https://staff.science.uva.nl/y.venema/">Yde Venema</a></dd>
+            <dd id="inv2"><strong>Invited talk</strong>  <a href="https://staff.science.uva.nl/y.venema/">Yde Venema</a> <span style="float:right">Chair: TBA</span>
+              <dl><dt>09:00–10:00</dt>
+                <dd>
+              <span class="authors">Yde Venema</span>.<br/>
+              <span class="title">Modal Automata: Analysing Modal Fixpoint Logics, One Step at a Time</span>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper5" aria-controls="paper5" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
+              <div class="collapse abstract"
+                   id="paper5">
+                <p><span class="abstract-title">Abstract.</span> We present and investigate a general framework for studying modal fixpoint logics and some related
+versions of monadic second-order logic, by means of certain finite automata that operate on Kripke
+structures. Characteristic of these modal automata is that the co-domain of their transition function
+is a set of formulas of a so-called one-step logic. The motivation for taking this perspective is that if
+a logic is characterised by a class of modal automata, many of its properties are already determined
+at the level of the much simpler one-step logic.</p></div></dd></dl></dd>
             <dt class="break">10:00–10:30</dt>
             <dd>Coffee break</dd>
             <dt class="session">10:30–12:35</dt>
@@ -935,7 +948,55 @@ are presented in explicit form and via systems of equations.
           <h5 id="thu">Thursday, February 13</h5>
           <dl>
             <dt class="session">09:00–10:00</dt>
-            <dd id="inv3"><strong>Invited talk</strong>  <a href="https://yforster.de/">Yannick Forster</a></dd>
+            <dd id="inv3"><strong>Invited talk</strong>  <a href="https://yforster.de/">Yannick Forster</a> <span style="float:right">Chair: TBA</span>
+              <dl><dt>09:00–10:00</dt><dd>
+              <span class="authors">Yannick Forster</span>.<br/>
+              <span class="title">Synthetic Mathematics for the Mechanisation of Computability Theory and Logic</span>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper3" aria-controls="paper3" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
+              <div class="collapse abstract" id="paper3">
+                <p><span class="abstract-title">Abstract.</span> Mathematical practice in most areas of mathematics is based on the assumption that proofs could
+be made fully formal in a chosen foundation in principle. This assumption is backed by partial
+attempts at formalisation and by full mechanisation of various areas of mathematics in various proof
+assistants and various foundations. Areas that have been largely neglected for computer-assisted
+and machine-checked proofs are computability theory and logic: Fundamental results like Gödel’s
+second incompleteness theorem in its stronger forms due to Kleene and Rosser, Löb’s theorem, Post’s
+theorem connecting the arithmetical hierarchy and Turing jumps, or the Friedberg-Muĉnik theorem
+solving Post’s problem have not or only very recently been re-produced in proof assistants. This is
+due to the fact that making these arguments formal is several orders of magnitude more involved
+than formalising other areas of mathematics, due to the amount of invisible mathematics (a term
+coined by Andrej Bauer) involved.</p><p>
+In computability theory, invisible arguments occur mainly behind proofs that a certain intuitively
+sketched procedure is computable in – citing Emil Post – “forbidding, diverse and alien formalisms in
+which this [...] work of Gödel, Church, Turing, Kleene, Rosser [...] is embodied.” For instance, there
+have been various approaches of formalising Turing machines, all to the ultimate dissatisfaction of
+the respective authors, and none going further than constructing a universal machine and proving
+the halting problem undecidable. Professional computability theorist and teachers of computability
+theory thus rely on the informal Church Turing thesis to carry out their work and only argue the
+computability of described algorithms informally.</p><p>
+For computability theory, a way out was proposed in the 1980s by Fred Richman and developed
+during the last decade by Andrej Bauer: Synthetic computability theory, where one assumes axioms
+in a constructive foundation which essentially identify all (constructively definable) functions with
+computable functions. A drawback of the approach is that assuming such an axiom on top of the
+axiom of countable choice — which is routinely assumed in this branch of constructive mathematics
+and computable analysis — is that the law of excluded middle, i.e. classical logic, becomes invalid.
+Computability theory is however, as all mainstream branches of mathematics, making routine use of
+the axiom of excluded middle.</p><p>
+In the case of logic, the invisible mathematics usually is either centered around encoding formulas
+and proofs as numbers using Gödel or similar encodings or about provability arguments that certain
+results can be proved in restricted proof systems such as Peano arithmetic. In several settings,
+synthetic computability arguments can be employed to mechanise these proofs.
+We observe that a slight foundational shift rectifies the situation: By basing synthetic computability theory in the Calculus of Inductive Constructions, the type theory underlying amongst others
+the Coq and Lean proof assistants, where countable choice is independent and thus not provable,
+axioms for synthetic computability are compatible with the law of excluded middle. This insight
+can be used to finally mechanise computability theory and logic, in an elegant, concise way where
+invisible arguments stay invisible: with Felix Jahn I have mechanised arguments related to many-one
+and truth-table reduction theory (published at CSL ’23), Dominik Kirst and Benjamin Peters have
+presented Gödel’s first incompleteness theorem in this style (at CSL ’23), and in collaboration with
+Dominik Kirst and Niklas Mück I have given a proof of Post’s hierarchy theorem (at CSL ’24).
+In this invited talk, I will give a broader overview of this line of research investigating a mechanised
+synthetic approach to logic and computability theory. In particular, I will discuss a Coq library of
+undecidability proofs, results in the theory of reducibility degrees, constructive reverse analysis of
+theorems, as well as generalised incompleteness results such as Löb’s theorem.</p></div></dd></dl></dd>
             <dt class="break">10:00–10:30</dt>
             <dd>Coffee break</dd>
             <dt class="session">10:30–11:30</dt>
@@ -951,27 +1012,22 @@ are presented in explicit form and via systems of equations.
               <dl>
                 <dt>13:45–14:10</dt>
                 <dd class="paper">
-                  <span class="authors">Andrei Draghici, Radosław Piórkowski, and Andrew Ryzhikov</span>.<br/>
-                  <span class="title">Boundedness of Cost Register Automata over the Integer Min-plus Semiring</span>
-                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper20" aria-controls="paper20" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
-                  <div class="collapse abstract" id="paper20">
-                    <p><span class="abstract-title">Abstract.</span> Cost register automata (CRAs) are deterministic automata with registers taking values from a
-fixed semiring. A CRA computes a function from words to values from this semiring. CRAs are
-tightly related to well-studied weighted automata. Given a CRA, the boundedness problem asks
-if there exists a natural number N such that for every word, the value of the CRA on this word
-does not exceed N. This problem is known to be undecidable for the class of linear CRAs over
-the integer min-plus semiring (ℤ ∪ {+∞}, min, +), but very little is known about its subclasses. In
-this paper, we study boundedness of copyless linear CRAs with resets over the integer min-plus
-semiring. We show that it is decidable for such CRAs with at most two registers. More specifically,
-we show that it is, respectively, NL-complete and in coNP if the numbers in the input are presented
-in unary and binary. We also provide complexity results for two classes with an arbitrary number
-of registers. Namely, we show that for CRAs that use the minimum operation only in the output
-function, boundedness is PSPACE-complete if transferring values to other registers is allowed, and is
-coNP-complete otherwise. Finally, for each fᵢ in the hierarchy of fast-growing functions, we provide
-a stateless CRA with i registers whose output exceeds N only on runs longer than fᵢ(N). Our
-construction yields a non-elementary lower bound already for four registers.
-                    </p>
-                  </div>
+                  <span class="authors">Reijo Jaakkola, Antti Kuusisto, and Miikka Vilander</span>.<br/>
+                  <span class="title">Description Complexity of Unary Structures in First-Order Logic with Links to Entropy</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper17" aria-controls="paper17" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper17">
+                    <p><span class="abstract-title">Abstract.</span> The description complexity of a model is the length of the shortest formula that defines the model.
+We study the description complexity of unary structures in first-order logic FO, also drawing links
+to semantic complexity in the form of entropy. The class of unary structures provides, e.g., a
+simple way to represent tabular Boolean data sets as relational structures. We define structures
+with FO-formulas that are strictly linear in the size of the model as opposed to using the naive
+quadratic ones, and we use arguments based on formula size games to obtain related lower bounds
+for description complexity. For a typical structure the upper and lower bounds in fact match up to
+a sublinear term, leading to a precise asymptotic result on the expected description complexity of a
+randomly selected structure. We then give bounds on the relationship between Shannon entropy
+and description complexity. We extend this relationship also to Boltzmann entropy by establishing
+an asymptotic match between the two entropies. Despite the simplicity of unary structures, our
+arguments require the use of formula size games, Stirling’s approximation and Chernoff bounds.
                 </dd>
                 <dt>14:10–14:35</dt>
                 <dd class="paper">
@@ -1025,40 +1081,139 @@ expansion, by showing that the latter can be presented as an isometric transform
           <h5 id="fri">Friday, February 14</h5>
           <dl>
             <dt class="session">09:00–10:00</dt>
-            <dd id="inv4"><strong>Invited talk</strong>  <a href="https://lmf.cnrs.fr/PatriciaBouyer/">Patricia Bouyer-Decitre</a></dd>
+            <dd id="inv4"><strong>Invited talk</strong>  <a href="https://lmf.cnrs.fr/PatriciaBouyer/">Patricia Bouyer-Decitre</a> <span style="float:right">Chair: TBA</span>
+              <dl><dt>09:00–10:00</dt>
+                <dd>
+              <span class="authors">Patricia Bouyer-Decitre</span>.<br/>
+              <span class="title">On the Probabilistic and Statistical Verification of Infinite Markov Chains</span>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper2" aria-controls="paper2" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
+              <div class="collapse abstract"
+                   id="paper2">
+                <p><span class="abstract-title">Abstract.</span> The verification of infinite-state Markov chains is a challenging problem, even when those chains
+are described by structured high-level models. In 2007, Abdulla et al. introduced the concept of
+decisiveness (<i>Log. Meth. Comput. Sci.</i>), and showed that a natural approximation scheme could be applied to infinite Markov
+chains that are decisive. This was, up to our knowledge, the unique generic scheme that could be
+widely applied to (decisive) infinite Markov chains providing guarantees on the computed values
+(under some mild assumptions for effectiveness). On the other hand, statistical model-checking is
+a very efficient method that can be used for estimating probabilities in stochastic systems (Younes et al., SBMF’10, <i>Inf. Comput.</i> 2006).
+We explain in this talk that decisiveness is also a key concept that allows to apply such statistical
+methods to infinite Markov chains.</p><p>
+While decisiveness is a crucial property, not all Markov chains are decisive, and it is therefore
+desirable to propose methods to analyze non-decisive Markov chains. Importance sampling (Kahn and Harris, <i>Natl.
+Bureau Stands.</i> 1951) is a
+method which has been proposed to improve efficiency of statistical model-checking, in particular
+for estimating probabilities of rare events in stochastic systems. The idea is to biase the original
+chain, and to estimate the probabilities in the biased chain; guarantees can sometimes be given, as
+studied for instance in (Barbot, Haddad, and Picaronny, TACAS’12).</p><p>
+In this talk, we will explain how we use the importance sampling idea to turn a non-decisive
+Markov chain into a biased decisive Markov chain, in which we can estimate probabilities (with
+guarantees). We apply the general approach to a class of probabilistic pushdown automata. Our
+algorithms have been implemented in the tool Cosmos (Ballarini et al., <i>Perf. Eval.</i> 2015), and we discuss the methodology for
+experiments as well as our (partial) conclusions.</p></div></dd></dl></dd>
             <dt class="break">10:00–10:30</dt>
             <dd>Coffee break</dd>
             <dt class="session">10:30–12:35</dt>
             <dd id="ses8"><strong>Session 8</strong>
-              <em>???</em> <span style="float:right">Chair: TBA</span>
+              <em>Games and Automata</em> <span style="float:right">Chair: TBA</span>
               <dl>
                 <dt>10:30–10:55</dt>
                 <dd class="paper">
-                  <span class="authors">Reijo Jaakkola, Antti Kuusisto, and Miikka Vilander</span>.<br/>
-                  <span class="title">Description Complexity of Unary Structures in First-Order Logic with Links to Entropy</span>
-                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper46" aria-controls="paper46" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
-                  <div class="collapse abstract" id="paper46">
-                    <p><span class="abstract-title">Abstract.</span>
+                  <span class="authors">Andrew Scoones, Mahsa Shirmohammadi, and James Worrell</span>.<br/>
+                  <span class="title">Reachability for Multi-Priced Timed Automata with Positive and Negative Rates</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper18" aria-controls="paper18" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper18">
+                    <p><span class="abstract-title">Abstract.</span> Multi-priced timed automata (MPTA) are timed automata with observer variables whose derivatives
+can change from one location to another. Observers are read-once variables: they do not affect the
+control flow of the automaton and their value is output only at the end of a run. Thus MPTA lie
+between timed and hybrid automata in expressiveness. Previous work considered observers with
+non-negative slope in every location. In this paper we treat observers that have both positive and
+negative rates. Our main result is an algorithm to decide a gap version of the reachability problem
+for this variant of MPTA. We translate the gap reachability problem into a gap satisfiability problem
+for mixed integer-real systems of nonlinear constraints. Our main technical contribution – a result of
+independent interest – is a procedure to solve such contraints via a combination of branch-and-bound
+and relaxation-and-rounding.
                     </p>
                   </div>
                 </dd>
                 <dt>10:55–11:20</dt>
                 <dd class="paper">
-                  <span class="authors">Andrew Scoones, Mahsa Shirmohammadi, and James Worrell</span>.<br/>
-                  <span class="title">Reachability for Multi-Priced Timed Automata with Positive and Negative Rates</span>
-                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper46" aria-controls="paper46" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
-                  <div class="collapse abstract" id="paper46">
-                    <p><span class="abstract-title">Abstract.</span>
+                  <span class="authors">Shaull Almagor, Michaël Cadilhac, and Asaf Yeshurun</span>.<br/>
+                  <span class="title">Two-Way One-Counter Nets Revisited</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper19" aria-controls="paper19" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper19">
+                    <p><span class="abstract-title">Abstract.</span> One Counter Nets (OCNs) are finite-state automata equipped with a counter that cannot become
+negative, but cannot be explicitly tested for zero. Their close connection to various other models
+(e.g., PDAs, Vector Addition Systems, and Counter Automata) make them an attractive modeling
+tool.</p><p>
+The two-way variant of OCNs (2-OCNs) was introduced in the 1980’s and shown to be more
+expressive than OCNs, so much so that the emptiness problem is undecidable already in the
+deterministic model (2-DOCNs).</p><p>
+In a first part, we study the emptiness problem of natural restrictions of 2-OCNs, under the light
+of modern results about Vector Addition System with States (VASS). We show that emptiness is
+decidable for 2-OCNs over bounded languages (i.e., languages contained in <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <msubsup>
+      <mi>a</mi>
+      <mn>1</mn>
+      <mo>∗</mo>
+    </msubsup>
+    <msubsup>
+      <mi>a</mi>
+      <mn>2</mn>
+      <mo>∗</mo>
+    </msubsup>
+    <mo>⋯</mo>
+  </mrow>
+  <mrow>
+    <msubsup>
+      <mi>a</mi>
+      <mi>k</mi>
+      <mo>∗</mo>
+    </msubsup>
+  </mrow>
+</math>), and decidable
+and Ackermann-complete for sweeping 2-OCNs, where the head direction only changes at the
+end-markers. Both decidability results revolve around reducing the problem to VASS reachability,
+but they rely on strikingly different approaches. In a second part, we study the expressive power
+of 2-OCNs, showing an array of connections between bounded languages, sweeping 2-OCNs, and
+semilinear languages. Most noteworthy among these connections, is that the bounded languages
+recognized by sweeping 2-OCNs are precisely those that are semilinear. Finally, we establish an
+intricate pumping lemma for 2-DOCNs and use it to show that there are OCN languages that are
+not 2-DOCN recognizable, improving on the known result that there are such 2-OCN languages.
                     </p>
                   </div>
                 </dd>
                 <dt>11:20–11:45</dt>
                 <dd class="paper">
-                  <span class="authors">Shaull Almagor, Michaël Cadilhac, and Asaf Yeshurun</span>.<br/>
-                  <span class="title">Two-Way One-Counter Nets Revisited</span>
-                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper46" aria-controls="paper46" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
-                  <div class="collapse abstract" id="paper46">
-                    <p><span class="abstract-title">Abstract.</span>
+                  <span class="authors">Andrei Draghici, Radosław Piórkowski, and Andrew Ryzhikov</span>.<br/>
+                  <span class="title">Boundedness of Cost Register Automata over the Integer Min-plus Semiring</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper20" aria-controls="paper20" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper20">
+                    <p><span class="abstract-title">Abstract.</span> Cost register automata (CRAs) are deterministic automata with registers taking values from a
+fixed semiring. A CRA computes a function from words to values from this semiring. CRAs are
+tightly related to well-studied weighted automata. Given a CRA, the boundedness problem asks
+if there exists a natural number N such that for every word, the value of the CRA on this word
+does not exceed N. This problem is known to be undecidable for the class of linear CRAs over
+the integer min-plus semiring (ℤ ∪ {+∞}, min, +), but very little is known about its subclasses. In
+this paper, we study boundedness of copyless linear CRAs with resets over the integer min-plus
+semiring. We show that it is decidable for such CRAs with at most two registers. More specifically,
+we show that it is, respectively, NL-complete and in coNP if the numbers in the input are presented
+in unary and binary. We also provide complexity results for two classes with an arbitrary number
+of registers. Namely, we show that for CRAs that use the minimum operation only in the output
+function, boundedness is PSPACE-complete if transferring values to other registers is allowed, and is
+coNP-complete otherwise. Finally, for each <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mi>f</mi>
+    <mi>i</mi>
+  </msub>
+</math> in the hierarchy of fast-growing functions, we provide
+a stateless CRA with i registers whose output exceeds N only on runs longer than <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mi>f</mi>
+    <mi>i</mi>
+  </msub>
+</math>(N). Our
+construction yields a non-elementary lower bound already for four registers.
                     </p>
                   </div>
                 </dd>
@@ -1066,9 +1221,14 @@ expansion, by showing that the latter can be presented as an isometric transform
                 <dd class="paper">
                   <span class="authors">Antonio Casares, Olivier Idir, Denis Kuperberg, Corto Mascle, and Aditya Prakash</span>.<br/>
                   <span class="title">On the Minimisation of Deterministic and History-Deterministic Generalised (co)Büchi Automata</span>
-                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper46" aria-controls="paper46" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
-                  <div class="collapse abstract" id="paper46">
-                    <p><span class="abstract-title">Abstract.</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper22" aria-controls="paper22" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper22">
+                    <p><span class="abstract-title">Abstract.</span> We present a polynomial-time algorithm minimising the number of states of history-deterministic
+generalised coBüchi automata, building on the work of Abu Radi and Kupferman on coBüchi
+automata. On the other hand, we establish that the minimisation problem for both deterministic
+and history-deterministic generalised Büchi automata is NP-complete, as well as the problem of
+minimising at the same time the number of states and colours of history-deterministic generalised
+coBüchi automata.
                     </p>
                   </div>
                 </dd>
@@ -1076,9 +1236,18 @@ expansion, by showing that the latter can be presented as an isometric transform
                 <dd class="paper">
                   <span class="authors">Aline Goeminne and Benjamin Monmege</span>.<br/>
                   <span class="title">Permissive Equilibria in Multiplayer Reachability Games</span>
-                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper46" aria-controls="paper46" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
-                  <div class="collapse abstract" id="paper46">
-                    <p><span class="abstract-title">Abstract.</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper23" aria-controls="paper23" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper23">
+                    <p><span class="abstract-title">Abstract.</span> We study multi-strategies in multiplayer reachability games played on finite graphs. A multi-strategy
+prescribes a set of possible actions, instead of a single action as usual strategies: it represents a set
+of all strategies that are consistent with it. We aim for profiles of multi-strategies (a multi-strategy
+per player), where each profile of consistent strategies is a Nash equilibrium, or a subgame perfect
+equilibrium. The permissiveness of two multi-strategies can be compared with penalties, as already
+used in the two-player zero-sum setting by Bouyer, Duflot, Markey and Renault (Concur 2009). We show that
+we can decide the existence of a multi-strategy that is a Nash equilibrium or a subgame perfect
+equilibrium, while satisfying some upper-bound constraints on the penalties in PSPACE, if the
+upper-bound penalties are given in unary. The same holds when we search for multi-strategies where
+certain players are asked to win in at least one play or in all plays.
                     </p>
                   </div>
                 </dd>
@@ -1158,7 +1327,7 @@ also have some partial extensions of the second result to some uncountable cases
                   <span class="title">Undefinability of Approximation of 2-to-2 Games</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper16" aria-controls="paper16" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
                   <div class="collapse abstract" id="paper16">
-                    <p><span class="abstract-title">Abstract.</span> Recent work by Atserias and Dawar (arXiv, 2019) and Tucker-Foltz (Log. Meth. Comput. Sci., 2024) has established undefinability results
+                    <p><span class="abstract-title">Abstract.</span> Recent work by Atserias and Dawar (arXiv, 2019) and Tucker-Foltz (<i>Log. Meth. Comput. Sci.</i>, 2024) has established undefinability results
 in fixed-point logic with counting (FPC) corresponding to many classical complexity results from the
 hardness of approximation. In this line of work, NP-hardness results are turned into unconditional
 FPC undefinability results. We extend this work by showing the FPC undefinability of any constant
@@ -1178,15 +1347,30 @@ separate the 3-colourable graphs from those that are not t-colourable, for any c
             <dd>Coffee break</dd>
             <dt class="session">16:10–17:50</dt>
             <dd id="ses10"><strong>Session 10</strong>
-              <em>???</em> <span style="float:right">Chair: TBA</span>
+              <em>Synchronous and Kleene Algebras</em> <span style="float:right">Chair: TBA</span>
               <dl>
                 <dt>16:10–16:35</dt>
                 <dd class="paper">
                   <span class="authors">Rémi Morvan</span>.<br/>
                   <span class="title">The Algebras for Automatic Relations</span>
-                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper46" aria-controls="paper46" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
-                  <div class="collapse abstract" id="paper46">
-                    <p><span class="abstract-title">Abstract.</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper21" aria-controls="paper21" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper21">
+                    <p><span class="abstract-title">Abstract.</span> We introduce “synchronous algebras”, an algebraic structure tailored to recognize automatic relations
+(a.k.a. synchronous relations, or regular relations). They are the equivalent of monoids for regular
+languages, however they conceptually differ in two points: first, they are typed and second, they are
+equipped with a dependency relation expressing constraints between elements of different types.</p><p>
+The interest of the proposed definition is that it allows to lift, in an effective way, pseudovarieties
+of regular languages to that of synchronous relations, and we show how algebraic characterizations
+of pseudovarieties of regular languages can be lifted to the pseudovarieties of synchronous relations
+that they induce. Since this construction is effective, this implies that the membership problem is
+decidable for (infinitely) many natural classes of automatic relations. A typical example of such a
+pseudovariety is the class of “group relations,” defined as the relations recognized by finite-state
+synchronous permutation automata.</p><p>
+In order to prove this result, we adapt two pillars of algebraic language theory to synchronous
+algebras: (a) any relation admits a syntactic synchronous algebra recognizing it, and moreover, the
+relation is synchronous if, and only if, its syntactic algebra is finite and (b) classes of synchronous
+relations with desirable closure properties (i.e. pseudovarieties) correspond to pseudovarieties of
+synchronous algebras.
                     </p>
                   </div>
                 </dd>
@@ -1194,9 +1378,18 @@ separate the 3-colourable graphs from those that are not t-colourable, for any c
                 <dd class="paper">
                   <span class="authors">Leandro Gomes, Patrick Baillot, and Marco Gaboardi</span>.<br/>
                   <span class="title">A Kleene Algebra with Tests for Union Bound Reasoning about Probabilistic Programs</span>
-                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper46" aria-controls="paper46" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
-                  <div class="collapse abstract" id="paper46">
-                    <p><span class="abstract-title">Abstract.</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper35" aria-controls="paper35" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper35">
+                    <p><span class="abstract-title">Abstract.</span> Kleene Algebra with Tests (KAT) provides a framework for algebraic equational reasoning about
+imperative programs. The recent variant Guarded KAT (GKAT) allows to reason on non-probabilistic
+properties of probabilistic programs. Here we introduce an extension of this framework called
+approximate GKAT (aGKAT), which equips GKAT with a partially ordered monoid (real numbers)
+enabling to express satisfaction of (deterministic) properties except with a probability up to a certain
+bound. This allows to represent in equational reasoning ‘à la KAT’ proofs of probabilistic programs
+based on the union bound, a technique from basic probability theory. We show how a propositional
+variant of approximate Hoare Logic (aHL), a program logic for union bound, can be soundly encoded
+in our system aGKAT. We then illustrate the use of aGKAT with an example of accuracy analysis
+from the field of differential privacy.
                     </p>
                   </div>
                 </dd>
@@ -1204,9 +1397,12 @@ separate the 3-colourable graphs from those that are not t-colourable, for any c
                 <dd class="paper">
                   <span class="authors">Arthur Azevedo de Amorim, Cheng Zhang, and Marco Gaboardi</span>.<br/>
                   <span class="title">Kleene Algebra with Commutativity Conditions is Undecidable</span>
-                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper46" aria-controls="paper46" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
-                  <div class="collapse abstract" id="paper46">
-                    <p><span class="abstract-title">Abstract.</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper36" aria-controls="paper36" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper36">
+                    <p><span class="abstract-title">Abstract.</span> We prove that the equational theory of Kleene algebra with commutativity conditions on primitives
+(or atomic terms) is undecidable, thereby settling a longstanding open question in the theory of
+Kleene algebra. While this question has also been recently solved independently by Kuznetsov, our
+results hold even for weaker theories that do not support the <em>induction axioms</em> of Kleene algebra.
                     </p>
                   </div>
                 </dd>
@@ -1214,20 +1410,27 @@ separate the 3-colourable graphs from those that are not t-colourable, for any c
                 <dd class="paper">
                   <span class="authors">Yoshiki Nakamura</span>.<br/>
                   <span class="title">Finite Relational Semantics for Language Kleene Algebra with Complement</span>
-                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper46" aria-controls="paper46" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
-                  <div class="collapse abstract" id="paper46">
-                    <p><span class="abstract-title">Abstract.</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper37" aria-controls="paper37" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper37">
+                    <p><span class="abstract-title">Abstract.</span> We study the equational theory of Kleene algebra (KA) w.r.t. languages (here, meaning the equational
+theory of regular expressions where each letter maps to any language) by extending the algebraic
+signature with the language complement. This extension significantly enhances the expressive power
+of KA. In this paper, we present a finite relational semantics completely characterizing the equational
+theory w.r.t. languages, which extends the relational characterizations known for KA and for KA
+with top. Based on this relational semantics, we show that the equational theory w.r.t. languages is
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msubsup>
+    <mrow>
+      <mi mathvariant="normal">Π</mi>
+    </mrow>
+    <mn>0</mn>
+    <mn>1</mn>
+  </msubsup>
+</math>-complete for KA with complement (with or without Kleene-star) and is PSPACE-complete if the
+complement only applies to variables or constants.
                     </p>
                   </div>
                 </dd>
-                  <span class="authors">Ioannis Eleftheriadis</span>.<br/>
-                  <span class="title">Extension preservation on dense graph classes</span>
-
-                  <span class="authors">Daumantas Kojelis</span>.<br/>
-                  <span class="title">On Homogeneous Models of Fluted Languages</span>
-
-                  <span class="authors">Valentin Maestracci and Paolo Pistone</span>.<br/>
-                  <span class="title">The Lambda Calculus is Quantifiable</span>
               </dl>
             </dd>
           </dl>
