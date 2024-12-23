@@ -32,8 +32,15 @@
       #detailed-div dt.session + dd {border: solid 1px #ccc;
                                      background-color: #f8f8f8; padding:1em; border-radius: 5pt }
       .session + dd dt {font-weight: normal; color: black; float:left; margin-right:1em; margin-left:.5em}
-      .session + dd dd {margin-left: 1.5em}
-      .session + dd dl { padding-top: 5pt; border-top: solid 1px #ccc}
+      .session + dd dd {margin-left: 1.5em; margin-bottom: 1em}
+      .session + dd dl { padding-top: 1em; border-top: solid 1px #ccc}
+      .title { font-style: italic; font-weight: bold; margin-right: 2rem }
+      .btn, button { padding-left: 2pt; padding-top: 0pt;
+      padding-right: 2pt; padding-bottom: 0pt; border-color: #ccc; color: black;
+      background-color: transparent; margin-left:1rem; float:right }
+      .abstract-title {font-weight: bold }
+      .abstract p { margin: .5rem 0}
+      .abstract { margin-bottom: .5em; border-bottom: solid 1px #ccc; margin-top: .5em; border-top: solid 1px #ccc; color:#666; text-align: justify; font-size: 87% }
     </style>
   </head>
   <body>
@@ -98,11 +105,11 @@
           <table id="glance">
             <thead>
               <tr>
-                <th><a href="program.html#mon">Monday 10</th>
-                <th><a href="program.html#tue">Tuesday 11</th>
-                <th><a href="program.html#wed">Wednesday 12</th>
-                <th><a href="program.html#thu">Thursday 13</th>
-                <th><a href="program.html#fri">Friday 14</th>
+                <th><a href="program.html#mon">Monday 10</a></th>
+                <th><a href="program.html#tue">Tuesday 11</a></th>
+                <th><a href="program.html#wed">Wednesday 12</a></th>
+                <th><a href="program.html#thu">Thursday 13</a></th>
+                <th><a href="program.html#fri">Friday 14</a></th>
               </tr>
               <tr>
                 <th><a href="https://logic-mentoring-workshop.github.io/csl25/program.html">
@@ -137,44 +144,47 @@
                       Mentoring Workshop</a><br> and<br> <a href="https://sites.google.com/view/lealog25">Learning Logic Workshop</a>
                     </p>
                 </td>
-                <td>
+                <td style="vertical-align: top">
                   <dl><!-- Tuesday morning -->
                     <dt class="session">09:00–10:00</dt>
                     <dd><a href="program.html#inv1" title="Elaine Pimentel">Invited talk <em>Elaine Pimentel</em></a></dd>
                     <dt class="break">10:00–10:30</dt>
                     <dd>Coffee break</dd>
                     <dt class="session">10:30–12:35</dt>
-                    <dd><a href="program.html#ses1" title="TBA">Session 1</a></dd>
+                    <dd><a href="program.html#ses1" title="Proof Systems">Session 1</a>
+                    </dd>
                   </dl>
                 </td>
-                <td>
+                <td style="vertical-align: top">
                   <dl><!-- Wednesday morning -->  
                     <dt class="session">09:00–10:00</dt>
                     <dd><a href="program.html#inv2" title="Yde Venema">Invited talk <em>Yde Venema</em></a></dd>
                     <dt class="break">10:00–10:30</dt>
                     <dd>Coffee break</dd>
                     <dt class="session">10:30–12:35</dt>
-                    <dd><a href="program.html#ses4" title="TBA">Session 4</a></dd>               
+                    <dd><a href="program.html#ses4" title="Behavioural Analyses">Session 4</a></dd>               
                   </dl>
                 </td>
-                <td>
+                <td style="vertical-align: top">
                   <dl><!-- Thursday morning -->
                     <dt class="session">09:00–10:00</dt>
                     <dd><a href="program.html#inv3" title="Yannick Forster">Invited talk <em>Yannick Forster</em></a></dd>
                     <dt class="break">10:00–10:30</dt>
                     <dd>Coffee break</dd>
-                    <dt class="session">10:30–12:10</dt>
-                    <dd><a href="program.html#ses7" title="TBA">Session 7</a></dd>               
+                    <dt class="session">10:30–11:30</dt>   
+                    <dd><a href="program.html#rasiowa">Helena Rasiowa Award</a></dd>
+                    <dt class="session">11:30–12:30</dt> 
+                    <dd><a href="program.html#ackermann">Ackermann Award</a></dd>        
                   </dl>
                 </td>
-                <td>
+                <td style="vertical-align: top">
                   <dl><!-- Friday morning -->
                     <dt class="session">09:00–10:00</dt>
                     <dd><a href="program.html#inv4" title="Patricia Bouyer-Decitre">Invited talk <em>Patricia Bouyer-Decitre</em></a></dd>
                     <dt class="break">10:00–10:30</dt>
                     <dd>Coffee break</dd>
                     <dt class="session">10:30–12:35</dt>
-                    <dd><a href="program.html#ses8" title="TBA">Session 8</a></dd>   
+                    <dd><a href="program.html#ses8" title="Games and Automata">Session 8</a></dd>   
                   </dl>
                 </td>
               </tr>
@@ -193,7 +203,7 @@
                 </td>
                 <td>
                   <dl>
-                    <dt class="break">12:10–13:30</dt>
+                    <dt class="break">12:30–13:45</dt>
                     <dd>Lunch</dd>
                   </dl>
                 </td>
@@ -208,43 +218,43 @@
                 <td>
                   <dl><!-- Tuesday afternoon -->
                     <dt class="session">14:00–15:40</dt>
-                    <dd><a href="program.html#ses2" title="TBA">Session 2</a></dd>
+                    <dd><a href="program.html#ses2" title="Types and Models">Session 2</a></dd>
                     <dt class="break">15:40–16:10</dt>
                     <dd>Coffee break</dd>
                     <dt class="session">16:10–17:50</dt>
-                    <dd><a href="program.html#ses3" title="TBA">Session 3</a></dd>
+                    <dd><a href="program.html#ses3" title="Quantum and Graphical Languages">Session 3</a></dd>
                   </dl>
                 </td>
                 <td>
                   <dl><!-- Wednesday afternoon -->
                     <dt class="session">14:00–15:40</dt>
-                    <dd><a href="program.html#ses5" title="TBA">Session 5</a></dd>
+                    <dd><a href="program.html#ses5" title="Counting in Logic">Session 5</a></dd>
                     <dt class="break">15:40–16:10</dt>
                     <dd>Coffee break</dd>
                     <dt class="session">16:10–17:50</dt>
-                    <dd><a href="program.html#ses6" title="TBA">Session 6</a></dd>
+                    <dd><a href="program.html#ses6" title="Modal and Temporal Logics">Session 6</a></dd>
                   </dl>
                 </td>
                 <td>
                   <dl><!-- Thursday afternoon -->
-                    <dt class="session">13:30–14:00</dt>
-                    <dd><a href="program.html#rasiowa">Helena Rasiowa Award</a></dd>
-                    <dt class="session">14:00–15:00</dt>
-                    <dd><a href="program.html#ackermann">Ackermann Award</a></dd>
-                    <dt class="organisation">15:10–15:40</dt>
+                    <dt class="session">13:45–15:00</dt>
+                    <dd><a href="program.html#ses7" title="Quantitative Models">Session 7</a></dd> 
+                    <dt class="break">15:00–15:30</dt>
+                    <dd>Coffee break</dd>
+                    <dt class="organisation">15:30–16:00</dt>
                     <dd>Business meeting</dd>
-                    <dt class="social">15:45–18:00</dt>
+                    <dt class="social">16:00–18:00</dt>
                     <dd><a href="program.html#excursion">Excursion</a></dd>
                   </dl>
                 </td>
                 <td>
                   <dl><!-- Friday afternoon -->
                     <dt class="session">14:00–15:40</dt>
-                    <dd><a href="program.html#ses9" title="TBA">Session 9</a></dd>
+                    <dd><a href="program.html#ses9" title="Logic and Complexity">Session 9</a></dd>
                     <dt class="break">15:40–16:10</dt>
                     <dd>Coffee break</dd>
                     <dt class="session">16:10–17:50</dt>
-                    <dd><a href="program.html#ses10" title="TBA">Session 10</a></dd>
+                    <dd><a href="program.html#ses10" title="Synchronous and Kleene Algebras">Session 10</a></dd>
                   </dl>
                 </td>
               </tr>
@@ -293,68 +303,863 @@
             <dt class="organisation">08:50–09:00</dt>
             <dd>Opening</dd>
             <dt class="session">09:00–10:00</dt>
-            <dd id="inv1"><strong>Invited talk</strong>  <a href="https://sites.google.com/site/elainepimentel/">Elaine Pimentel</a></dd>
+            <dd id="inv1"><strong>Invited talk</strong>  <a href="https://sites.google.com/site/elainepimentel/">Elaine Pimentel</a> <span style="float:right">Chair: TBA</span><dl><dt>09:00–10:00</dt><dd>
+              <span class="authors">Elaine Pimentel, Carlos Olarte, Timo Lang, Robert Freiman, and Christian G. Fermüller</span>.<br/>
+              <span class="title">Playing with Modalities</span>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper4" aria-controls="paper4" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <div class="collapse abstract"
+                   id="paper4">
+                <p><span class="abstract-title">Abstract.</span>
+                  In this work, we will explore modalities through dialogical game lenses. Games provide a powerful
+                  tool for bridging the gap between intended and formal semantics, often offering a more conceptually
+                  natural approach to logic than traditional
+                  model-theoretic semantics.</p>
+                <p>We begin by exploring substructural calculi from a
+                  game semantic perspective, driven by intuitions
+                  about resource-consciousness and, more specifically,
+                  cost-sensitive reasoning. The game comes into full
+                  swing as we introduce cost labels to assumptions and
+                  a corresponding budget. Different proofs of the same
+                  end-sequent are interpreted as strategies for a
+                  player to defend a claim, which vary in cost. This
+                  leads to a labelled calculus, which can be viewed as
+                  a fragment of subexponential linear logic. We
+                  conclude this first part with a discussion of
+                  cut-admissibility for the proposed system.  In the
+                  second part, we show that our games offer an
+                  interesting insight also into modal logics.  More
+                  precisely, we will focus on the modal logic <b>PNL</b>,
+                  characterised by Kripke frames with two types of
+                  disjoint and symmetric reachability relations. This
+                  framework is motivated by the study of group
+                  polarisation, where the opinions or beliefs of
+                  individuals within a group become more extreme or
+                  polarised after interaction. Our approach to
+                  reasoning about group polarisation is based on <b>PNL</b>
+                  and highlights a different aspect of formal
+                  reasoning about the corresponding models – using
+                  games and proof systems. We conclude by outlining
+                  potential directions for future
+                  research.</p>
+              </div>
+            </dd></dd></dl>
             <dt class="break">10:00–10:30</dt>
             <dd>Coffee break</dd>
             <dt class="session">10:30–12:35</dt>
-            <dd id="ses1"><strong>Session 1</strong><!--  <em>Proof Systems and Kleene Algebras</em> <span style="float:right">Chair: TBA</span> -->
-              <!-- <dl> -->
-              <!--   <dt>10:30–10:55</dt><dd class="paper"> -->
-              <!--     <span class="authors">Victoria Barrett, Alessio Guglielmi, and Benjamin Ralph</a></span>. -->
-              <!--     <span class="title">A Strictly Linear Subatomic Proof System</span> -->
-              <!--     <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper9708" aria-controls="paper9708" aria-expanded="false" aria-label="Show abstract"><span class="abstract-btn">↓</span></button> -->
-              <!--     <div class="collapse abstract" id="paper9708"><p><span class="abstract-title">Abstract.</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div></dd> -->
-              <!--   <dt>10:55–11:20</dt><dd class="paper"><span class="authors">Tim Lyon</span>. <a class="title" href="https://arxiv.org/abs/2410.24053">Unifying Structural and Cyclic Sequent Systems for Gödel-Löb Logic via Syntactic Transformations</a></dd> -->
-              <!--   <dt>11:20–11:45</dt><dd class="paper"><span class="authors">Ian Shillito and Dominik Kirst</span>. <span class="title">Completeness of First-Order Bi-intuitionistic Logic</span></dd> -->
-              <!--   <dt>11:45–12:10</dt><dd class="paper"><span class="authors">Yoshiki Nakamura</span>.  <a class="title" href="https://hal.science/hal-04455882">Finite Relational Semantics for Language Kleene Algebra with Complement</a></dd> -->
-              <!--   <dt>12:10–12:35</dt><dd class="paper"><span class="authors"><span>Leandro Gomes, Patrick Baillot, and Marco Gaboardi</span>. <a class="title" href="https://hal.science/hal-04196675">A Kleene Algebra with Tests for Union Bound Reasoning about Probabilistic Programs</a></dd> -->
-              <!-- </dl> -->
+            <dd id="ses1"><strong>Session 1</strong>
+              <em>Proof Systems</em> <span style="float:right">Chair: TBA</span>
+              <dl>
+                <dt>10:30–10:55</dt>
+                <dd class="paper">
+                  <span class="authors">Victoria Barrett, Alessio Guglielmi, and Benjamin Ralph</span>.<br/>
+                  <span class="title">A Strictly Linear Subatomic Proof System</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper39" aria-controls="paper4" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper39">
+                    <p><span class="abstract-title">Abstract.</span> We present a subatomic deep-inference proof system for a conservative extension of propositional
+classical logic with decision trees that is strictly linear. In a strictly linear subatomic system, a single
+linear rule shape subsumes not only the structural rules, such as contraction and weakening, but also
+the unit equality rules. An interpretation map from subatomic logic to propositional classical logic
+recovers the usual semantics and proof theoretic properties. By using explicit substitutions that
+indicate the substitution of one derivation into another, we are able to show that the unit-equality
+inference steps can be eliminated from a subatomic system for propositional classical logic with only
+a polynomial complexity cost in the size of the derivation, from which it follows that the system
+p-simulates Frege systems, and we show cut elimination for the resulting strictly linear system.</p></div>
+                </dd>
+                <dt>10:55–11:20</dt>
+                <dd class="paper">
+                  <span class="authors">Tim S. Lyon</span>.<br/>
+                  <span class="title">Unifying Sequent Systems for Gödel-Löb Provability Logic via Syntactic Transformations</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper42" aria-controls="paper42" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper42">
+                    <p><span class="abstract-title">Abstract.</span> We demonstrate the inter-translatability of proofs between the most prominent sequent-based
+formalisms for Gödel-Löb provability logic. In particular, we consider Sambin and Valentini’s sequent
+system <span style="font-family:sans-serif">GL<sub>seq</sub></span>, Shamkanov’s non-wellfounded and cyclic sequent systems <span style="font-family:sans-serif">GL<sub>∞</sub></span> and <span style="font-family:sans-serif">GL<sub>circ</sub></span>, Poggiolesi’s
+tree-hypersequent system <span style="font-family:sans-serif">CSGL</span>, and Negri’s labeled sequent system <span style="font-family:sans-serif">G3GL</span>. Shamkanov provided
+proof-theoretic correspondences between <span style="font-family:sans-serif">GL<sub>seq</sub></span>, <span style="font-family:sans-serif">GL<sub>∞</sub></span>, and <span style="font-family:sans-serif">GL<sub>circ</sub></span>, and Goré and Ramanayake showed
+how to transform proofs between <span style="font-family:sans-serif">CSGL</span> and <span style="font-family:sans-serif">G3GL</span>, however, the exact nature of proof transformations
+between the former three systems and the latter two systems has remained an open problem. We
+solve this open problem by showing how to restructure tree-hypersequent proofs into an end-active
+form and introduce a novel linearization technique that transforms such proofs into linear nested
+sequent proofs. As a result, we obtain a new proof-theoretic tool for extracting linear nested sequent
+systems from tree-hypersequent systems, which yields the first cut-free linear nested sequent calculus
+<span style="font-family:sans-serif">LNGL</span> for Gödel-Löb provability logic. We show how to transform proofs in <span style="font-family:sans-serif">LNGL</span> into a certain
+normal form, where proofs repeat in stages of modal and local rule applications, and which are
+translatable into <span style="font-family:sans-serif">GL<sub>seq</sub></span> and <span style="font-family:sans-serif">G3GL</span> proofs. These new syntactic transformations, together with those
+mentioned above, establish full proof-theoretic correspondences between <span style="font-family:sans-serif">GL<sub>seq</sub></span>, <span style="font-family:sans-serif">GL<sub>∞</sub></span>, <span style="font-family:sans-serif">GL<sub>circ</sub></span>, <span style="font-family:sans-serif">CSGL</span>,
+<span style="font-family:sans-serif">G3GL</span>, and <span style="font-family:sans-serif">LNGL</span> while also giving (to the best of the author’s knowledge) the first constructive proof
+mappings between structural (viz. labeled, tree-hypersequent, and linear nested sequent) systems
+and a cyclic sequent system.</p></div>
+                </dd>
+                <dt>11:20–11:45</dt>
+                <dd class="paper">
+                  <span class="authors">Dominik Kirst and Ian Shillito</span>.<br/>
+                  <span class="title">Completeness of First-Order Bi-intuitionistic Logic</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper40" aria-controls="paper40" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper40">
+                    <p><span class="abstract-title">Abstract.</span> We provide a succinct and verified completeness proof for first-order bi-intuitionistic logic, relative to
+constant domain Kripke semantics. By doing so, we make up for the almost-50-year-old substantial
+mistakes in Rauszer’s foundational work, detected but unresolved by Shillito two years ago. Moreover,
+an even earlier but historically neglected proof by Klemke has been found to contain at least local
+errors by Olkhovikov and Badia, that remained unfixed due to the technical complexity of Klemke’s
+argument. To resolve this unclear situation once and for all, we give a succinct completeness proof,
+based on and dualising a standard proof for constant domain intuitionistic logic, and verify our
+constructions using the Coq proof assistant to guarantee correctness.</p></div>
+                </dd>
+                <dt>11:45–12:10</dt>
+                <dd class="paper">
+                  <span class="authors">Tim S. Lyon, Ian Shillito, and Alwen Tiu</span>.<br/>
+                  <span class="title">Taking Bi-Intuitionistic Logic First-Order: A Proof-Theoretic Investigation via Polytree Sequents</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper41" aria-controls="paper41" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper41">
+                    <p><span class="abstract-title">Abstract.</span> It is well-known that extending the Hilbert axiomatic system for first-order intuitionistic logic with
+an exclusion operator, that is dual to implication, collapses the domains of models into a constant
+domain. This makes it an interesting problem to find a sound and complete proof system for
+first-order bi-intuitionistic logic with non-constant domains that is also conservative over first-order
+intuitionistic logic. We solve this problem by presenting the first sound and complete proof system
+for first-order bi-intuitionistic logic with increasing domains. We formalize our proof system as
+a polytree sequent calculus (a notational variant of nested sequents), and prove that it enjoys
+cut-elimination and is conservative over first-order intuitionistic logic. A key feature of our calculus
+is an explicit eigenvariable context, which allows us to control precisely the scope of free variables in
+a polytree structure. Semantically this context can be seen as encoding a notion of Scott’s existence
+predicate for intuitionistic logic. This turns out to be crucial to avoid the collapse of domains and
+to prove the completeness of our proof system. The explicit consideration of the variable context
+in a formula sheds light on a previously overlooked dependency between the residuation principle
+and the existence predicate in the first-order setting, which may help to explain the difficulty in
+designing a sound and complete proof system for first-order bi-intuitionistic logic.</p></div>
+                </dd>
+                <dt>12:10–12:35</dt>
+                <dd class="paper">
+                  <span class="authors">Victoria Vollmer, Danielle Marshall, Harley Eades III, and Dominic Orchard</span>.<br/>
+                  <span class="title">A Mixed Linear and Graded Logic: Proofs, Terms, and Models</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper32" aria-controls="paper32" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper32">
+                    <p><span class="abstract-title">Abstract.</span> Graded modal logics generalise standard modal logics via families of modalities indexed by an
+algebraic structure whose operations mediate between the different modalities. The graded “of-course” modality !ᵣ captures how many times a proposition is used and has an analogous interpretation
+to the of-course modality from linear logic; the of-course modality from linear logic can be modelled
+by a linear exponential comonad and graded of-course can be modelled by a graded linear exponential
+comonad. Benton showed in his seminal paper on Linear/Non-Linear logic that the of-course modality
+can be split into two modalities connecting intuitionistic logic with linear logic, forming a symmetric
+monoidal adjunction. Later, Fujii et al. demonstrated that every graded comonad can be decomposed
+into an adjunction and a “strict action”. We give a similar result to Benton, leveraging Fujii et al.’s
+decomposition, showing that graded modalities can be split into two modalities connecting a graded
+logic with a graded linear logic. We propose a sequent calculus, its proof theory and categorical
+model, and a natural deduction system which we show is isomorphic to the sequent calculus system.
+Interestingly, our system can also be understood as Linear/Non-Linear logic composed with an
+action that adds the grading, further illuminating the shared principles between linear logic and a
+class of graded modal logics.</p></div>
+                </dd>
+              </dl>
             </dd>
             <dt class="break">12:35–14:00</dt>
             <dd>Lunch</dd>
             <dt class="session">14:00–15:40</dt>
-            <dd id="ses2"><strong>Session 2</strong></dd>
+            <dd id="ses2"><strong>Session 2</strong>
+              <em>Types and Models</em> <span style="float:right">Chair: TBA</span>
+              <dl>
+                <dt>14:00–14:25</dt>
+                <dd class="paper">
+                  <span class="authors">Adrien Ragot, Thomas Seiller, and Lorenzo Tortora de Falco</span>.<br/>
+                  <span class="title">Linear Realisability over Nets: Multiplicatives</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper43" aria-controls="paper43" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper43">
+                    <p><span class="abstract-title">Abstract.</span> We provide a new realisability model based on orthogonality for the multiplicative fragment of linear
+logic, both in presence of generalised axioms (<span style="font-family:sans-serif">MLL<sup>✠</sup></span>) and in the standard case (<span style="font-family:sans-serif">MLL</span>). The novelty
+is the definition of cut elimination for generalised axioms. We prove that our model is adequate and
+complete both for <span style="font-family:sans-serif">MLL<sup>✠</sup></span> and <span style="font-family:sans-serif">MLL</span>.</p></div>
+                </dd>
+                <dt>14:25–14:50</dt>
+                <dd class="paper">
+                  <span class="authors">Pedro H. Azevedo de Amorim, Leon Witzman, and Dexter Kozen</span>.<br/>
+                  <span class="title">Classical Linear Logic in Perfect Banach Lattices</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper44" aria-controls="paper44" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper44">
+                    <p><span class="abstract-title">Abstract.</span> In recent years, researchers have proposed various models of linear logic with strong connections
+to measure theory, with <em>probabilistic coherence spaces</em> (<b>PCoh</b>) being one of the most prominent.
+One of the main limitations of the <b>PCoh</b> model is that it cannot interpret continuous measures.
+To overcome this obstacle, Ehrhard has extended <b>PCoh</b> to a category of positive cones and linear
+Scott-continuous functions and shown that it is a model of intuitionistic linear logic. In this work
+we show that the category <b>PBanLat₁</b> of perfect Banach lattices and positive linear functions of
+norm at most 1 can serve the same purpose, with some added benefits. We show that <b>PBanLat₁</b> is
+a model of classical linear logic (without exponential) and that <b>PCoh</b> embeds fully and faithfully
+in <b>PBanLat₁</b> while preserving the monoidal and ∗-autonomous structures. Finally, we show how
+<b>PBanLat₁</b> can be used to give semantics to a higher-order probabilistic programming language.
+                    </p>
+                  </div>
+                </dd>
+                <dt>14:50–15:15</dt>
+                <dd class="paper">
+                  <span class="authors">Nima Rasekh, Niels van der Weide, Benedikt Ahrens, and Paige Randall North</span>.<br/>
+                  <span class="title">Insights From Univalent Foundations: A Case Study Using Double Categories</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper45" aria-controls="paper45" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper45">
+                    <p><span class="abstract-title">Abstract.</span> Category theory unifies mathematical concepts, aiding comparisons across structures by incorporating
+not just objects, but also morphisms capturing interactions between objects. Of particular importance
+in some applications are double categories, which are categories with two classes of morphisms,
+axiomatizing two different kinds of interactions between objects. These have found applications in
+many areas of mathematics and theoretical computer science, for instance, the study of lenses, open
+systems, and rewriting.</p><p>
+However, double categories come with a wide variety of equivalences, which makes it challenging
+to transport structure along equivalences. To deal with this challenge, we propose the univalence
+maxim: each notion of equivalence of categorical structures has a corresponding notion of univalent
+categorical structure which induces that notion of equivalence. We also prove corresponding
+univalence principles, which allow us to transport structure and properties along equivalences. In
+this way, the usually informal practice of reasoning modulo equivalence becomes grounded in an
+entirely formal logical principle.</p><p>
+We apply this perspective to various double categorical structures, such as (pseudo) double
+categories and double bicategories. Concretely, we characterize and formalize their definitions in Coq
+UniMath up to chosen equivalences, which we achieve by establishing their univalence principles.
+                    </p>
+                  </div>
+                </dd>
+                <dt>15:15–15:40</dt>
+                <dd class="paper">
+                  <span class="authors">Perry Hart and Kuen-Bang Hou (Favonia)</span>.<br/>
+                  <span class="title">Coslice Colimits in Homotopy Type Theory</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper46" aria-controls="paper46" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper46">
+                    <p><span class="abstract-title">Abstract.</span> We contribute to the theory of (homotopy) colimits inside homotopy type theory. The heart of our
+work characterizes the connection between colimits in coslices of a universe, called coslice colimits,
+and colimits in the universe (i.e., ordinary colimits). To derive this characterization, we find an
+explicit construction of colimits in coslices that is tailored to reveal the connection. We use the
+construction to derive properties of colimits. Notably, we prove that the forgetful functor from a
+coslice creates colimits over trees. We also use the construction to examine how colimits interact with
+orthogonal factorization systems and with cohomology theories. As a consequence of their interaction
+with orthogonal factorization systems, all pointed colimits (special kinds of coslice colimits) preserve
+n-connectedness, which implies that higher groups are closed under colimits on directed graphs. We
+have formalized our main construction of the coslice colimit functor in Agda.
+                    </p>
+                  </div>
+                </dd>
+              </dl>
+            </dd>
             <dt class="break">15:40–16:10</dt>
             <dd>Coffee break</dd>
             <dt class="session">16:10–17:50</dt>
-            <dd id="ses3"><strong>Session 3</strong></dd>
+            <dd id="ses3"><strong>Session 3</strong>
+              <em>Quantum and Graphical Languages</em> <span style="float:right">Chair: TBA</span>
+              <dl>
+                <dt>16:10–16:35</dt>
+                <dd class="paper">
+                  <span class="authors">Nicolas Heurtel</span>.<br/>
+                  <span class="title">A Complete Graphical Language for Linear Optical Circuits with Finite-Photon-Number Sources and Detectors</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper38" aria-controls="paper38" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper38">
+                    <p><span class="abstract-title">Abstract.</span> Graphical languages are powerful and useful to represent, rewrite and simplify different kinds of
+processes. In particular, they have been widely used for quantum processes, improving the state of
+the art for compilation, simulation and verification. In this work, we focus on one of the main carrier
+of quantum information and computation: linear optical circuits. We introduce the <b>LO<sub><i>fi</i></sub></b>-calculus,
+the first graphical language to reason on the infinite-dimensional photonic space with circuits only
+composed of the four core elements of linear optics: the phase shifter, the beam splitter, and auxiliary
+sources and detectors with bounded photon number. First, we study the subfragment of circuits
+composed of phase shifters and beam splitters, for which we provide the first minimal equational
+theory. Next, we introduce a rewriting procedure on those <b>LO<sub><i>fi</i></sub></b>-circuits that converge to normal
+forms. We prove those forms to be unique, establishing both a novel and unique representation of
+linear optical processes. Finally, we complement the language with an equational theory that we
+prove to be complete: two <b>LO<sub><i>fi</i></sub></b>-circuits represent the same quantum process if and only if one can
+be transformed into the other with the rules of the <b>LO<sub><i>fi</i></sub></b>-calculus.
+                    </p>
+                  </div>
+                </dd>
+                <dt>16:35–17:00</dt>
+                <dd class="paper">
+                  <span class="authors">Claudia Faggian, Gaetan Lopez, and Benoît Valiron</span>.<br/>
+                  <span class="title">A Rewriting Theory for Quantum λ-Calculus</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper47" aria-controls="paper47" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper47">
+                    <p><span class="abstract-title">Abstract.</span> Quantum lambda calculus has been studied mainly as an idealized programming language – the
+evaluation essentially corresponds to a deterministic abstract machine. Very little work has been
+done to develop a rewriting theory for quantum lambda calculus. Recent advances in the theory of
+probabilistic rewriting give us a way to tackle this task with tools unavailable a decade ago. Our
+primary focus are standardization and normalization results.
+                    </p>
+                  </div>
+                </dd>
+                <dt>17:00–17:25</dt>
+                <dd class="paper">
+                  <span class="authors">Jonathan Barrett, Isaac Friend, and Aleks Kissinger</span>.<br/>
+                  <span class="title">Quantum and Classical Markovian Graphical Causal Models and Their Identification</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper48" aria-controls="paper48" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper48">
+                    <p><span class="abstract-title">Abstract.</span> Markov categories allow formalization of probabilistic and causal reasoning in a general setting that
+applies uniformly to many different kinds of classical probabilistic processes. It has so far been
+challenging, however, to generalize these techniques to reasoning about quantum processes, as the
+quantum no-cloning theorem forbids “copy” maps of the sort that have been used to axiomatize
+conditional independence, and the related notions of complete common causes and Markovianity, in
+classical Bayesian networks. Here, we introduce a new categorical notion of Markovian causal model,
+according to which a distinguished subcategory of “common cause” maps plays a similar role to that
+of “copy” maps in the categorical formulation of Bayesian networks. Moreover, defining causal models
+as second-order processes yields a clean and flexible formulation of interventions. Our formalism is
+both rich enough to handle “complete common cause” assumptions and general enough to encompass
+not only standard classical causal identification scenarios, but also quantum causal scenarios and
+new kinds of classical causal identification based on imperfect observations. Furthermore, we show
+that one can reason uniformly across all of these cases using string-diagrammatic techniques.
+                    </p>
+                  </div>
+                </dd>
+                <dt>17:25–17:50</dt>
+                <dd class="paper">
+                  <span class="authors">Marc de Visme and Renaud Vilmart</span>.<br/>
+                  <span class="title">Minimality in Finite-Dimensional ZW-Calculi</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper49" aria-controls="paper49" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper49">
+                    <p><span class="abstract-title">Abstract.</span> The ZW-calculus is a graphical language capable of representing 2-dimensional quantum systems
+(qubit) through its diagrams, and manipulating them through its equational theory. We extend the
+formalism to accommodate finite dimensional Hilbert spaces beyond qubit systems.</p><p>
+First we define a qudit version of the language, where all systems have the same arbitrary
+finite dimension d, and show that the provided equational theory is both complete – i.e. semantical
+equivalence is entirely captured by the equations – and minimal – i.e. none of the equations are
+consequences of the others. We then extend the graphical language further to allow for mixed-dimensional systems. We again show the completeness and minimality of the provided equational
+theory.
+                    </p>
+                  </div>
+                </dd>
+              </dl>
+            </dd>
           </dl>
           <!-- Wednesday ------------------------------------>
           <h5 id="wed">Wednesday, February 12</h5>
           <dl>
             <dt class="session">09:00–10:00</dt>
-            <dd id="inv2"><strong>Invited talk</strong>  <a href="https://staff.science.uva.nl/y.venema/">Yde Venema</a></dd>
+            <dd id="inv2"><strong>Invited talk</strong>  <a href="https://staff.science.uva.nl/y.venema/">Yde Venema</a> <span style="float:right">Chair: TBA</span>
+              <dl><dt>09:00–10:00</dt>
+                <dd>
+              <span class="authors">Yde Venema</span>.<br/>
+              <span class="title">Modal Automata: Analysing Modal Fixpoint Logics, One Step at a Time</span>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper5" aria-controls="paper5" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <div class="collapse abstract"
+                   id="paper5">
+                <p><span class="abstract-title">Abstract.</span> We present and investigate a general framework for studying modal fixpoint logics and some related
+versions of monadic second-order logic, by means of certain finite automata that operate on Kripke
+structures. Characteristic of these modal automata is that the co-domain of their transition function
+is a set of formulas of a so-called one-step logic. The motivation for taking this perspective is that if
+a logic is characterised by a class of modal automata, many of its properties are already determined
+at the level of the much simpler one-step logic.</p></div></dd></dl></dd>
             <dt class="break">10:00–10:30</dt>
             <dd>Coffee break</dd>
             <dt class="session">10:30–12:35</dt>
-            <dd id="ses4"><strong>Session 4</strong> </dd>  
+            <dd id="ses4"><strong>Session 4</strong>
+              <em>Behavioural Analysis</em> <span style="float:right">Chair: TBA</span>
+              <dl>
+                <dt>10:30–10:55</dt>
+                <dd class="paper">
+                  <span class="authors">Thibaut Antoine, Robin Piedeleu, Alexandra Silva, and Fabio Zanasi</span>.<br/>
+                  <span class="title">A Complete Diagrammatic Calculus for Automata Simulation</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper27" aria-controls="paper27" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper27">
+                    <p><span class="abstract-title">Abstract.</span> We give a sound and complete (in)equational theory for simulation of finite state automata. Our
+approach uses a string diagrammatic calculus to represent automata and a functorial semantics to
+capture simulation in a compositional way. Interestingly, in contrast to other approaches based on
+regular expressions, fixpoints are a derived notion in our calculus and the resulting axiomatisation is
+finitary.
+                    </p>
+                  </div>
+                </dd>
+                <dt>10:55–11:20</dt>
+                <dd class="paper">
+                  <span class="authors">Filippo Bonchi, Elena Di Lavore, and Anna Ricci</span>.<br/>
+                  <span class="title">Strong Induction is an Up-to Technique</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper28" aria-controls="paper28" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper28">
+                    <p><span class="abstract-title">Abstract.</span> Up-to techniques are enhancements of the coinduction proof principle which, in lattice theoretic
+terms, is the dual of induction. What is the dual of coinduction up-to? By means of duality, we
+illustrate a theory of induction up-to and we observe that an elementary proof technique, commonly
+known as strong induction, is an instance of induction up-to. We also show that, when generalising
+our theory from lattices to categories, one obtains an enhancement of the induction definition
+principle known in the literature as comonadic recursion.
+                    </p>
+                  </div>
+                </dd>
+                <dt>11:20–11:45</dt>
+                <dd class="paper">
+                  <span class="authors">Samuel Humeau, Daniela Petrisan, and Jurriaan Rot</span>.<br/>
+                  <span class="title">Correspondences Between Codensity and Coupling-based Liftings, a Practical Approach</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper29" aria-controls="paper29" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper29">
+                    <p><span class="abstract-title">Abstract.</span> The Kantorovich distance is a widely used metric between probability distributions. The Kantorovich-Rubinstein duality states that it can be defined in two equivalent ways: as a supremum, based on
+non-expansive functions into [0,1], and as an infimum, based on probabilistic couplings.</p><p>
+Orthogonally, there are categorical generalisations of both presentations proposed in the literature,
+in the form of <em>codensity liftings</em> and what we refer to as <em>coupling-based liftings</em>. Both lift endofunctors
+on the category <b>Set</b> of sets and functions to that of pseudometric spaces, and both are parameterised
+by modalities from coalgebraic modal logic.</p><p>
+A generalisation of the Kantorovich-Rubinstein duality has been more nebulous – it is known
+not to work in some cases. In this paper we propose a compositional approach for obtaining such
+generalised dualities for a class of functors, which is closed under coproducts and products. Our
+approach is based on an explicit construction of modalities and also applies to and extends known
+cases such as that of the powerset functor.
+                    </p>
+                  </div>
+                </dd>
+                <dt>11:45–12:10</dt>
+                <dd class="paper">
+                  <span class="authors">Corina Cîrstea, Lawrence S. Moss, Victoria Noquez, Todd Schmid, Alexandra Silva, and Ana Sokolova</span>.<br/>
+                  <span class="title">A Complete Inference System for Probabilistic Infinite Trace Equivalence</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper30" aria-controls="paper30" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper30">
+                    <p><span class="abstract-title">Abstract.</span> We present the first sound and complete axiomatization of <em>infinite</em> trace semantics for generative
+probabilistic transition systems. Our approach is categorical, and we build on recent results on
+proper functors over convex sets. At the core of our proof is a characterization of infinite traces as
+the final coalgebra of a functor over convex algebras. Somewhat surprisingly, our axiomatization of
+infinite trace semantics coincides with that of finite trace semantics, even though the techniques
+used in the completeness proof are significantly different.
+                    </p>
+                  </div>
+                </dd>
+                <dt>12:10–12:35</dt>
+                <dd class="paper">
+                  <span class="authors">Willem Heijltjes and Georgina Majury</span>.<br/>
+                  <span class="title">Simple Types for Probabilistic Termination</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper31" aria-controls="paper31" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper31">
+                    <p><span class="abstract-title">Abstract.</span> We present a new typing discipline to guarantee the probability of termination in probabilistic
+lambda-calculi. The main contribution is a particular naturality and simplicity: our probabilistic
+types are as simple types, but generated from probabilities as base types, representing a least
+probability of termination. Simple types are recovered by restricting probabilities to one.</p><p>
+Our vehicle is the Probabilistic Event Lambda-Calculus by Dal Lago, Guerrieri, and Heijltjes,
+which presents a solution to the issue of confluence in probabilistic lambda-calculi. Our probabilistic
+type system provides an alternative solution to that using counting quantifiers by Antonelli, Dal
+Lago, and Pistone, for the same calculus.</p><p>
+The problem that both type systems address is to give a lower bound on the probability that terms
+head-normalize. Following the recent Functional Machine Calculus by Heijltjes, our development
+takes the (simplified) Krivine machine as primary, and proceeds via an extension of the calculus
+with sequential composition and identity on the machine. Our type system then gives a natural
+account of termination probability on the Krivine machine, reflected back onto head-normalization
+for the original calculus. In this way we are able to avoid the use of counting quantifiers, while
+improving on the termination bounds given by Antonelli, Dal Lago, and Pistone.
+                    </p>
+                  </div>
+                </dd>
+              </dl>
+            </dd>
             <dt class="break">12:35–14:00</dt>
             <dd>Lunch</dd>
             <dt class="session">14:00–15:40</dt>
-            <dd id="ses5"><strong>Session 5</strong> </dd>
+            <dd id="ses5"><strong>Session 5</strong>
+              <em>Counting in Logic</em> <span style="float:right">Chair: TBA</span>
+              <dl>
+                <dt>14:00–14:25</dt>
+                <dd class="paper">
+                  <span class="authors">Simi Haber, Tal Hershko, Mostafa Mirabi, and Saharon Shelah</span>.<br/>
+                  <span class="title">First-Order Logic with Equicardinality in Random Graphs</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper12" aria-controls="paper12" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper12">
+                    <p><span class="abstract-title">Abstract.</span> We answer a question of Blass and Harary about the validity of the zero-one law in random graphs
+for extensions of first-order logic (FOL). For a given graph property <i>P</i>, the <em>Lindström extension</em>
+of FOL by <i>P</i> is defined as the minimal (regular) extension of FOL able to express <i>P</i>. For several
+graph properties <i>P</i> (e.g. Hamiltonicity), it is known that the Lindström extension by <i>P</i> is also
+able to interpret a segment of arithmetic, and thus strongly disobeys the zero-one law. Common
+to all these properties is the ability to express the Härtig quantifier, a natural extension of FOL
+testing if two definable sets are of the same size. We prove that the Härtig quantifier is sufficient for
+the interpretation of arithmetic, thus providing a general result which implies all known cases of
+Lindström extensions which are able to interpret a segment of arithmetic.
+                    </p>
+                  </div>
+                </dd>
+                <dt>14:25–14:50</dt>
+                <dd class="paper">
+                  <span class="authors">Moritz Lichter, Simon Raßmann, and Pascal Schweitzer</span>.<br/>
+                  <span class="title">Computational Complexity of the Weisfeiler-Leman Dimension</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper13" aria-controls="paper13" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper13">
+                    <p><span class="abstract-title">Abstract.</span> The Weisfeiler-Leman dimension of a graph G is the least number k such that the k-dimensional
+Weisfeiler-Leman algorithm distinguishes G from every other non-isomorphic graph, or equivalently,
+the least k such that G is definable in (k + 1)-variable first-order logic with counting. The dimension
+is a standard measure of the descriptive or structural complexity of a graph and recently finds various
+applications in particular in the context of machine learning. This paper studies the complexity of
+computing the Weisfeiler-Leman dimension. We observe that deciding whether the Weisfeiler-Leman
+dimension of G is at most k is <span style="font-family:sans-serif">NP</span>-hard, even if G is restricted to have 4-bounded color classes. For
+each fixed k ≥ 2, we give a polynomial-time algorithm that decides whether the Weisfeiler-Leman
+dimension of a given graph with 5-bounded color classes is at most k. Moreover, we show that for
+these bounds on the color classes, this is optimal because the problem is <span style="font-family:sans-serif">P</span>-hard under logspace-uniform <span style="font-family:sans-serif">AC₀</span>-reductions. Furthermore, for each larger bound c on the color classes and each fixed
+k ≥ 2, we provide a polynomial-time decision algorithm for the abelian case, that is, for structures
+of which each color class has an abelian automorphism group.</p><p>
+While the graph classes we consider may seem quite restrictive, graphs with 4-bounded abelian
+colors include CFI-graphs and multipedes, which form the basis of almost all known hard instances
+and lower bounds related to the Weisfeiler-Leman algorithm.
+                    </p>
+                  </div>
+                </dd>
+                <dt>14:50–15:15</dt>
+                <dd class="paper">
+                  <span class="authors">Simon Raßmann, Georg Schindling, and Pascal Schweitzer</span>.<br/>
+                  <span class="title">Finite Variable Counting Logics with Restricted Requantification</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper14" aria-controls="paper14" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper14">
+                    <p><span class="abstract-title">Abstract.</span> Counting logics with a bounded number of variables form one of the central concepts in descriptive
+complexity theory. Although they restrict the number of variables that a formula can contain, the
+variables can be nested within scopes of quantified occurrences of themselves. In other words, the
+variables can be requantified. We study the fragments obtained from counting logics by restricting
+requantification for some but not necessarily all the variables.</p><p>
+Similar to the logics without limitation on requantification, we develop tools to investigate the
+restricted variants. Specifically, we introduce a bijective pebble game in which certain pebbles can
+only be placed once and for all, and a corresponding two-parametric family of Weisfeiler-Leman
+algorithms. We show close correspondences between the three concepts.</p><p>
+By using a suitable cops-and-robber game and adaptations of the Cai-Fürer-Immerman construction, we completely clarify the relative expressive power of the new logics.
+We show that the restriction of requantification has beneficial algorithmic implications in terms
+of graph identification. Indeed, we argue that with regard to space complexity, non-requantifiable
+variables only incur an additive polynomial factor when testing for equivalence. In contrast, for all
+we know, requantifiable variables incur a multiplicative linear factor.</p><p>
+Finally, we observe that graphs of bounded tree-depth and 3-connected planar graphs can be
+identified using no, respectively, only a very limited number of requantifiable variables.
+                    </p>
+                  </div>
+                </dd>
+                <dt>15:15–15:40</dt>
+                <dd class="paper">
+                  <span class="authors">Steffen van Bergerem and Nicole Schweikardt</span>.<br/>
+                  <span class="title">On the VC Dimension of First-Order Logic with Counting and Weight Aggregation</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper15" aria-controls="paper15" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper15">
+                    <p><span class="abstract-title">Abstract.</span> We prove optimal upper bounds on the Vapnik–Chervonenkis density of formulas in the extensions
+of first-order logic with counting (FOC₁) and with weight aggregation (FOWA₁) on nowhere dense
+classes of (vertex- and edge-)weighted finite graphs. This lifts a result of Pilipczuk, Siebertz, and
+Toruńczyk (LICS 2018) from first-order logic on ordinary finite graphs to substantially more expressive logics
+on weighted finite graphs. Moreover, this proves that every FOC1 formula and every FOWA1 formula
+has bounded Vapnik–Chervonenkis dimension on nowhere dense classes of weighted finite graphs;
+thereby, it lifts a result of Adler and Adler (Eur. J. Comb, 2014) from first-order logic to FOC₁ and FOWA₁.</p><p>
+Generalising another result of Pilipczuk, Siebertz, and Toruńczyk (LICS 2018), we also provide an explicit
+upper bound on the ladder index of FOC₁ and FOWA₁ formulas on nowhere dense classes. This
+shows that nowhere dense classes of weighted finite graphs are FOC₁-stable and FOWA₁-stable.
+                    </p>
+                  </div>
+                </dd>
+              </dl>
+            </dd>
             <dt class="break">15:40–16:10</dt>
             <dd>Coffee break</dd>
             <dt class="session">16:10–17:50</dt>
-            <dd id="ses6"><strong>Session 6</strong> </dd>
+            <dd id="ses6"><strong>Session 6</strong>
+              <em>Modal and Temporal Logics</em> <span style="float:right">Chair: TBA</span>
+              <dl>
+                <dt>16:10–16:35</dt>
+                <dd class="paper">
+                  <span class="authors">Hadar Frenkel and Martin Zimmermann</span>.<br/>
+                  <span class="title">The Complexity of Second-Order HyperLTL</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper10" aria-controls="paper10" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper10">
+                    <p><span class="abstract-title">Abstract.</span> We determine the complexity of second-order HyperLTL satisfiability, finite-state satisfiability, and
+model-checking: All three are equivalent to truth in third-order arithmetic.</p><p>
+We also consider two fragments of second-order HyperLTL that have been introduced with
+the aim to facilitate effective model-checking by restricting the sets one can quantify over. The
+first one restricts second-order quantification to smallest/largest sets that satisfy a guard while
+the second one restricts second-order quantification further to least fixed points of (first-order)
+HyperLTL definable functions. All three problems for the first fragment are still equivalent to truth
+in third-order arithmetic while satisfiability for the second fragment is <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msubsup>
+    <mrow>
+      <mi mathvariant="normal">Σ</mi>
+    </mrow>
+    <mn>1</mn>
+    <mn>1</mn>
+  </msubsup>
+</math>-complete, i.e., only as hard
+as for (first-order) HyperLTL and therefore much less complex. Finally, finite-state satisfiability and
+model-checking are in <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msubsup>
+    <mrow>
+      <mi mathvariant="normal">Σ</mi>
+    </mrow>
+    <mn>2</mn>
+    <mn>2</mn>
+  </msubsup>
+</math> and are <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msubsup>
+    <mrow>
+      <mi mathvariant="normal">Σ</mi>
+    </mrow>
+    <mn>1</mn>
+    <mn>1</mn>
+  </msubsup>
+</math>-hard, and thus also less complex than for full second-order
+HyperLTL.
+                    </p>
+                  </div>
+                </dd>
+                <dt>16:35–17:00</dt>
+                <dd class="paper">
+                  <span class="authors">Thibaut Antoine and David Baelde</span>.<br/>
+                  <span class="title">Propositional Logics of Overwhelming Truth</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper24" aria-controls="paper24" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper24">
+                    <p><span class="abstract-title">Abstract.</span> Cryptographers consider that <em>asymptotic security</em> holds when, for any possible attacker running in
+polynomial time, the probability that the attack succeeds is <em>negligible</em>, i.e. that it tends fast enough
+to zero with the size of secrets. In order to reason formally about cryptographic truth, one may
+thus consider logics where a formula is satisfied when it is true with overwhelming probability, i.e. a
+probability that tends fast enough to one with the size of secrets. In such logics it is not always the
+case that either φ or ¬φ is satisfied by a given model. However, security analyses will inevitably
+involve specific formulas, which we call <em>determined</em>, satisfying this property – typically because they
+are not probabilistic. The Squirrel proof assistant, which implements a logic of overwhelming truth,
+features ad-hoc proof rules for this purpose.</p><p>
+In this paper, we study several propositional logics whose semantics rely on overwhelming truth.
+We first consider a modal logic of overwhelming truth, and show that it coincides with S5. In
+addition to providing an axiomatization, this brings a well-behaved proof system for our logic in
+the form of Poggiolesi’s hypersequent calculus. Further, we show that this system can be adapted
+to elegantly incorporate reasoning on determined atoms. We then consider a logic that is closer to
+Squirrel’s language, where the overwhelming truth modality cannot be nested. In that case, we show
+that a simple proof system, based on regular sequents, is sound and complete. This result justifies
+the core of Squirrel’s proof system.
+                    </p>
+                  </div>
+                </dd>
+                <dt>17:00–17:25</dt>
+                <dd class="paper">
+                  <span class="authors">Konstantinos Papafilippou and David Fernández-Duque</span>.<br/>
+                  <span class="title">Exponential Lower Bounds on Definable Fixed Points</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper25" aria-controls="paper25" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper25">
+                    <p><span class="abstract-title">Abstract.</span> It is known that the µ-calculus is no more expressive than basic modal logic over the class of finite
+partial orders, as well as over the class of finite, strict partial orders. Nevertheless, we show that the
+µ-calculus is exponentially more succinct, even when a reflexive modality is added as primitive. As
+corollaries, we obtain a lower bound for the fixed-point theorem for Gödel-Löb logic and a variant
+for Grzegorczyk logic, as well as lower bounds on interpolants for the interpolation theorem of
+Gödel-Löb logic.
+                    </p>
+                  </div>
+                </dd>
+                <dt>17:25–17:50</dt>
+                <dd class="paper">
+                  <span class="authors">Luca Aceto, Antonis Achilleos, Aggeliki Chalki, and Anna Ingólfsdóttir</span>.<br/>
+                  <span class="title">The Complexity of Deciding Characteristic Formulae in van Glabbeek’s Branching-time Spectrum</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper26" aria-controls="paper26" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper26">
+                    <p><span class="abstract-title">Abstract.</span> Characteristic formulae give a complete logical description of the behaviour of processes modulo
+some chosen notion of behavioural semantics. They allow one to reduce equivalence or preorder
+checking to model checking, and are exactly the formulae in the modal logics characterizing classic
+behavioural equivalences and preorders for which model checking can be reduced to equivalence or
+preorder checking.</p><p>
+This paper studies the complexity of determining whether a formula is characteristic for some
+process in each of the logics providing modal characterizations of the simulation-based semantics in
+van Glabbeek’s branching-time spectrum. Since characteristic formulae in each of those logics are
+exactly the satisfiable and prime ones, this article presents complexity results for the satisfiability and
+primality problems, and investigates the boundary between modal logics for which those problems
+can be solved in polynomial time and those for which they become computationally hard.</p><p>
+Amongst other contributions, this article also studies the complexity of constructing characteristic
+formulae in the modal logics characterizing simulation-based semantics, both when such formulae
+are presented in explicit form and via systems of equations.
+                    </p>
+                  </div>
+                </dd>
+              </dl>
+            </dd>
           </dl>
           <!-- Thursday ------------------------------------>
           <h5 id="thu">Thursday, February 13</h5>
           <dl>
             <dt class="session">09:00–10:00</dt>
-            <dd id="inv3"><strong>Invited talk</strong>  <a href="https://yforster.de/">Yannick Forster</a></dd>
+            <dd id="inv3"><strong>Invited talk</strong>  <a href="https://yforster.de/">Yannick Forster</a> <span style="float:right">Chair: TBA</span>
+              <dl><dt>09:00–10:00</dt><dd>
+              <span class="authors">Yannick Forster</span>.<br/>
+              <span class="title">Synthetic Mathematics for the Mechanisation of Computability Theory and Logic</span>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper3" aria-controls="paper3" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <div class="collapse abstract" id="paper3">
+                <p><span class="abstract-title">Abstract.</span> Mathematical practice in most areas of mathematics is based on the assumption that proofs could
+be made fully formal in a chosen foundation in principle. This assumption is backed by partial
+attempts at formalisation and by full mechanisation of various areas of mathematics in various proof
+assistants and various foundations. Areas that have been largely neglected for computer-assisted
+and machine-checked proofs are computability theory and logic: Fundamental results like Gödel’s
+second incompleteness theorem in its stronger forms due to Kleene and Rosser, Löb’s theorem, Post’s
+theorem connecting the arithmetical hierarchy and Turing jumps, or the Friedberg-Muĉnik theorem
+solving Post’s problem have not or only very recently been re-produced in proof assistants. This is
+due to the fact that making these arguments formal is several orders of magnitude more involved
+than formalising other areas of mathematics, due to the amount of invisible mathematics (a term
+coined by Andrej Bauer) involved.</p><p>
+In computability theory, invisible arguments occur mainly behind proofs that a certain intuitively
+sketched procedure is computable in – citing Emil Post – “forbidding, diverse and alien formalisms in
+which this [...] work of Gödel, Church, Turing, Kleene, Rosser [...] is embodied.” For instance, there
+have been various approaches of formalising Turing machines, all to the ultimate dissatisfaction of
+the respective authors, and none going further than constructing a universal machine and proving
+the halting problem undecidable. Professional computability theorist and teachers of computability
+theory thus rely on the informal Church Turing thesis to carry out their work and only argue the
+computability of described algorithms informally.</p><p>
+For computability theory, a way out was proposed in the 1980s by Fred Richman and developed
+during the last decade by Andrej Bauer: Synthetic computability theory, where one assumes axioms
+in a constructive foundation which essentially identify all (constructively definable) functions with
+computable functions. A drawback of the approach is that assuming such an axiom on top of the
+axiom of countable choice — which is routinely assumed in this branch of constructive mathematics
+and computable analysis — is that the law of excluded middle, i.e. classical logic, becomes invalid.
+Computability theory is however, as all mainstream branches of mathematics, making routine use of
+the axiom of excluded middle.</p><p>
+In the case of logic, the invisible mathematics usually is either centered around encoding formulas
+and proofs as numbers using Gödel or similar encodings or about provability arguments that certain
+results can be proved in restricted proof systems such as Peano arithmetic. In several settings,
+synthetic computability arguments can be employed to mechanise these proofs.
+We observe that a slight foundational shift rectifies the situation: By basing synthetic computability theory in the Calculus of Inductive Constructions, the type theory underlying amongst others
+the Coq and Lean proof assistants, where countable choice is independent and thus not provable,
+axioms for synthetic computability are compatible with the law of excluded middle. This insight
+can be used to finally mechanise computability theory and logic, in an elegant, concise way where
+invisible arguments stay invisible: with Felix Jahn I have mechanised arguments related to many-one
+and truth-table reduction theory (published at CSL ’23), Dominik Kirst and Benjamin Peters have
+presented Gödel’s first incompleteness theorem in this style (at CSL ’23), and in collaboration with
+Dominik Kirst and Niklas Mück I have given a proof of Post’s hierarchy theorem (at CSL ’24).
+In this invited talk, I will give a broader overview of this line of research investigating a mechanised
+synthetic approach to logic and computability theory. In particular, I will discuss a Coq library of
+undecidability proofs, results in the theory of reducibility degrees, constructive reverse analysis of
+theorems, as well as generalised incompleteness results such as Löb’s theorem.</p></div></dd></dl></dd>
             <dt class="break">10:00–10:30</dt>
             <dd>Coffee break</dd>
-            <dt class="session">10:30–12:10</dt>
-            <dd id="ses7"><strong>Session 7</strong> </dd>
-            <dt class="break">12:10–13:30</dt>
+            <dt class="session">10:30–11:30</dt>
+            <dd id="rasiowa"><strong><a href="https://www.eacsl.org/helena-rasiowa-award-2/">Helena Rasiowa Award</a></strong>  <span style="float:right">Chair: TBA</span>
+                      <dl><dt>10:40–11:05</dt>
+                        <dd>
+                          <span class="authors">Ioannis Eleftheriadis</span>.<br/>
+                          <span class="title">Extension Preservation on Dense Graph Classes</span>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper7" aria-controls="paper7" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                          <div class="collapse abstract" id="paper7">
+                            <p><span class="abstract-title">Abstract.</span> Preservation theorems provide a direct correspondence between the syntactic structure of first-order
+sentences and the closure properties of their respective classes of models. A line of work has explored
+preservation theorems relativised to combinatorially tame classes of sparse structures (Atserias et al.,
+JACM 2006; Atserias et al., SiCOMP 2008; Dawar, JCSS 2010; Dawar and Eleftheriadis, MFCS
+2024). In this article we initiate the study of preservation theorems for dense classes of graphs. In
+contrast to the sparse setting, we show that extension preservation fails on most natural dense classes
+of low complexity. Nonetheless, we isolate a technical condition which is sufficient for extension
+preservation to hold, providing a dense analogue to a result of (Atserias et al., SiCOMP 2008).</p></div></dd>
+                        <dt>11:05–11:30</dt>
+                        <dd>
+                          <span class="authors">Daumantas Kojelis</span>.<br/>
+                          <span class="title">On Homogeneous Models of Fluted Languages</span>
+                          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper9" aria-controls="paper9" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                          <div class="collapse abstract" id="paper9">
+                            <p><span class="abstract-title">Abstract.</span> We study the fluted fragment of first-order logic which is often viewed as a multi-variable non-guarded
+extension to various systems of description logics lacking role-inverses. In this paper we show that
+satisfiable fluted sentences (even under reasonable extensions) admit special kinds of “nice” models
+which we call globally/locally homogeneous. Homogeneous models allow us to simplify methods for
+analysing fluted logics with counting quantifiers and establish a novel result for the decidability of
+the (finite) satisfiability problem for the fluted fragment with periodic counting. More specifically,
+we will show that the (finite) satisfiability problem for the language is <span style="font-family:sans-serif">Tower</span>-complete. If only two
+variable are used, computational complexity drops to <span style="font-family:sans-serif">NExpTime</span>-completeness. We supplement
+our findings by showing that generalisations of fluted logics, such as the adjacent fragment, have
+finite and general satisfiability problems which are, respectively, <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msubsup>
+    <mrow>
+      <mi mathvariant="normal">Σ</mi>
+    </mrow>
+    <mn>1</mn>
+    <mn>0</mn>
+  </msubsup>
+</math>- and <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msubsup>
+    <mrow>
+      <mi mathvariant="normal">Π</mi>
+    </mrow>
+    <mn>1</mn>
+    <mn>0</mn>
+  </msubsup>
+</math>-complete. Additionally,
+satisfiability becomes <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msubsup>
+    <mrow>
+      <mi mathvariant="normal">Σ</mi>
+    </mrow>
+    <mn>1</mn>
+    <mn>1</mn>
+  </msubsup>
+</math>-complete if periodic counting quantifiers are permitted.</p></div></dd>
+                      </dl></dd>
+            <dt class="session">11:30–12:30</dt>
+            <dd id="ackermann"><strong><a href="https://www.eacsl.org/ackermann-award/">Ackermann Award</a></strong>  <span style="float:right">Chair: TBA</span>
+              <dl><dt>11:40–12:05</dt>
+                <dd>
+                  <span class="authors">Gaëtan Douéneau-Tabot</span>.<br/>
+                  <span class="title">Optimization of String Transducers</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper1a" aria-controls="paper1a" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper1a">
+                    <p><span class="abstract-title">Abstract.</span> Transducers are finite-state machines which compute functions (or relations) from words
+to words. They can be seen as simple programs with limited memory which manipulate strings. These
+machines have been studied for long in fundamental computer science as a part of automata theory, and
+are used in many areas such as compiling, natural language processing or stream processing.</p><p>
+Various transducer models have been defined in the literature, thanks to many features (such as non-determinism, two-wayness or nesting) which enable to increase the expressive power of the machines.
+In this setting, a natural question is to solve the related class membership problems: given a function
+computed by a transducer with “complex” features, can it be computed by a “simpler” transducer? Some
+of these problems have been solved in the literature, using somehow disparate proof techniques. They are
+generally considered as difficult. In practice, such problems can be interpreted as program optimization
+issues: given a program using a lot of resources, can we build a “more efficient” equivalent program?</p><p>
+This thesis solves various membership problems between existing classes of transductions, both over
+finite or infinite words. Among others, the celebrated models of two-way transducers and pebble transducers are investigated in detail. Each time, the membership procedure is non-trivial and turns out to
+be effective (in the sense that it builds a “simpler” transducer whenever it exists). Therefore our results
+can be considered as program optimization statements. Furthermore, we offer a systematic high-level
+strategy for solving these problems, which relies on semantic properties (i.e. dealing intrinsically with the
+functions) as well as syntactic properties (referring to the transducers which compute these functions).</p><p>
+Additionally, this thesis provides new computation models and characterizations in order to capture
+known classes of transductions. These results complete the previous understanding of these classes and
+provide new insights on their expressive power. The author believes that the various techniques of this
+manuscript form a rather extensive toolbox for investigating other open membership problems.</p></div></dd>
+                <dt>12:05–13:00</dt>
+                <dd>
+                  <span class="authors">Aliaume Lopez</span>.<br/>
+                  <span class="title">First Order Preservation Theorems in Finite Model Theory: Locality, Topology, and Limit Constructions</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper1b" aria-controls="paper1b" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper1b">
+                    <p><span class="abstract-title">Abstract.</span> Preservation Theorems in first-order logic are a collection of results derived from classical Model Theory. These results establish a direct correspondence between the semantic properties of formulas and the syntactic constraints imposed on the language used to express them. However, studying these theorems becomes notably challenging when focusing on finite models, which is unfortunate given that the field of Finite Model Theory is better equipped to describe phenomena occurring in Computer Science. This thesis presents a systematic approach to investigating Preservation Theorems within the realm of Finite Model Theory. The traditional ad-hoc proofs are replaced with a theoretical framework that generalizes techniques based on locality, and introduces a topological presentation of preservation theorems called logically presented pre-spectral spaces. Introducing these topological spaces enables us to develop a compositional theory for preservation theorems. Additionally, this thesis takes an initial stride towards systematically examining preservation theorems across inductively defined classes of finite structures. It accomplishes this by proving a generic fixed point theorem for a topological extension of logically presented pre-spectral spaces, specifically Noetherian spaces.</p></div></dd>
+              </dl>
+            </dd>
+            <dt class="break">12:30–13:45</dt>
             <dd>Lunch</dd>
-            <dt class="session">13:30–14:00</dt>
-            <dd id="rasiowa"><strong><a href="https://www.eacsl.org/helena-rasiowa-award-2/">Helena Rasiowa Award</a></strong> </dd>
-            <dt class="session">14:00–15:00</dt>
-            <dd id="ackermann"><strong><a href="https://www.eacsl.org/ackermann-award/">Ackermann Award</a></strong> </dd>
-            <dt class="organisation">15:10–15:40</dt>
+            <dt class="session">13:45–15:00</dt>
+            <dd id="ses7"><strong>Session 7</strong>
+              <em>Quantitative Models</em> <span style="float:right">Chair: TBA</span>
+              <dl>
+                <dt>13:45–14:10</dt>
+                <dd class="paper">
+                  <span class="authors">Reijo Jaakkola, Antti Kuusisto, and Miikka Vilander</span>.<br/>
+                  <span class="title">Description Complexity of Unary Structures in First-Order Logic with Links to Entropy</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper17" aria-controls="paper17" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper17">
+                    <p><span class="abstract-title">Abstract.</span> The description complexity of a model is the length of the shortest formula that defines the model.
+We study the description complexity of unary structures in first-order logic FO, also drawing links
+to semantic complexity in the form of entropy. The class of unary structures provides, e.g., a
+simple way to represent tabular Boolean data sets as relational structures. We define structures
+with FO-formulas that are strictly linear in the size of the model as opposed to using the naive
+quadratic ones, and we use arguments based on formula size games to obtain related lower bounds
+for description complexity. For a typical structure the upper and lower bounds in fact match up to
+a sublinear term, leading to a precise asymptotic result on the expected description complexity of a
+randomly selected structure. We then give bounds on the relationship between Shannon entropy
+and description complexity. We extend this relationship also to Boltzmann entropy by establishing
+an asymptotic match between the two entropies. Despite the simplicity of unary structures, our
+arguments require the use of formula size games, Stirling’s approximation and Chernoff bounds.
+                </dd>
+                <dt>14:10–14:35</dt>
+                <dd class="paper">
+                  <span class="authors">Jonas Forster, Lutz Schröder, Paul Wild, Harsh Beohar, Sebastian Gurke, Barbara König, and Karla Messing</span>.<br/>
+                  <span class="title">Quantitative Graded Semantics and Spectra of Behavioural Metrics</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper33" aria-controls="paper33" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper33">
+                    <p><span class="abstract-title">Abstract.</span> Behavioural metrics provide a quantitative refinement of classical two-valued behavioural equivalences
+on systems with quantitative data, such as metric or probabilistic transition systems. In analogy
+to the linear-time/ branching-time spectrum of two-valued behavioural equivalences on transition
+systems, behavioural metrics vary in granularity, and are often characterized by fragments of suitable
+modal logics. In the latter respect, the quantitative case is, however, more involved than the
+two-valued one; in fact, we show that probabilistic metric trace distance cannot be characterized
+by any compositionally defined modal logic with unary modalities. We go on to provide a unifying
+treatment of spectra of behavioural metrics in the emerging framework of graded monads, working
+in coalgebraic generality, that is, parametrically in the system type. In the ensuing development
+of <em>quantitative graded semantics</em>, we introduce algebraic presentations of graded monads on the
+category of metric spaces. Moreover, we provide a general criterion for a given real-valued modal
+logic to characterize a given behavioural distance. As a case study, we apply this criterion to obtain
+a new characteristic modal logic for trace distance in fuzzy metric transition systems.
+                    </p>
+                  </div>
+                </dd>
+                <dt>14:35–15:00</dt>
+                <dd class="paper">
+                  <span class="authors">Valentin Maestracci and Paolo Pistone</span>.<br/>
+                  <span class="title">The Lambda Calculus is Quantifiable</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper34" aria-controls="paper34" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper34">
+                    <p><span class="abstract-title">Abstract.</span> In this paper we introduce several quantitative methods for the lambda-calculus based on partial
+metrics, a well-studied variant of standard metric spaces that have been used to metrize non-Hausdorff topologies, like those arising from Scott domains. First, we study quantitative variants,
+based on program distances, of sensible equational theories for the λ-calculus, like those arising from
+Böhm trees and from the contextual preorder. Then, we introduce applicative distances capturing
+higher-order Scott topologies, including reflexive objects like the D<sub>∞</sub> model. Finally, we provide a
+quantitative insight on the well-known connection between the Böhm tree of a λ-term and its Taylor
+expansion, by showing that the latter can be presented as an isometric transformation.
+                    </p>
+                  </div>
+                </dd>
+              </dl>
+            <dt class="break">15:00–15:30</dt>
+            <dd>Coffee break</dd>
+            <dt class="organisation">15:30–16:00</dt>
             <dd>Business meeting</dd>
-            <dt class="social">15:45–18:00</dt>
+            <dt class="social">16:00–18:00</dt>
             <dd id="excursion">Excursion</dd>
             <dt class="social">18:00–21:00</dt>
             <dd id="dinner">Conference dinner</dd>
@@ -363,19 +1168,358 @@
           <h5 id="fri">Friday, February 14</h5>
           <dl>
             <dt class="session">09:00–10:00</dt>
-            <dd id="inv4"><strong>Invited talk</strong>  <a href="https://lmf.cnrs.fr/PatriciaBouyer/">Patricia Bouyer-Decitre</a></dd>
+            <dd id="inv4"><strong>Invited talk</strong>  <a href="https://lmf.cnrs.fr/PatriciaBouyer/">Patricia Bouyer-Decitre</a> <span style="float:right">Chair: TBA</span>
+              <dl><dt>09:00–10:00</dt>
+                <dd>
+              <span class="authors">Patricia Bouyer-Decitre</span>.<br/>
+              <span class="title">On the Probabilistic and Statistical Verification of Infinite Markov Chains</span>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper2" aria-controls="paper2" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <div class="collapse abstract"
+                   id="paper2">
+                <p><span class="abstract-title">Abstract.</span> The verification of infinite-state Markov chains is a challenging problem, even when those chains
+are described by structured high-level models. In 2007, Abdulla et al. introduced the concept of
+decisiveness (<i>Log. Meth. Comput. Sci.</i>), and showed that a natural approximation scheme could be applied to infinite Markov
+chains that are decisive. This was, up to our knowledge, the unique generic scheme that could be
+widely applied to (decisive) infinite Markov chains providing guarantees on the computed values
+(under some mild assumptions for effectiveness). On the other hand, statistical model-checking is
+a very efficient method that can be used for estimating probabilities in stochastic systems (Younes et al., SBMF’10, <i>Inf. Comput.</i> 2006).
+We explain in this talk that decisiveness is also a key concept that allows to apply such statistical
+methods to infinite Markov chains.</p><p>
+While decisiveness is a crucial property, not all Markov chains are decisive, and it is therefore
+desirable to propose methods to analyze non-decisive Markov chains. Importance sampling (Kahn and Harris, <i>Natl.
+Bureau Stands.</i> 1951) is a
+method which has been proposed to improve efficiency of statistical model-checking, in particular
+for estimating probabilities of rare events in stochastic systems. The idea is to biase the original
+chain, and to estimate the probabilities in the biased chain; guarantees can sometimes be given, as
+studied for instance in (Barbot, Haddad, and Picaronny, TACAS’12).</p><p>
+In this talk, we will explain how we use the importance sampling idea to turn a non-decisive
+Markov chain into a biased decisive Markov chain, in which we can estimate probabilities (with
+guarantees). We apply the general approach to a class of probabilistic pushdown automata. Our
+algorithms have been implemented in the tool Cosmos (Ballarini et al., <i>Perf. Eval.</i> 2015), and we discuss the methodology for
+experiments as well as our (partial) conclusions.</p></div></dd></dl></dd>
             <dt class="break">10:00–10:30</dt>
             <dd>Coffee break</dd>
             <dt class="session">10:30–12:35</dt>
-            <dd id="ses8"><strong>Session 8</strong> </dd> 
+            <dd id="ses8"><strong>Session 8</strong>
+              <em>Games and Automata</em> <span style="float:right">Chair: TBA</span>
+              <dl>
+                <dt>10:30–10:55</dt>
+                <dd class="paper">
+                  <span class="authors">Andrew Scoones, Mahsa Shirmohammadi, and James Worrell</span>.<br/>
+                  <span class="title">Reachability for Multi-Priced Timed Automata with Positive and Negative Rates</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper18" aria-controls="paper18" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper18">
+                    <p><span class="abstract-title">Abstract.</span> Multi-priced timed automata (MPTA) are timed automata with observer variables whose derivatives
+can change from one location to another. Observers are read-once variables: they do not affect the
+control flow of the automaton and their value is output only at the end of a run. Thus MPTA lie
+between timed and hybrid automata in expressiveness. Previous work considered observers with
+non-negative slope in every location. In this paper we treat observers that have both positive and
+negative rates. Our main result is an algorithm to decide a gap version of the reachability problem
+for this variant of MPTA. We translate the gap reachability problem into a gap satisfiability problem
+for mixed integer-real systems of nonlinear constraints. Our main technical contribution – a result of
+independent interest – is a procedure to solve such contraints via a combination of branch-and-bound
+and relaxation-and-rounding.
+                    </p>
+                  </div>
+                </dd>
+                <dt>10:55–11:20</dt>
+                <dd class="paper">
+                  <span class="authors">Shaull Almagor, Michaël Cadilhac, and Asaf Yeshurun</span>.<br/>
+                  <span class="title">Two-Way One-Counter Nets Revisited</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper19" aria-controls="paper19" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper19">
+                    <p><span class="abstract-title">Abstract.</span> One Counter Nets (OCNs) are finite-state automata equipped with a counter that cannot become
+negative, but cannot be explicitly tested for zero. Their close connection to various other models
+(e.g., PDAs, Vector Addition Systems, and Counter Automata) make them an attractive modeling
+tool.</p><p>
+The two-way variant of OCNs (2-OCNs) was introduced in the 1980’s and shown to be more
+expressive than OCNs, so much so that the emptiness problem is undecidable already in the
+deterministic model (2-DOCNs).</p><p>
+In a first part, we study the emptiness problem of natural restrictions of 2-OCNs, under the light
+of modern results about Vector Addition System with States (VASS). We show that emptiness is
+decidable for 2-OCNs over bounded languages (i.e., languages contained in <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <msubsup>
+      <mi>a</mi>
+      <mn>1</mn>
+      <mo>∗</mo>
+    </msubsup>
+    <msubsup>
+      <mi>a</mi>
+      <mn>2</mn>
+      <mo>∗</mo>
+    </msubsup>
+    <mo>⋯</mo>
+  </mrow>
+  <mrow>
+    <msubsup>
+      <mi>a</mi>
+      <mi>k</mi>
+      <mo>∗</mo>
+    </msubsup>
+  </mrow>
+</math>), and decidable
+and <span style="font-family:sans-serif">Ackermann</span>-complete for sweeping 2-OCNs, where the head direction only changes at the
+end-markers. Both decidability results revolve around reducing the problem to VASS reachability,
+but they rely on strikingly different approaches. In a second part, we study the expressive power
+of 2-OCNs, showing an array of connections between bounded languages, sweeping 2-OCNs, and
+semilinear languages. Most noteworthy among these connections, is that the bounded languages
+recognized by sweeping 2-OCNs are precisely those that are semilinear. Finally, we establish an
+intricate pumping lemma for 2-DOCNs and use it to show that there are OCN languages that are
+not 2-DOCN recognizable, improving on the known result that there are such 2-OCN languages.
+                    </p>
+                  </div>
+                </dd>
+                <dt>11:20–11:45</dt>
+                <dd class="paper">
+                  <span class="authors">Andrei Draghici, Radosław Piórkowski, and Andrew Ryzhikov</span>.<br/>
+                  <span class="title">Boundedness of Cost Register Automata over the Integer Min-plus Semiring</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper20" aria-controls="paper20" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper20">
+                    <p><span class="abstract-title">Abstract.</span> Cost register automata (CRAs) are deterministic automata with registers taking values from a
+fixed semiring. A CRA computes a function from words to values from this semiring. CRAs are
+tightly related to well-studied weighted automata. Given a CRA, the boundedness problem asks
+if there exists a natural number N such that for every word, the value of the CRA on this word
+does not exceed N. This problem is known to be undecidable for the class of linear CRAs over
+the integer min-plus semiring (ℤ ∪ {+∞}, min, +), but very little is known about its subclasses. In
+this paper, we study boundedness of copyless linear CRAs with resets over the integer min-plus
+semiring. We show that it is decidable for such CRAs with at most two registers. More specifically,
+we show that it is, respectively, <span style="font-family:sans-serif">NL</span>-complete and in <span style="font-family:sans-serif">coNP</span> if the numbers in the input are presented
+in unary and binary. We also provide complexity results for two classes with an arbitrary number
+of registers. Namely, we show that for CRAs that use the minimum operation only in the output
+function, boundedness is <span style="font-family:sans-serif">PSPACE</span>-complete if transferring values to other registers is allowed, and is
+<span style="font-family:sans-serif">coNP</span>-complete otherwise. Finally, for each <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mi>f</mi>
+    <mi>i</mi>
+  </msub>
+</math> in the hierarchy of fast-growing functions, we provide
+a stateless CRA with i registers whose output exceeds N only on runs longer than <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mi>f</mi>
+    <mi>i</mi>
+  </msub>
+</math>(N). Our
+construction yields a non-elementary lower bound already for four registers.
+                    </p>
+                  </div>
+                </dd>
+                <dt>11:45–12:10</dt>
+                <dd class="paper">
+                  <span class="authors">Antonio Casares, Olivier Idir, Denis Kuperberg, Corto Mascle, and Aditya Prakash</span>.<br/>
+                  <span class="title">On the Minimisation of Deterministic and History-Deterministic Generalised (co)Büchi Automata</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper22" aria-controls="paper22" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper22">
+                    <p><span class="abstract-title">Abstract.</span> We present a polynomial-time algorithm minimising the number of states of history-deterministic
+generalised coBüchi automata, building on the work of Abu Radi and Kupferman on coBüchi
+automata. On the other hand, we establish that the minimisation problem for both deterministic
+and history-deterministic generalised Büchi automata is <span style="font-family:sans-serif">NP</span>-complete, as well as the problem of
+minimising at the same time the number of states and colours of history-deterministic generalised
+coBüchi automata.
+                    </p>
+                  </div>
+                </dd>
+                <dt>12:10–12:35</dt>
+                <dd class="paper">
+                  <span class="authors">Aline Goeminne and Benjamin Monmege</span>.<br/>
+                  <span class="title">Permissive Equilibria in Multiplayer Reachability Games</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper23" aria-controls="paper23" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper23">
+                    <p><span class="abstract-title">Abstract.</span> We study multi-strategies in multiplayer reachability games played on finite graphs. A multi-strategy
+prescribes a set of possible actions, instead of a single action as usual strategies: it represents a set
+of all strategies that are consistent with it. We aim for profiles of multi-strategies (a multi-strategy
+per player), where each profile of consistent strategies is a Nash equilibrium, or a subgame perfect
+equilibrium. The permissiveness of two multi-strategies can be compared with penalties, as already
+used in the two-player zero-sum setting by Bouyer, Duflot, Markey and Renault (Concur 2009). We show that
+we can decide the existence of a multi-strategy that is a Nash equilibrium or a subgame perfect
+equilibrium, while satisfying some upper-bound constraints on the penalties in <span style="font-family:sans-serif">PSPACE</span>, if the
+upper-bound penalties are given in unary. The same holds when we search for multi-strategies where
+certain players are asked to win in at least one play or in all plays.
+                    </p>
+                  </div>
+                </dd>
+              </dl>
+            </dd>
             <dt class="break">12:35–14:00</dt>
             <dd>Lunch</dd>
             <dt class="session">14:00–15:40</dt>
-            <dd id="ses9"><strong>Session 9</strong> </dd>
+            <dd id="ses9"><strong>Session 9</strong>
+              <em>Logic and Complexity</em> <span style="float:right">Chair: TBA</span>
+              <dl>
+                <dt>14:00–14:25</dt>
+                <dd class="paper">
+                  <span class="authors">Benjamin Rossman</span>.<br/>
+                  <span class="title">Equi-rank Homomorphism Preservation Theorem on Finite Structures</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper6" aria-controls="paper6" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper6">
+                    <p><span class="abstract-title">Abstract.</span> The Homomorphism Preservation Theorem (HPT) of classical model theory states that a first-order
+sentence is preserved under homomorphisms if, and only if, it is equivalent to an existential-positive
+sentence. This theorem remains valid when restricted to finite structures, as demonstrated by the
+author in (Rossman, JACM 2008 and ITCS 2017) via distinct model-theoretic and circuit-complexity based proofs. In this paper, we
+present a third (and significantly simpler) proof of the finitary HPT based on a generalized Cai-Fürer-Immerman construction. This method establishes a tight correspondence between syntactic
+parameters of a homomorphism-preserved sentence (quantifier rank, variable width, alternation
+height) and structural parameters of its minimal models (tree-width, tree-depth, decomposition
+height). Consequently, we prove a conjectured “equi-rank” version of the finitary HPT. In contrast,
+previous versions of the finitary HPT possess additional properties, but incur blow-ups in the
+quantifier rank of the equivalent existential-positive sentence.
+                    </p>
+                  </div>
+                </dd>
+                <dt>14:25–14:50</dt>
+                <dd class="paper">
+                  <span class="authors">Steffen van Bergerem, Martin Grohe, and Nina Runde</span>.<br/>
+                  <span class="title">The Parameterized Complexity of Learning Monadic Second-Order Logic</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper8" aria-controls="paper8" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper8">
+                    <p><span class="abstract-title">Abstract.</span> Within the model-theoretic framework for supervised learning introduced by Grohe and Turán
+(TOCS 2004), we study the parameterized complexity of learning concepts definable in monadic
+second-order logic (MSO). We show that the problem of learning an MSO-definable concept from a
+training sequence of labeled examples is fixed-parameter tractable on graphs of bounded clique-width,
+and that it is hard for the parameterized complexity class <span style="font-family:sans-serif">para-NP</span> on general graphs.</p><p>
+It turns out that an important distinction to be made is between 1-dimensional and higher-dimensional concepts, where the instances of a k-dimensional concept are k-tuples of vertices of
+a graph. For the higher-dimensional case, we give a learning algorithm that is fixed-parameter
+tractable in the size of the graph, but not in the size of the training sequence, and we give a hardness
+result showing that this is optimal. By comparison, in the 1-dimensional case, we obtain an algorithm
+that is fixed-parameter tractable in both.
+                    </p>
+                  </div>
+                </dd>
+                <dt>14:50–15:15</dt>
+                <dd class="paper">
+                  <span class="authors">Thomas Colcombet and Alexander Rabinovich</span>.<br/>
+                  <span class="title">On the Expansion of Monadic Second-Order Logic with Cantor-Bendixson Rank and Order Type</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper11" aria-controls="paper11" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper11">
+                    <p><span class="abstract-title">Abstract.</span> In this work, we consider two extensions of monadic second-order logic, and study in what cases the
+classical decidability results are preserved.</p><p>
+The first extension, MSO[CBrank<sub>β</sub>], is MSO (over the signature of the binary tree) augmented
+with the extra ability to express that the subtree over a set X has Cantor-Bendixson rank β, for
+some fixed countable ordinal β. We show that this extension is decidable over the binary tree if and
+only if β is finite, which means that it is decidable if and only if it is equivalent in expressiveness to
+MSO.</p><p>
+The second extension, MSO[otp<sub>α</sub>], is MSO (over the signature of order) augmented with the
+extra ability to express that the suborder induced by a set X has order type α for some fixed
+countable ordinal α. We show that this extension is decidable over countable ordinals if and only if
+α < ω<sup>ω</sup>, which means that it is decidable if and only if it is equivalent in expressiveness to MSO.</p><p>
+The first result can be established as a consequence of the second. The second result relies on
+the undecidability results of the logic BMSO (itself relying on the undecidability of MSO+U) in the
+case of αβ for β a limit ordinal, and on entirely new techniques when β is a successor ordinal. We
+also have some partial extensions of the second result to some uncountable cases.
+                    </p>
+                  </div>
+                </dd>
+                <dt>15:15–15:40</dt>
+                <dd class="paper">
+                  <span class="authors">Anuj Dawar and Bálint Molnár</span>.<br/>
+                  <span class="title">Undefinability of Approximation of 2-to-2 Games</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper16" aria-controls="paper16" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper16">
+                    <p><span class="abstract-title">Abstract.</span> Recent work by Atserias and Dawar (arXiv, 2019) and Tucker-Foltz (<i>Log. Meth. Comput. Sci.</i>, 2024) has established undefinability results
+in fixed-point logic with counting (FPC) corresponding to many classical complexity results from the
+hardness of approximation. In this line of work, <span style="font-family:sans-serif">NP</span>-hardness results are turned into unconditional
+FPC undefinability results. We extend this work by showing the FPC undefinability of any constant
+factor approximation of weighted 2-to-2 games, based on the <span style="font-family:sans-serif">NP</span>-hardness results of Khot, Minzer
+and Safra. Our result shows that the completely satisfiable 2-to-2 games are not FPC-separable from
+those that are not ϵ-satisfiable, for arbitrarily small ϵ. The perfect completeness of our inseparability
+is an improvement on the complexity result, as the <span style="font-family:sans-serif">NP</span>-hardness of such a separation is still only
+conjectured. This perfect completeness enables us to show the FPC undefinability of other problems
+whose <span style="font-family:sans-serif">NP</span>-hardness is conjectured. In particular, we are able to show that no FPC formula can
+separate the 3-colourable graphs from those that are not t-colourable, for any constant t.
+                    </p>
+                  </div>
+                </dd>
+              </dl>
+            </dd>
             <dt class="break">15:40–16:10</dt>
             <dd>Coffee break</dd>
             <dt class="session">16:10–17:50</dt>
-            <dd id="ses10"><strong>Session 10</strong> </dd>
+            <dd id="ses10"><strong>Session 10</strong>
+              <em>Synchronous and Kleene Algebras</em> <span style="float:right">Chair: TBA</span>
+              <dl>
+                <dt>16:10–16:35</dt>
+                <dd class="paper">
+                  <span class="authors">Rémi Morvan</span>.<br/>
+                  <span class="title">The Algebras for Automatic Relations</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper21" aria-controls="paper21" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper21">
+                    <p><span class="abstract-title">Abstract.</span> We introduce “synchronous algebras”, an algebraic structure tailored to recognize automatic relations
+(a.k.a. synchronous relations, or regular relations). They are the equivalent of monoids for regular
+languages, however they conceptually differ in two points: first, they are typed and second, they are
+equipped with a dependency relation expressing constraints between elements of different types.</p><p>
+The interest of the proposed definition is that it allows to lift, in an effective way, pseudovarieties
+of regular languages to that of synchronous relations, and we show how algebraic characterizations
+of pseudovarieties of regular languages can be lifted to the pseudovarieties of synchronous relations
+that they induce. Since this construction is effective, this implies that the membership problem is
+decidable for (infinitely) many natural classes of automatic relations. A typical example of such a
+pseudovariety is the class of “group relations,” defined as the relations recognized by finite-state
+synchronous permutation automata.</p><p>
+In order to prove this result, we adapt two pillars of algebraic language theory to synchronous
+algebras: (a) any relation admits a syntactic synchronous algebra recognizing it, and moreover, the
+relation is synchronous if, and only if, its syntactic algebra is finite and (b) classes of synchronous
+relations with desirable closure properties (i.e. pseudovarieties) correspond to pseudovarieties of
+synchronous algebras.
+                    </p>
+                  </div>
+                </dd>
+                <dt>16:35–17:00</dt>
+                <dd class="paper">
+                  <span class="authors">Leandro Gomes, Patrick Baillot, and Marco Gaboardi</span>.<br/>
+                  <span class="title">A Kleene Algebra with Tests for Union Bound Reasoning about Probabilistic Programs</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper35" aria-controls="paper35" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper35">
+                    <p><span class="abstract-title">Abstract.</span> Kleene Algebra with Tests (KAT) provides a framework for algebraic equational reasoning about
+imperative programs. The recent variant Guarded KAT (GKAT) allows to reason on non-probabilistic
+properties of probabilistic programs. Here we introduce an extension of this framework called
+approximate GKAT (aGKAT), which equips GKAT with a partially ordered monoid (real numbers)
+enabling to express satisfaction of (deterministic) properties except with a probability up to a certain
+bound. This allows to represent in equational reasoning ‘à la KAT’ proofs of probabilistic programs
+based on the union bound, a technique from basic probability theory. We show how a propositional
+variant of approximate Hoare Logic (aHL), a program logic for union bound, can be soundly encoded
+in our system aGKAT. We then illustrate the use of aGKAT with an example of accuracy analysis
+from the field of differential privacy.
+                    </p>
+                  </div>
+                </dd>
+                <dt>17:00–17:25</dt>
+                <dd class="paper">
+                  <span class="authors">Arthur Azevedo de Amorim, Cheng Zhang, and Marco Gaboardi</span>.<br/>
+                  <span class="title">Kleene Algebra with Commutativity Conditions is Undecidable</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper36" aria-controls="paper36" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper36">
+                    <p><span class="abstract-title">Abstract.</span> We prove that the equational theory of Kleene algebra with commutativity conditions on primitives
+(or atomic terms) is undecidable, thereby settling a longstanding open question in the theory of
+Kleene algebra. While this question has also been recently solved independently by Kuznetsov, our
+results hold even for weaker theories that do not support the <em>induction axioms</em> of Kleene algebra.
+                    </p>
+                  </div>
+                </dd>
+                <dt>17:25–17:50</dt>
+                <dd class="paper">
+                  <span class="authors">Yoshiki Nakamura</span>.<br/>
+                  <span class="title">Finite Relational Semantics for Language Kleene Algebra with Complement</span>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper37" aria-controls="paper37" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+                  <div class="collapse abstract" id="paper37">
+                    <p><span class="abstract-title">Abstract.</span> We study the equational theory of Kleene algebra (KA) w.r.t. languages (here, meaning the equational
+theory of regular expressions where each letter maps to any language) by extending the algebraic
+signature with the language complement. This extension significantly enhances the expressive power
+of KA. In this paper, we present a finite relational semantics completely characterizing the equational
+theory w.r.t. languages, which extends the relational characterizations known for KA and for KA
+with top. Based on this relational semantics, we show that the equational theory w.r.t. languages is
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msubsup>
+    <mrow>
+      <mi mathvariant="normal">Π</mi>
+    </mrow>
+    <mn>1</mn>
+    <mn>0</mn>
+  </msubsup>
+</math>-complete for KA with complement (with or without Kleene-star) and is <span style="font-family:sans-serif">PSPACE</span>-complete if the
+complement only applies to variables or constants.
+                    </p>
+                  </div>
+                </dd>
+              </dl>
+            </dd>
           </dl>
           </div>
           </div>
@@ -397,3 +1541,6 @@
      <script src="assets/js/beautifuljekyll.js"></script>
   </body>
 </html>
+
+
+
