@@ -34,13 +34,15 @@
       .session + dd dt {font-weight: normal; color: black; float:left; margin-right:1em; margin-left:.5em}
       .session + dd dd {margin-left: 1.5em; margin-bottom: 1em}
       .session + dd dl { padding-top: 1em; border-top: solid 1px #ccc}
-      .title { font-style: italic; font-weight: bold; margin-right: 2rem }
+      .title { font-style: italic; font-weight: bold; margin-right: 2rem; display: flex }
       .btn, button { padding-left: 2pt; padding-top: 0pt;
       padding-right: 2pt; padding-bottom: 0pt; border-color: #ccc; color: black;
-      background-color: transparent; margin-left:1rem; float:right }
+      background-color: transparent; margin-left:2pt; float: right }
       .abstract-title {font-weight: bold }
       .abstract p { margin: .5rem 0}
       .abstract { margin-bottom: .5em; border-bottom: solid 1px #ccc; margin-top: .5em; border-top: solid 1px #ccc; color:#666; text-align: justify; font-size: 87% }
+      .doi { content: url("assets/images/doi.svg"); margin-right:2pt;
+             width: 1em; height: 1em; margin-left: 1rem; margin-top:2.5pt; float:right; }
     </style>
   </head>
   <body>
@@ -306,8 +308,8 @@
               <span class="authors">Elaine Pimentel, Carlos Olarte, Timo Lang, Robert Freiman, and Christian G. Fermüller</span>.<br/>
               <span class="title">Playing with Modalities</span>
               <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper4" aria-controls="paper4" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
-              <div class="collapse abstract"
-                   id="paper4">
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.4">10.4230/LIPIcs.CSL.2025.4</a>
+              <div class="collapse abstract" id="paper4">
                 <p><span class="abstract-title">Abstract.</span>
                   In this work, we will explore modalities through dialogical game lenses. Games provide a powerful
                   tool for bridging the gap between intended and formal semantics, often offering a more conceptually
@@ -353,6 +355,7 @@
                   <span class="authors">Victoria Barrett, Alessio Guglielmi, and Benjamin Ralph</span>.<br/>
                   <span class="title">A Strictly Linear Subatomic Proof System</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper39" aria-controls="paper4" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.39">10.4230/LIPIcs.CSL.2025.39</a>
                   <div class="collapse abstract" id="paper39">
                     <p><span class="abstract-title">Abstract.</span> We present a subatomic deep-inference proof system for a conservative extension of propositional
 classical logic with decision trees that is strictly linear. In a strictly linear subatomic system, a single
@@ -369,6 +372,7 @@ p-simulates Frege systems, and we show cut elimination for the resulting strictl
                   <span class="authors">Tim S. Lyon</span>.<br/>
                   <span class="title">Unifying Sequent Systems for Gödel-Löb Provability Logic via Syntactic Transformations</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper42" aria-controls="paper42" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.42">10.4230/LIPIcs.CSL.2025.42</a>
                   <div class="collapse abstract" id="paper42">
                     <p><span class="abstract-title">Abstract.</span> We demonstrate the inter-translatability of proofs between the most prominent sequent-based
 formalisms for Gödel-Löb provability logic. In particular, we consider Sambin and Valentini’s sequent
@@ -394,6 +398,7 @@ and a cyclic sequent system.</p></div>
                   <span class="authors">Dominik Kirst and Ian Shillito</span>.<br/>
                   <span class="title">Completeness of First-Order Bi-intuitionistic Logic</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper40" aria-controls="paper40" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.40">10.4230/LIPIcs.CSL.2025.40</a>
                   <div class="collapse abstract" id="paper40">
                     <p><span class="abstract-title">Abstract.</span> We provide a succinct and verified completeness proof for first-order bi-intuitionistic logic, relative to
 constant domain Kripke semantics. By doing so, we make up for the almost-50-year-old substantial
@@ -409,6 +414,7 @@ constructions using the Coq proof assistant to guarantee correctness.</p></div>
                   <span class="authors">Tim S. Lyon, Ian Shillito, and Alwen Tiu</span>.<br/>
                   <span class="title">Taking Bi-Intuitionistic Logic First-Order: A Proof-Theoretic Investigation via Polytree Sequents</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper41" aria-controls="paper41" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.41">10.4230/LIPIcs.CSL.2025.41</a>
                   <div class="collapse abstract" id="paper41">
                     <p><span class="abstract-title">Abstract.</span> It is well-known that extending the Hilbert axiomatic system for first-order intuitionistic logic with
 an exclusion operator, that is dual to implication, collapses the domains of models into a constant
@@ -431,6 +437,7 @@ designing a sound and complete proof system for first-order bi-intuitionistic lo
                   <span class="authors">Victoria Vollmer, Danielle Marshall, Harley Eades III, and Dominic Orchard</span>.<br/>
                   <span class="title">A Mixed Linear and Graded Logic: Proofs, Terms, and Models</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper32" aria-controls="paper32" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.32">10.4230/LIPIcs.CSL.2025.32</a>
                   <div class="collapse abstract" id="paper32">
                     <p><span class="abstract-title">Abstract.</span> Graded modal logics generalise standard modal logics via families of modalities indexed by an
 algebraic structure whose operations mediate between the different modalities. The graded “of-course” modality !ᵣ captures how many times a proposition is used and has an analogous interpretation
@@ -460,6 +467,7 @@ class of graded modal logics.</p></div>
                   <span class="authors">Adrien Ragot, Thomas Seiller, and Lorenzo Tortora de Falco</span>.<br/>
                   <span class="title">Linear Realisability over Nets: Multiplicatives</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper43" aria-controls="paper43" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.43">10.4230/LIPIcs.CSL.2025.43</a>
                   <div class="collapse abstract" id="paper43">
                     <p><span class="abstract-title">Abstract.</span> We provide a new realisability model based on orthogonality for the multiplicative fragment of linear
 logic, both in presence of generalised axioms (<span style="font-family:sans-serif">MLL<sup>✠</sup></span>) and in the standard case (<span style="font-family:sans-serif">MLL</span>). The novelty
@@ -471,6 +479,7 @@ complete both for <span style="font-family:sans-serif">MLL<sup>✠</sup></span> 
                   <span class="authors">Pedro H. Azevedo de Amorim, Leon Witzman, and Dexter Kozen</span>.<br/>
                   <span class="title">Classical Linear Logic in Perfect Banach Lattices</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper44" aria-controls="paper44" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.44">10.4230/LIPIcs.CSL.2025.44</a>
                   <div class="collapse abstract" id="paper44">
                     <p><span class="abstract-title">Abstract.</span> In recent years, researchers have proposed various models of linear logic with strong connections
 to measure theory, with <em>probabilistic coherence spaces</em> (<b>PCoh</b>) being one of the most prominent.
@@ -490,6 +499,7 @@ in <b>PBanLat₁</b> while preserving the monoidal and ∗-autonomous structures
                   <span class="authors">Nima Rasekh, Niels van der Weide, Benedikt Ahrens, and Paige Randall North</span>.<br/>
                   <span class="title">Insights From Univalent Foundations: A Case Study Using Double Categories</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper45" aria-controls="paper45" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.45">10.4230/LIPIcs.CSL.2025.45</a>
                   <div class="collapse abstract" id="paper45">
                     <p><span class="abstract-title">Abstract.</span> Category theory unifies mathematical concepts, aiding comparisons across structures by incorporating
 not just objects, but also morphisms capturing interactions between objects. Of particular importance
@@ -515,6 +525,7 @@ UniMath up to chosen equivalences, which we achieve by establishing their unival
                   <span class="authors">Perry Hart and Kuen-Bang Hou (Favonia)</span>.<br/>
                   <span class="title">Coslice Colimits in Homotopy Type Theory</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper46" aria-controls="paper46" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.46">10.4230/LIPIcs.CSL.2025.46</a>
                   <div class="collapse abstract" id="paper46">
                     <p><span class="abstract-title">Abstract.</span> We contribute to the theory of (homotopy) colimits inside homotopy type theory. The heart of our
 work characterizes the connection between colimits in coslices of a universe, called coslice colimits,
@@ -542,6 +553,7 @@ have formalized our main construction of the coslice colimit functor in Agda.
                   <span class="authors">Nicolas Heurtel</span>.<br/>
                   <span class="title">A Complete Graphical Language for Linear Optical Circuits with Finite-Photon-Number Sources and Detectors</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper38" aria-controls="paper38" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.38">10.4230/LIPIcs.CSL.2025.38</a>
                   <div class="collapse abstract" id="paper38">
                     <p><span class="abstract-title">Abstract.</span> Graphical languages are powerful and useful to represent, rewrite and simplify different kinds of
 processes. In particular, they have been widely used for quantum processes, improving the state of
@@ -564,6 +576,7 @@ be transformed into the other with the rules of the <b>LO<sub><i>fi</i></sub></b
                   <span class="authors">Claudia Faggian, Gaetan Lopez, and Benoît Valiron</span>.<br/>
                   <span class="title">A Rewriting Theory for Quantum λ-Calculus</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper47" aria-controls="paper47" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.47">10.4230/LIPIcs.CSL.2025.47</a>
                   <div class="collapse abstract" id="paper47">
                     <p><span class="abstract-title">Abstract.</span> Quantum lambda calculus has been studied mainly as an idealized programming language – the
 evaluation essentially corresponds to a deterministic abstract machine. Very little work has been
@@ -578,6 +591,7 @@ primary focus are standardization and normalization results.
                   <span class="authors">Jonathan Barrett, Isaac Friend, and Aleks Kissinger</span>.<br/>
                   <span class="title">Quantum and Classical Markovian Graphical Causal Models and Their Identification</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper48" aria-controls="paper48" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.48">10.4230/LIPIcs.CSL.2025.48</a>
                   <div class="collapse abstract" id="paper48">
                     <p><span class="abstract-title">Abstract.</span> Markov categories allow formalization of probabilistic and causal reasoning in a general setting that
 applies uniformly to many different kinds of classical probabilistic processes. It has so far been
@@ -600,6 +614,7 @@ that one can reason uniformly across all of these cases using string-diagrammati
                   <span class="authors">Marc de Visme and Renaud Vilmart</span>.<br/>
                   <span class="title">Minimality in Finite-Dimensional ZW-Calculi</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper49" aria-controls="paper49" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.49">10.4230/LIPIcs.CSL.2025.49</a>
                   <div class="collapse abstract" id="paper49">
                     <p><span class="abstract-title">Abstract.</span> The ZW-calculus is a graphical language capable of representing 2-dimensional quantum systems
 (qubit) through its diagrams, and manipulating them through its equational theory. We extend the
@@ -625,6 +640,7 @@ theory.
               <span class="authors">Yde Venema</span>.<br/>
               <span class="title">Modal Automata: Analysing Modal Fixpoint Logics, One Step at a Time</span>
               <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper5" aria-controls="paper5" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.5">10.4230/LIPIcs.CSL.2025.5</a>
               <div class="collapse abstract"
                    id="paper5">
                 <p><span class="abstract-title">Abstract.</span> We present and investigate a general framework for studying modal fixpoint logics and some related
@@ -644,6 +660,7 @@ at the level of the much simpler one-step logic.</p></div></dd></dl></dd>
                   <span class="authors">Thibaut Antoine, Robin Piedeleu, Alexandra Silva, and Fabio Zanasi</span>.<br/>
                   <span class="title">A Complete Diagrammatic Calculus for Automata Simulation</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper27" aria-controls="paper27" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.27">10.4230/LIPIcs.CSL.2025.27</a>
                   <div class="collapse abstract" id="paper27">
                     <p><span class="abstract-title">Abstract.</span> We give a sound and complete (in)equational theory for simulation of finite state automata. Our
 approach uses a string diagrammatic calculus to represent automata and a functorial semantics to
@@ -658,6 +675,7 @@ finitary.
                   <span class="authors">Filippo Bonchi, Elena Di Lavore, and Anna Ricci</span>.<br/>
                   <span class="title">Strong Induction is an Up-to Technique</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper28" aria-controls="paper28" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.28">10.4230/LIPIcs.CSL.2025.28</a>
                   <div class="collapse abstract" id="paper28">
                     <p><span class="abstract-title">Abstract.</span> Up-to techniques are enhancements of the coinduction proof principle which, in lattice theoretic
 terms, is the dual of induction. What is the dual of coinduction up-to? By means of duality, we
@@ -673,6 +691,7 @@ principle known in the literature as comonadic recursion.
                   <span class="authors">Samuel Humeau, Daniela Petrisan, and Jurriaan Rot</span>.<br/>
                   <span class="title">Correspondences Between Codensity and Coupling-based Liftings, a Practical Approach</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper29" aria-controls="paper29" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.29">10.4230/LIPIcs.CSL.2025.29</a>
                   <div class="collapse abstract" id="paper29">
                     <p><span class="abstract-title">Abstract.</span> The Kantorovich distance is a widely used metric between probability distributions. The Kantorovich-Rubinstein duality states that it can be defined in two equivalent ways: as a supremum, based on
 non-expansive functions into [0,1], and as an infimum, based on probabilistic couplings.</p><p>
@@ -693,6 +712,7 @@ cases such as that of the powerset functor.
                   <span class="authors">Corina Cîrstea, Lawrence S. Moss, Victoria Noquez, Todd Schmid, Alexandra Silva, and Ana Sokolova</span>.<br/>
                   <span class="title">A Complete Inference System for Probabilistic Infinite Trace Equivalence</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper30" aria-controls="paper30" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.30">10.4230/LIPIcs.CSL.2025.30</a>
                   <div class="collapse abstract" id="paper30">
                     <p><span class="abstract-title">Abstract.</span> We present the first sound and complete axiomatization of <em>infinite</em> trace semantics for generative
 probabilistic transition systems. Our approach is categorical, and we build on recent results on
@@ -708,6 +728,7 @@ used in the completeness proof are significantly different.
                   <span class="authors">Willem Heijltjes and Georgina Majury</span>.<br/>
                   <span class="title">Simple Types for Probabilistic Termination</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper31" aria-controls="paper31" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.31">10.4230/LIPIcs.CSL.2025.31</a>
                   <div class="collapse abstract" id="paper31">
                     <p><span class="abstract-title">Abstract.</span> We present a new typing discipline to guarantee the probability of termination in probabilistic
 lambda-calculi. The main contribution is a particular naturality and simplicity: our probabilistic
@@ -740,6 +761,7 @@ improving on the termination bounds given by Antonelli, Dal Lago, and Pistone.
                   <span class="authors">Simi Haber, Tal Hershko, Mostafa Mirabi, and Saharon Shelah</span>.<br/>
                   <span class="title">First-Order Logic with Equicardinality in Random Graphs</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper12" aria-controls="paper12" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.12">10.4230/LIPIcs.CSL.2025.12</a>
                   <div class="collapse abstract" id="paper12">
                     <p><span class="abstract-title">Abstract.</span> We answer a question of Blass and Harary about the validity of the zero-one law in random graphs
 for extensions of first-order logic (FOL). For a given graph property <i>P</i>, the <em>Lindström extension</em>
@@ -758,6 +780,7 @@ Lindström extensions which are able to interpret a segment of arithmetic.
                   <span class="authors">Moritz Lichter, Simon Raßmann, and Pascal Schweitzer</span>.<br/>
                   <span class="title">Computational Complexity of the Weisfeiler-Leman Dimension</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper13" aria-controls="paper13" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.13">10.4230/LIPIcs.CSL.2025.13</a>
                   <div class="collapse abstract" id="paper13">
                     <p><span class="abstract-title">Abstract.</span> The Weisfeiler-Leman dimension of a graph G is the least number k such that the k-dimensional
 Weisfeiler-Leman algorithm distinguishes G from every other non-isomorphic graph, or equivalently,
@@ -782,6 +805,7 @@ and lower bounds related to the Weisfeiler-Leman algorithm.
                   <span class="authors">Simon Raßmann, Georg Schindling, and Pascal Schweitzer</span>.<br/>
                   <span class="title">Finite Variable Counting Logics with Restricted Requantification</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper14" aria-controls="paper14" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.14">10.4230/LIPIcs.CSL.2025.14</a>
                   <div class="collapse abstract" id="paper14">
                     <p><span class="abstract-title">Abstract.</span> Counting logics with a bounded number of variables form one of the central concepts in descriptive
 complexity theory. Although they restrict the number of variables that a formula can contain, the
@@ -807,6 +831,7 @@ identified using no, respectively, only a very limited number of requantifiable 
                   <span class="authors">Steffen van Bergerem and Nicole Schweikardt</span>.<br/>
                   <span class="title">On the VC Dimension of First-Order Logic with Counting and Weight Aggregation</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper15" aria-controls="paper15" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.15">10.4230/LIPIcs.CSL.2025.15</a>
                   <div class="collapse abstract" id="paper15">
                     <p><span class="abstract-title">Abstract.</span> We prove optimal upper bounds on the Vapnik–Chervonenkis density of formulas in the extensions
 of first-order logic with counting (FOC₁) and with weight aggregation (FOWA₁) on nowhere dense
@@ -834,6 +859,7 @@ shows that nowhere dense classes of weighted finite graphs are FOC₁-stable and
                   <span class="authors">Hadar Frenkel and Martin Zimmermann</span>.<br/>
                   <span class="title">The Complexity of Second-Order HyperLTL</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper10" aria-controls="paper10" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.10">10.4230/LIPIcs.CSL.2025.10</a>
                   <div class="collapse abstract" id="paper10">
                     <p><span class="abstract-title">Abstract.</span> We determine the complexity of second-order HyperLTL satisfiability, finite-state satisfiability, and
 model-checking: All three are equivalent to truth in third-order arithmetic.</p><p>
@@ -878,6 +904,7 @@ HyperLTL.
                   <span class="authors">Thibaut Antoine and David Baelde</span>.<br/>
                   <span class="title">Propositional Logics of Overwhelming Truth</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper24" aria-controls="paper24" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.24">10.4230/LIPIcs.CSL.2025.24</a>
                   <div class="collapse abstract" id="paper24">
                     <p><span class="abstract-title">Abstract.</span> Cryptographers consider that <em>asymptotic security</em> holds when, for any possible attacker running in
 polynomial time, the probability that the attack succeeds is <em>negligible</em>, i.e. that it tends fast enough
@@ -904,6 +931,7 @@ the core of Squirrel’s proof system.
                   <span class="authors">Konstantinos Papafilippou and David Fernández-Duque</span>.<br/>
                   <span class="title">Exponential Lower Bounds on Definable Fixed Points</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper25" aria-controls="paper25" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.25">10.4230/LIPIcs.CSL.2025.25</a>
                   <div class="collapse abstract" id="paper25">
                     <p><span class="abstract-title">Abstract.</span> It is known that the µ-calculus is no more expressive than basic modal logic over the class of finite
 partial orders, as well as over the class of finite, strict partial orders. Nevertheless, we show that the
@@ -919,6 +947,7 @@ Gödel-Löb logic.
                   <span class="authors">Luca Aceto, Antonis Achilleos, Aggeliki Chalki, and Anna Ingólfsdóttir</span>.<br/>
                   <span class="title">The Complexity of Deciding Characteristic Formulae in van Glabbeek’s Branching-time Spectrum</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper26" aria-controls="paper26" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.26">10.4230/LIPIcs.CSL.2025.26</a>
                   <div class="collapse abstract" id="paper26">
                     <p><span class="abstract-title">Abstract.</span> Characteristic formulae give a complete logical description of the behaviour of processes modulo
 some chosen notion of behavioural semantics. They allow one to reduce equivalence or preorder
@@ -949,6 +978,7 @@ are presented in explicit form and via systems of equations.
               <span class="authors">Yannick Forster</span>.<br/>
               <span class="title">Synthetic Mathematics for the Mechanisation of Computability Theory and Logic</span>
               <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper3" aria-controls="paper3" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.3">10.4230/LIPIcs.CSL.2025.3</a>
               <div class="collapse abstract" id="paper3">
                 <p><span class="abstract-title">Abstract.</span> Mathematical practice in most areas of mathematics is based on the assumption that proofs could
 be made fully formal in a chosen foundation in principle. This assumption is backed by partial
@@ -1002,6 +1032,7 @@ theorems, as well as generalised incompleteness results such as Löb’s theorem
                           <span class="authors">Ioannis Eleftheriadis</span>.<br/>
                           <span class="title">Extension Preservation on Dense Graph Classes</span>
                           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper7" aria-controls="paper7" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.7">10.4230/LIPIcs.CSL.2025.7</a>
                           <div class="collapse abstract" id="paper7">
                             <p><span class="abstract-title">Abstract.</span> Preservation theorems provide a direct correspondence between the syntactic structure of first-order
 sentences and the closure properties of their respective classes of models. A line of work has explored
@@ -1016,6 +1047,7 @@ preservation to hold, providing a dense analogue to a result of (Atserias et al.
                           <span class="authors">Daumantas Kojelis</span>.<br/>
                           <span class="title">On Homogeneous Models of Fluted Languages</span>
                           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper9" aria-controls="paper9" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.9">10.4230/LIPIcs.CSL.20259.</a>
                           <div class="collapse abstract" id="paper9">
                             <p><span class="abstract-title">Abstract.</span> We study the fluted fragment of first-order logic which is often viewed as a multi-variable non-guarded
 extension to various systems of description logics lacking role-inverses. In this paper we show that
@@ -1060,6 +1092,7 @@ satisfiability becomes <math xmlns="http://www.w3.org/1998/Math/MathML">
                   <span class="authors">Gaëtan Douéneau-Tabot</span>.<br/>
                   <span class="title">Optimization of String Transducers</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper1a" aria-controls="paper1a" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.1">10.4230/LIPIcs.CSL.2025.1</a>
                   <div class="collapse abstract" id="paper1a">
                     <p><span class="abstract-title">Abstract.</span> Transducers are finite-state machines which compute functions (or relations) from words
 to words. They can be seen as simple programs with limited memory which manipulate strings. These
@@ -1086,6 +1119,7 @@ manuscript form a rather extensive toolbox for investigating other open membersh
                   <span class="authors">Aliaume Lopez</span>.<br/>
                   <span class="title">First Order Preservation Theorems in Finite Model Theory: Locality, Topology, and Limit Constructions</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper1b" aria-controls="paper1b" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.1">10.4230/LIPIcs.CSL.2025.1</a>
                   <div class="collapse abstract" id="paper1b">
                     <p><span class="abstract-title">Abstract.</span> Preservation Theorems in first-order logic are a collection of results derived from classical Model Theory. These results establish a direct correspondence between the semantic properties of formulas and the syntactic constraints imposed on the language used to express them. However, studying these theorems becomes notably challenging when focusing on finite models, which is unfortunate given that the field of Finite Model Theory is better equipped to describe phenomena occurring in Computer Science. This thesis presents a systematic approach to investigating Preservation Theorems within the realm of Finite Model Theory. The traditional ad-hoc proofs are replaced with a theoretical framework that generalizes techniques based on locality, and introduces a topological presentation of preservation theorems called logically presented pre-spectral spaces. Introducing these topological spaces enables us to develop a compositional theory for preservation theorems. Additionally, this thesis takes an initial stride towards systematically examining preservation theorems across inductively defined classes of finite structures. It accomplishes this by proving a generic fixed point theorem for a topological extension of logically presented pre-spectral spaces, specifically Noetherian spaces.</p></div></dd>
               </dl>
@@ -1101,6 +1135,7 @@ manuscript form a rather extensive toolbox for investigating other open membersh
                   <span class="authors">Reijo Jaakkola, Antti Kuusisto, and Miikka Vilander</span>.<br/>
                   <span class="title">Description Complexity of Unary Structures in First-Order Logic with Links to Entropy</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper17" aria-controls="paper17" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.17">10.4230/LIPIcs.CSL.2025.17</a>
                   <div class="collapse abstract" id="paper17">
                     <p><span class="abstract-title">Abstract.</span> The description complexity of a model is the length of the shortest formula that defines the model.
 We study the description complexity of unary structures in first-order logic FO, also drawing links
@@ -1120,6 +1155,7 @@ arguments require the use of formula size games, Stirling’s approximation and 
                   <span class="authors">Jonas Forster, Lutz Schröder, Paul Wild, Harsh Beohar, Sebastian Gurke, Barbara König, and Karla Messing</span>.<br/>
                   <span class="title">Quantitative Graded Semantics and Spectra of Behavioural Metrics</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper33" aria-controls="paper33" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.33">10.4230/LIPIcs.CSL.2025.33</a>
                   <div class="collapse abstract" id="paper33">
                     <p><span class="abstract-title">Abstract.</span> Behavioural metrics provide a quantitative refinement of classical two-valued behavioural equivalences
 on systems with quantitative data, such as metric or probabilistic transition systems. In analogy
@@ -1142,6 +1178,7 @@ a new characteristic modal logic for trace distance in fuzzy metric transition s
                   <span class="authors">Valentin Maestracci and Paolo Pistone</span>.<br/>
                   <span class="title">The Lambda Calculus is Quantifiable</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper34" aria-controls="paper34" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.34">10.4230/LIPIcs.CSL.2025.34</a>
                   <div class="collapse abstract" id="paper34">
                     <p><span class="abstract-title">Abstract.</span> In this paper we introduce several quantitative methods for the lambda-calculus based on partial
 metrics, a well-studied variant of standard metric spaces that have been used to metrize non-Hausdorff topologies, like those arising from Scott domains. First, we study quantitative variants,
@@ -1173,6 +1210,7 @@ expansion, by showing that the latter can be presented as an isometric transform
               <span class="authors">Patricia Bouyer-Decitre</span>.<br/>
               <span class="title">On the Probabilistic and Statistical Verification of Infinite Markov Chains</span>
               <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper2" aria-controls="paper2" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.2">10.4230/LIPIcs.CSL.2025.2</a>
               <div class="collapse abstract"
                    id="paper2">
                 <p><span class="abstract-title">Abstract.</span> The verification of infinite-state Markov chains is a challenging problem, even when those chains
@@ -1207,6 +1245,7 @@ experiments as well as our (partial) conclusions.</p></div></dd></dl></dd>
                   <span class="authors">Andrew Scoones, Mahsa Shirmohammadi, and James Worrell</span>.<br/>
                   <span class="title">Reachability for Multi-Priced Timed Automata with Positive and Negative Rates</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper18" aria-controls="paper18" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.18">10.4230/LIPIcs.CSL.2025.18</a>
                   <div class="collapse abstract" id="paper18">
                     <p><span class="abstract-title">Abstract.</span> Multi-priced timed automata (MPTA) are timed automata with observer variables whose derivatives
 can change from one location to another. Observers are read-once variables: they do not affect the
@@ -1226,6 +1265,7 @@ and relaxation-and-rounding.
                   <span class="authors">Shaull Almagor, Michaël Cadilhac, and Asaf Yeshurun</span>.<br/>
                   <span class="title">Two-Way One-Counter Nets Revisited</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper19" aria-controls="paper19" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.19">10.4230/LIPIcs.CSL.2025.19</a>
                   <div class="collapse abstract" id="paper19">
                     <p><span class="abstract-title">Abstract.</span> One Counter Nets (OCNs) are finite-state automata equipped with a counter that cannot become
 negative, but cannot be explicitly tested for zero. Their close connection to various other models
@@ -1274,6 +1314,7 @@ not 2-DOCN recognizable, improving on the known result that there are such 2-OCN
                   <span class="authors">Andrei Draghici, Radosław Piórkowski, and Andrew Ryzhikov</span>.<br/>
                   <span class="title">Boundedness of Cost Register Automata over the Integer Min-plus Semiring</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper20" aria-controls="paper20" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.20">10.4230/LIPIcs.CSL.2025.20</a>
                   <div class="collapse abstract" id="paper20">
                     <p><span class="abstract-title">Abstract.</span> Cost register automata (CRAs) are deterministic automata with registers taking values from a
 fixed semiring. A CRA computes a function from words to values from this semiring. CRAs are
@@ -1308,6 +1349,7 @@ construction yields a non-elementary lower bound already for four registers.
                   <span class="authors">Antonio Casares, Olivier Idir, Denis Kuperberg, Corto Mascle, and Aditya Prakash</span>.<br/>
                   <span class="title">On the Minimisation of Deterministic and History-Deterministic Generalised (co)Büchi Automata</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper22" aria-controls="paper22" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.22">10.4230/LIPIcs.CSL.2025.22</a>
                   <div class="collapse abstract" id="paper22">
                     <p><span class="abstract-title">Abstract.</span> We present a polynomial-time algorithm minimising the number of states of history-deterministic
 generalised coBüchi automata, building on the work of Abu Radi and Kupferman on coBüchi
@@ -1323,6 +1365,7 @@ coBüchi automata.
                   <span class="authors">Aline Goeminne and Benjamin Monmege</span>.<br/>
                   <span class="title">Permissive Equilibria in Multiplayer Reachability Games</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper23" aria-controls="paper23" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.23">10.4230/LIPIcs.CSL.2025.23</a>
                   <div class="collapse abstract" id="paper23">
                     <p><span class="abstract-title">Abstract.</span> We study multi-strategies in multiplayer reachability games played on finite graphs. A multi-strategy
 prescribes a set of possible actions, instead of a single action as usual strategies: it represents a set
@@ -1350,6 +1393,7 @@ certain players are asked to win in at least one play or in all plays.
                   <span class="authors">Benjamin Rossman</span>.<br/>
                   <span class="title">Equi-rank Homomorphism Preservation Theorem on Finite Structures</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper6" aria-controls="paper6" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.6">10.4230/LIPIcs.CSL.2025.6</a>
                   <div class="collapse abstract" id="paper6">
                     <p><span class="abstract-title">Abstract.</span> The Homomorphism Preservation Theorem (HPT) of classical model theory states that a first-order
 sentence is preserved under homomorphisms if, and only if, it is equivalent to an existential-positive
@@ -1369,6 +1413,7 @@ quantifier rank of the equivalent existential-positive sentence.
                   <span class="authors">Steffen van Bergerem, Martin Grohe, and Nina Runde</span>.<br/>
                   <span class="title">The Parameterized Complexity of Learning Monadic Second-Order Logic</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper8" aria-controls="paper8" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.8">10.4230/LIPIcs.CSL.2025.8</a>
                   <div class="collapse abstract" id="paper8">
                     <p><span class="abstract-title">Abstract.</span> Within the model-theoretic framework for supervised learning introduced by Grohe and Turán
 (TOCS 2004), we study the parameterized complexity of learning concepts definable in monadic
@@ -1388,6 +1433,7 @@ that is fixed-parameter tractable in both.
                   <span class="authors">Thomas Colcombet and Alexander Rabinovich</span>.<br/>
                   <span class="title">On the Expansion of Monadic Second-Order Logic with Cantor-Bendixson Rank and Order Type</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper11" aria-controls="paper11" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.11">10.4230/LIPIcs.CSL.2025.11</a>
                   <div class="collapse abstract" id="paper11">
                     <p><span class="abstract-title">Abstract.</span> In this work, we consider two extensions of monadic second-order logic, and study in what cases the
 classical decidability results are preserved.</p><p>
@@ -1412,6 +1458,7 @@ also have some partial extensions of the second result to some uncountable cases
                   <span class="authors">Anuj Dawar and Bálint Molnár</span>.<br/>
                   <span class="title">Undefinability of Approximation of 2-to-2 Games</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper16" aria-controls="paper16" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.16">10.4230/LIPIcs.CSL.2025.16</a>
                   <div class="collapse abstract" id="paper16">
                     <p><span class="abstract-title">Abstract.</span> Recent work by Atserias and Dawar (arXiv, 2019) and Tucker-Foltz (<i>Log. Meth. Comput. Sci.</i>, 2024) has established undefinability results
 in fixed-point logic with counting (FPC) corresponding to many classical complexity results from the
@@ -1440,6 +1487,7 @@ separate the 3-colourable graphs from those that are not t-colourable, for any c
                   <span class="authors">Rémi Morvan</span>.<br/>
                   <span class="title">The Algebras for Automatic Relations</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper21" aria-controls="paper21" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.21">10.4230/LIPIcs.CSL.2025.21</a>
                   <div class="collapse abstract" id="paper21">
                     <p><span class="abstract-title">Abstract.</span> We introduce “synchronous algebras”, an algebraic structure tailored to recognize automatic relations
 (a.k.a. synchronous relations, or regular relations). They are the equivalent of monoids for regular
@@ -1465,6 +1513,7 @@ synchronous algebras.
                   <span class="authors">Leandro Gomes, Patrick Baillot, and Marco Gaboardi</span>.<br/>
                   <span class="title">A Kleene Algebra with Tests for Union Bound Reasoning about Probabilistic Programs</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper35" aria-controls="paper35" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.35">10.4230/LIPIcs.CSL.2025.35</a>
                   <div class="collapse abstract" id="paper35">
                     <p><span class="abstract-title">Abstract.</span> Kleene Algebra with Tests (KAT) provides a framework for algebraic equational reasoning about
 imperative programs. The recent variant Guarded KAT (GKAT) allows to reason on non-probabilistic
@@ -1484,6 +1533,7 @@ from the field of differential privacy.
                   <span class="authors">Arthur Azevedo de Amorim, Cheng Zhang, and Marco Gaboardi</span>.<br/>
                   <span class="title">Kleene Algebra with Commutativity Conditions is Undecidable</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper36" aria-controls="paper36" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.36">10.4230/LIPIcs.CSL.2025.36</a>
                   <div class="collapse abstract" id="paper36">
                     <p><span class="abstract-title">Abstract.</span> We prove that the equational theory of Kleene algebra with commutativity conditions on primitives
 (or atomic terms) is undecidable, thereby settling a longstanding open question in the theory of
@@ -1497,6 +1547,7 @@ results hold even for weaker theories that do not support the <em>induction axio
                   <span class="authors">Yoshiki Nakamura</span>.<br/>
                   <span class="title">Finite Relational Semantics for Language Kleene Algebra with Complement</span>
                   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#paper37" aria-controls="paper37" aria-expanded="false" aria-label="Show abstract" title="Show abstract"><span class="abstract-btn">↓</span></button>
+              <a class="doi" href="https://doi.org/10.4230/LIPIcs.CSL.2025.37">10.4230/LIPIcs.CSL.2025.37</a>
                   <div class="collapse abstract" id="paper37">
                     <p><span class="abstract-title">Abstract.</span> We study the equational theory of Kleene algebra (KA) w.r.t. languages (here, meaning the equational
 theory of regular expressions where each letter maps to any language) by extending the algebraic
