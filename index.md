@@ -213,6 +213,8 @@ After February 5, only onsite registration is possible: regular fee 970 euro, st
 
 The registration fee includes the welcome reception, lunches, and the conference excursion and dinner.
 
+If you need a formal letter confirming your payment, please email Emma Triesman.
+
 
 ---
 #### Contacts
