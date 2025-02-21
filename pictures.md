@@ -16,8 +16,8 @@ title: CSL 2025
 #### Helena Rasiowa awards
 
 {:refdef: style="text-align: center;"}
-![My Image](/assets/images/conference/Helena Rasiowa awards/IMG_20250213_105522116_HDR.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/Helena Rasiowa awards/IMG_20250213_103214095_HDR.jpg){: height="200hv" style="margin:20px;" }
+![My Image](/assets/images/conference/Helena Rasiowa awards/IMG_20250213_105522116_HDR.jpg){: height="200hv" style="margin:20px;" }
 {: refdef}
 
 #### Keynotes
@@ -41,10 +41,10 @@ title: CSL 2025
 #### Excursion
 
 {:refdef: style="text-align: center;"}
+![My Image](/assets/images/conference/excursion/IMG_20250213_164306158.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/excursion/IMG_20250213_164744541_HDR.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/excursion/IMG_20250213_194034936_HDR.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/excursion/IMG_20250213_205316260_HDR.jpg){: height="200hv" style="margin:20px;" }
-![My Image](/assets/images/conference/excursion/IMG_20250213_164306158.jpg){: height="200hv" style="margin:20px;" }
 {: refdef}
 
 #### Breaks
