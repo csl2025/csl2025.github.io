@@ -68,11 +68,7 @@ title: CSL 2025
 ![My Image](/assets/images/conference/rest/IMG_20250213_164644244.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/rest/IMG_20250213_205326470_HDR.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/rest/IMG_20250213_205259044_HDR.jpg){: height="200hv" style="margin:20px;" }
-![My Image](/assets/images/conference/rest/IMG_20250214_121213126_HDR.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/rest/IMG_20250214_132946215_HDR.jpg){: height="200hv" style="margin:20px;" }
-![My Image](/assets/images/conference/rest/IMG_20250211_115838746.jpg){: height="200hv" style="margin:20px;" }
-![My Image](/assets/images/conference/rest/IMG_20250213_105500546_HDR.jpg){: height="200hv" style="margin:20px;" }
-![My Image](/assets/images/conference/rest/IMG_20250211_105525168_HDR.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/rest/IMG_20250212_154542796_HDR.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/rest/IMG_20250212_103246985_HDR.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/rest/IMG_20250212_154437022_HDR.jpg){: height="200hv" style="margin:20px;" }
@@ -86,6 +82,10 @@ title: CSL 2025
 ![My Image](/assets/images/conference/rest/IMG_20250212_154524424_HDR.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/rest/IMG_20250212_154614268_HDR.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/rest/IMG_20250212_154450019_HDR.jpg){: height="200hv" style="margin:20px;" }
+![My Image](/assets/images/conference/rest/IMG_20250211_115838746.jpg){: height="200hv" style="margin:20px;" }
+![My Image](/assets/images/conference/rest/IMG_20250213_105500546_HDR.jpg){: height="200hv" style="margin:20px;" }
+![My Image](/assets/images/conference/rest/IMG_20250211_105525168_HDR.jpg){: height="200hv" style="margin:20px;" }
+![My Image](/assets/images/conference/rest/IMG_20250214_121213126_HDR.jpg){: height="200hv" style="margin:20px;" }
 {: refdef}
 
 
