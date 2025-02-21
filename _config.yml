@@ -33,6 +33,7 @@ navbar-links:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
   #  - Learn markdown: "https://www.markdowntutorial.com/"
   Contacts: "index#contacts"
+  Pictures: "pictures"
 
 ################
 # --- Logo --- #

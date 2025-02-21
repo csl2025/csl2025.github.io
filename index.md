@@ -14,11 +14,15 @@ title: CSL 2025
 
 ### 10-14 February 2025, Amsterdam, the Netherlands
 
-#### Pictures from the conference
+#### Pictures
 
 {:refdef: style="text-align: center;"}
 ![My Image](/assets/images/conference/talks/IMG_20250211_103250910_HDR.jpg){: height="70hv" }&nbsp;&nbsp;&nbsp;
 ![My Image](/assets/images/conference/rest/IMG_20250212_105510394.jpg){: height="70hv" }
+{: refdef}
+
+{:refdef: style="text-align: center;"}
+[More pictures](/pictures.html)
 {: refdef}
 
 #### About
