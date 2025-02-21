@@ -205,13 +205,13 @@ Please indicate (in the allergies field) if you intend to attend a workshop, and
 
 If you want to register for one of the (or both) workshops, please select the LMW option of 50 euro, and indicate (in the allergies field) which workshop(s) you will attend. This registration fee includes free attendance of the CSL 2025 welcome reception on Monday afternoon.
 
-Late registration, from January 11 up to and including February 5 is: regular fee 820 euro, student fee 505 euro, only workshop 75 euro.
-
-After February 5, only onsite registration is possible: regular fee 970 euro, student fee 605 euro, only workshop 75 euro.
+Late registration, from January 18 up to and including February 6 is: regular fee 820 euro, student fee 505 euro, only workshop 75 euro.
 
 [The registration form can be found here.](https://fd20.formdesk.com/vu-onlinepayment/Beta_Registration_form_CSL_2025)
 
 The registration fee includes the welcome reception, lunches, and the conference excursion and dinner.
+
+If you need a formal letter confirming your payment, please email Emma Triesman.
 
 
 ---
