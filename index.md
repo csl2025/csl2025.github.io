@@ -17,8 +17,8 @@ title: CSL 2025
 #### Pictures
 
 {:refdef: style="text-align: center;"}
-![My Image](/assets/images/conference/talks/IMG_20250211_103250910_HDR.jpg){: height="300hv" }&nbsp;&nbsp;&nbsp;
-![My Image](/assets/images/conference/rest/IMG_20250212_105510394.jpg){: height="300hv" }
+![My Image](/assets/images/conference/talks/IMG_20250211_103250910_HDR.jpg){: height="200hv" }&nbsp;&nbsp;&nbsp;
+![My Image](/assets/images/conference/rest/IMG_20250212_105510394.jpg){: height="200hv" }
 {: refdef}
 
 {:refdef: style="text-align: center;"}
