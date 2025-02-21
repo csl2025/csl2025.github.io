@@ -23,10 +23,10 @@ title: CSL 2025
 #### Keynotes
 
 {:refdef: style="text-align: center;"}
-![My Image](/assets/images/conference/keynotes/IMG_20250212_085217190.jpg){: height="200hv" style="margin:20px;" }
-![My Image](/assets/images/conference/keynotes/IMG_20250212_085916637_HDR.jpg){: height="200hv" style="margin:20px;" }
-![My Image](/assets/images/conference/keynotes/IMG_20250213_084827388_HDR.jpg){: height="200hv" style="margin:20px;" }
-![My Image](/assets/images/conference/keynotes/IMG_20250214_085749022_HDR.jpg){: height="200hv" style="margin:20px;" }
+![My Image](/assets/images/conference/keynotes/IMG_20250212_085217190.jpg){: height="250hv" style="margin:20px;" }
+![My Image](/assets/images/conference/keynotes/IMG_20250212_085916637_HDR.jpg){: height="250hv" style="margin:20px;" }
+![My Image](/assets/images/conference/keynotes/IMG_20250213_084827388_HDR.jpg){: height="250hv" style="margin:20px;" }
+![My Image](/assets/images/conference/keynotes/IMG_20250214_085749022_HDR.jpg){: height="250hv" style="margin:20px;" }
 {: refdef}
 
 #### Talks
