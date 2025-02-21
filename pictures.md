@@ -9,23 +9,23 @@ title: CSL 2025
 #### Ackermann awards
 
 {:refdef: style="text-align: center;"}
-![My Image](/assets/images/conference/Ackermann awards/IMG_20250213_112045173_HDR.jpg){: height="200hv" }&nbsp;&nbsp;&nbsp;
+![My Image](/assets/images/conference/Ackermann awards/IMG_20250213_112045173_HDR.jpg){: height="200hv"; margin="20px" }
 ![My Image](/assets/images/conference/Ackermann awards/IMG_20250213_115114003_HDR.jpg){: height="200hv" }
 {: refdef}
 
 #### Helena Rasiowa awards
 
 {:refdef: style="text-align: center;"}
-![My Image](/assets/images/conference/Helena Rasiowa awards/IMG_20250213_105522116_HDR.jpg){: height="200hv" }&nbsp;&nbsp;&nbsp;
+![My Image](/assets/images/conference/Helena Rasiowa awards/IMG_20250213_105522116_HDR.jpg){: height="200hv" }
 ![My Image](/assets/images/conference/Helena Rasiowa awards/IMG_20250213_103214095_HDR.jpg){: height="200hv" }
 {: refdef}
 
 #### Keynotes
 
 {:refdef: style="text-align: center;"}
-![My Image](/assets/images/conference/keynotes/IMG_20250214_085749022_HDR.jpg){: height="200hv" }&nbsp;&nbsp;&nbsp;
-![My Image](/assets/images/conference/keynotes/IMG_20250213_084827388_HDR.jpg){: height="200hv" }&nbsp;&nbsp;&nbsp;
-![My Image](/assets/images/conference/keynotes/IMG_20250212_085916637_HDR.jpg){: height="200hv" }&nbsp;&nbsp;&nbsp;
+![My Image](/assets/images/conference/keynotes/IMG_20250214_085749022_HDR.jpg){: height="200hv" }
+![My Image](/assets/images/conference/keynotes/IMG_20250213_084827388_HDR.jpg){: height="200hv" }
+![My Image](/assets/images/conference/keynotes/IMG_20250212_085916637_HDR.jpg){: height="200hv" }
 ![My Image](/assets/images/conference/keynotes/IMG_20250212_085217190.jpg){: height="200hv" }
 {: refdef}
 
