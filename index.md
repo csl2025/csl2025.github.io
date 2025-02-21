@@ -22,7 +22,7 @@ title: CSL 2025
 {: refdef}
 
 {:refdef: style="text-align: center;"}
-[More pictures](/pictures.html)
+[More pictures](/pictures/)
 {: refdef}
 
 #### About
