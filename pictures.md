@@ -23,10 +23,10 @@ title: CSL 2025
 #### Keynotes
 
 {:refdef: style="text-align: center;"}
-![My Image](/assets/images/conference/keynotes/IMG_20250212_085217190.jpg){: height="250hv" style="margin:20px;" }
-![My Image](/assets/images/conference/keynotes/IMG_20250212_085916637_HDR.jpg){: height="250hv" style="margin:20px;" }
-![My Image](/assets/images/conference/keynotes/IMG_20250213_084827388_HDR.jpg){: height="250hv" style="margin:20px;" }
-![My Image](/assets/images/conference/keynotes/IMG_20250214_085749022_HDR.jpg){: height="250hv" style="margin:20px;" }
+![My Image](/assets/images/conference/keynotes/IMG_20250212_085217190.jpg){: height="250hv" style="margin:30px;" }
+![My Image](/assets/images/conference/keynotes/IMG_20250212_085916637_HDR.jpg){: height="250hv" style="margin:30px;" }
+![My Image](/assets/images/conference/keynotes/IMG_20250213_084827388_HDR.jpg){: height="250hv" style="margin:30px;" }
+![My Image](/assets/images/conference/keynotes/IMG_20250214_085749022_HDR.jpg){: height="250hv" style="margin:30px;" }
 {: refdef}
 
 #### Talks
@@ -64,7 +64,7 @@ title: CSL 2025
 {:refdef: style="text-align: center;"}
 ![My Image](/assets/images/conference/rest/IMG_20250214_121213126_HDR.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/rest/IMG_20250214_132946215_HDR.jpg){: height="200hv" style="margin:20px;" }
-![My Image](/assets/images/conference/rest/IMG_20250212_105510394.jpg){: height="200hv" style="margin:20px;" }
+![My Image](/assets/images/conference/rest/IMG_20250211_115838746.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/rest/IMG_20250213_105500546_HDR.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/rest/IMG_20250211_105525168_HDR.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/rest/IMG_20250212_154542796_HDR.jpg){: height="200hv" style="margin:20px;" }
@@ -82,7 +82,7 @@ title: CSL 2025
 ![My Image](/assets/images/conference/rest/IMG_20250211_123634146.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/rest/IMG_20250211_142524813.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/rest/IMG_20250212_103332364_PORTRAIT.jpg){: height="200hv" style="margin:20px;" }
-![My Image](/assets/images/conference/rest/IMG_20250211_115838746.jpg){: height="200hv" style="margin:20px;" }
+![My Image](/assets/images/conference/rest/IMG_20250212_105510394.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/rest/IMG_20250212_154524424_HDR.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/rest/IMG_20250212_154614268_HDR.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/rest/IMG_20250212_154450019_HDR.jpg){: height="200hv" style="margin:20px;" }
