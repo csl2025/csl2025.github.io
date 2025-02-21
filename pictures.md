@@ -45,6 +45,7 @@ title: CSL 2025
 ![My Image](/assets/images/conference/excursion/IMG_20250213_164744541_HDR.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/excursion/IMG_20250213_194034936_HDR.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/excursion/IMG_20250213_205316260_HDR.jpg){: height="200hv" style="margin:20px;" }
+![My Image](/assets/images/conference/excursion/IMG_20250213_194023514_HDR.jpg){: height="200hv" style="margin:20px;" }
 {: refdef}
 
 #### Breaks
@@ -84,7 +85,6 @@ title: CSL 2025
 ![My Image](/assets/images/conference/rest/IMG_20250211_115838746.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/rest/IMG_20250212_154614268_HDR.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/rest/IMG_20250212_103332364_PORTRAIT.jpg){: height="200hv" style="margin:20px;" }
-![My Image](/assets/images/conference/rest/IMG_20250213_194023514_HDR.jpg){: height="200hv" style="margin:20px;" }
 ![My Image](/assets/images/conference/rest/IMG_20250212_154450019_HDR.jpg){: height="200hv" style="margin:20px;" }
 {: refdef}
 
